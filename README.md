@@ -7,7 +7,7 @@
 > |Nome  | RA | Especialização|
 > |--|--|--|
 > | Gyovana Mayara Moriyama  | 216190  | Computação |
-> | Nome2  | 123456  | Computação |
+> | Lucas Atsuo Ito  | 273130  | Computação |
 > | Nome3  | 123456  | Computação |
 > | Nome4  | 123456  | Computação |
 > | Nome5  | 123456  | Biologia |
