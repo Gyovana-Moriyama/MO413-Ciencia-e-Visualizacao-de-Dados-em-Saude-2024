@@ -6,12 +6,12 @@
 > Incluir nome RA e foco de especialização de cada membro do grupo.
 > |Nome  | RA | Especialização|
 > |--|--|--|
+> | Adriana Keiko Kawashima  | 271269  | Computação |
+> | Francisco Augusto Gomes Santos  | 249023  | Biologia |
 > | Gyovana Mayara Moriyama  | 216190  | Computação |
-> | Nome2  | 123456  | Computação |
-> | Nome3  | 123456  | Computação |
-> | Nome4  | 123456  | Computação |
-> | Nome5  | 123456  | Biologia |
-> | Nome6  | 123456  | Biologia |
+> | Lucas Atsuo Ito  | 273130  | Computação |
+> | Rafael Akihiro Matumoto  | 273085  | Computação |
+> | Wendy Teresa Abregu Olarte  | 214561  | Biologia |
 
 # Apresentação
 
