@@ -1,4 +1,4 @@
-# MO413-Ciencia-e-Visualizacao-de-Dados-em-Saude-2024# Modelo de Apresentação do Projeto
+# MO413-Ciencia-e-Visualizacao-de-Dados-em-Saude-2024
 
 # Projeto `<Título do Projeto>`
 # Project `<Title in English>`
