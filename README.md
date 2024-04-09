@@ -7,11 +7,11 @@
 > |Nome  | RA | Especialização|
 > |--|--|--|
 > | Adriana Keiko Kawashima  | 271269  | Computação |
+> | Francisco Augusto Gomes Santos  | 249023  | Biologia |
 > | Gyovana Mayara Moriyama  | 216190  | Computação |
 > | Lucas Atsuo Ito  | 273130  | Computação |
 > | Rafael Akihiro Matumoto  | 273085  | Computação |
 > | Wendy Teresa Abregu Olarte  | 214561  | Biologia |
-> | Nome6  | 123456  | Biologia |
 
 # Apresentação
 
