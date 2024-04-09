@@ -10,7 +10,7 @@
 > | Gyovana Mayara Moriyama  | 216190  | Computação |
 > | Lucas Atsuo Ito  | 273130  | Computação |
 > | Rafael Akihiro Matumoto  | 273085  | Computação |
-> | Nome5  | 123456  | Biologia |
+> | Wendy Teresa Abregu Olarte  | 214561  | Biologia |
 > | Nome6  | 123456  | Biologia |
 
 # Apresentação
