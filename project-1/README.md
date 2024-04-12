@@ -32,7 +32,7 @@ Os metabólitos exercem funções em todo o nicho "ômico", seja como mecanismo 
 
 > Fundamentação teórica resumida do problema em saúde/biologia. Apenas cite artigos que tomará como base e, em uma frase, em que problema.
 
-A proposta desse projeto é avaliar a ação dos metabólitos obtidos como resultado da análise metabolômica em amostras de pacientes com diagnóstico positivo e que foram considerados biomarcadores do câncer de próstata.
+A proposta desse projeto é avaliar a ação dos metabólitos obtidos como resultado da análise metabolômica em amostras de pacientes com diagnóstico positivo e que foram considerados biomarcadores do câncer de próstata. Essa proposta tem como base o TCC do integrante Francisco Augusto Gomes Santos: Câncer de Próstata e Diagnóstico.
 
 # Perguntas de Pesquisa
 
@@ -65,6 +65,9 @@ A proposta desse projeto é avaliar a ação dos metabólitos obtidos como resul
 # Ferramentas
 
 > Ferramentas a serem utilizadas (com base na visão atual do grupo sobre o projeto).
+
+Neo4j
+Cytoscape
 
 # Referências Bibliográficas
 
