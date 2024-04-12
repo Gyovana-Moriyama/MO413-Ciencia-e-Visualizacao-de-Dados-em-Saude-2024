@@ -46,7 +46,7 @@ A proposta desse projeto é avaliar a ação dos metabólitos obtidos como resul
 
  Base de Dados | Endereço na Web | Resumo descritivo
  ----- | ----- | -----
- The Human Metabolome Database (HMDB) | https://hmdb.ca/ | Banco de dados eletrônico com informações detalhadas sobre metabólitos de pequernas moléculas do corpo humano.
+ The Human Metabolome Database (HMDB) | https://hmdb.ca/ | Banco de dados eletrônico com informações detalhadas sobre metabólitos de pequenas moléculas do corpo humano.
 
 # Modelo Lógico
 
