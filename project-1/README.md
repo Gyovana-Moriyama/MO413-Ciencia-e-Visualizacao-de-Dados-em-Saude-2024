@@ -32,16 +32,21 @@ Os metabólitos exercem funções em todo o nicho "ômico", seja como mecanismo 
 
 > Fundamentação teórica resumida do problema em saúde/biologia. Apenas cite artigos que tomará como base e, em uma frase, em que problema.
 
-A proposta desse projeto é avaliar a ação dos metabólitos obtidos como resultado da análise metabolômica em amostras de pacientes com diagnóstico positivo e que foram considerados biomarcadores do câncer de próstata. Essa proposta tem como base o TCC do integrante Francisco Augusto Gomes Santos: Câncer de Próstata e Diagnóstico.
+> A proposta desse projeto é avaliar a ação dos metabólitos obtidos como resultado da análise metabolômica em amostras de pacientes com diagnóstico positivo e que foram considerados biomarcadores do câncer de próstata. Essa proposta tem como base o TCC do integrante Francisco Augusto Gomes Santos: Câncer de Próstata e Diagnóstico.
+
+A proposta desse projeto é utilizar a teoria dos grafos e algoritmos de análise de rede para construir redes metabólicas e identificar os principais metabólitos e vias metabólicas associadas à progressão do câncer de próstata. Essa proposta tem como base o TCC do integrante Francisco Augusto Gomes Santos: Câncer de Próstata e Diagnóstico.
 
 # Perguntas de Pesquisa
 
 > Perguntas de pesquisa que o projeto pretende responder ou hipóteses a serem avaliadas, enunciadas de maneira objetiva e verificável.
 
-- Quais alterações na síntese e no catabolismo da membrana celular acontecem e ocasionam o aumento dos níveis de colina? Por que acontecem?
-- Por que a via da glutaminólise se faz de alternativa para as células tumorais produzirem energia?
-- Qual é a relação do aumento dos níveis de lactato e alanina com a alta proliferação de células tumorais?
+> - Quais alterações na síntese e no catabolismo da membrana celular acontecem e ocasionam o aumento dos níveis de colina? Por que acontecem?
+> - Por que a via da glutaminólise se faz de alternativa para as células tumorais produzirem energia?
+> - Qual é a relação do aumento dos níveis de lactato e alanina com a alta proliferação de células tumorais?
 
+- Quais são as relações entre os metabólitos no câncer de próstata?
+- Quais são os metabólitos candidatos a biomarcadores do câncer de próstata?
+  
 # Bases de Dados
 
 > Elencar bases de dados candidatas a serem utilizadas no projeto na forma de tabela:
