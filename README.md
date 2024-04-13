@@ -19,3 +19,5 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 # Descrição Resumida do Projeto
 
 > Descrição do tema do projeto, incluindo motivação e contexto gerador.
+
+https://docs.google.com/presentation/d/1W_ttfgdJqYi4fJYwgwPsQQ1lk0gRcDsMNjrrDbyXYDI/edit#slide=id.g26e75e7099a_2_0
