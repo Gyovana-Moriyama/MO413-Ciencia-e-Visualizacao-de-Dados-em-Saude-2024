@@ -24,5 +24,3 @@ O câncer de próstata é o segundo mais comum no mundo, afetando exclusivamente
 Devido aos riscos e limitações da biópsia, a área oncológica busca métodos menos invasivos e eficazes de diagnóstico. A metabolômica, que analisa os metabólitos intracelulares, tem recebido atenção crescente na identificação de biomarcadores para o câncer, buscando alternativas mais precisas e menos invasivas para o diagnóstico dessa doença.
 
 A proposta desse projeto é utilizar a teoria dos grafos e algoritmos de análise de rede para construir redes metabólicas e identificar os principais metabólitos e vias metabólicas associadas à progressão do câncer de próstata. Essa proposta tem como base o TCC do integrante Francisco Augusto Gomes Santos: Câncer de Próstata e Diagnóstico.
-
-https://docs.google.com/presentation/d/1W_ttfgdJqYi4fJYwgwPsQQ1lk0gRcDsMNjrrDbyXYDI/edit#slide=id.g26e75e7099a_2_0
