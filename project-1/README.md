@@ -2,9 +2,8 @@
 
 # Descrição Resumida do Projeto
 
-> Descrição do tema do projeto, incluindo motivação e contexto gerador.
-
 ### Câncer de Próstata 
+
 Câncer é um termo que abrange mais de 200 diferentes doenças malignas, trazendo como característica geral o crescimento desordenado das células. O câncer apresenta uma origem multifatorial, através de mutações genéticas espontâneas ou induzidas (Neppel, 2017). A proliferação celular pode ser de forma controlada, originando as hiperplasias, metaplasias e displasias e caso esse crescimento ocorra de forma basicamente autônoma, ou seja, não controlada, temos as neoplasias, que são os cânceres *in situ* e os cânceres invasivos (INCA, 2020).
 
 As neoplasias, que podem ser benignas ou malignas, se apresentam como uma fuga parcial ou total do controle do organismo, tendendo à autonomia e à perpetuação. Os tumores benignos se apresentam com limites bem nítidos e um crescimento de forma expansiva, organizada e lenta. Já os malignos, possuem maior grau de autonomia e resistência, possuindo a capacidade de invadir tecidos vizinhos, provocar metástases e a morte do hospedeiro (INCA, 2020).
@@ -30,58 +29,49 @@ Os metabólitos exercem funções em todo o nicho "ômico", seja como mecanismo 
 
 # Fundamentação Teórica
 
-> Fundamentação teórica resumida do problema em saúde/biologia. Apenas cite artigos que tomará como base e, em uma frase, em que problema.
-
-> A proposta desse projeto é avaliar a ação dos metabólitos obtidos como resultado da análise metabolômica em amostras de pacientes com diagnóstico positivo e que foram considerados biomarcadores do câncer de próstata. Essa proposta tem como base o TCC do integrante Francisco Augusto Gomes Santos: Câncer de Próstata e Diagnóstico.
-
 A proposta desse projeto é utilizar a teoria dos grafos e algoritmos de análise de rede para construir redes metabólicas e identificar os principais metabólitos e vias metabólicas associadas à progressão do câncer de próstata. Essa proposta tem como base o TCC do integrante Francisco Augusto Gomes Santos: Câncer de Próstata e Diagnóstico.
 
 # Perguntas de Pesquisa
-
-> Perguntas de pesquisa que o projeto pretende responder ou hipóteses a serem avaliadas, enunciadas de maneira objetiva e verificável.
-
-> - Quais alterações na síntese e no catabolismo da membrana celular acontecem e ocasionam o aumento dos níveis de colina? Por que acontecem?
-> - Por que a via da glutaminólise se faz de alternativa para as células tumorais produzirem energia?
-> - Qual é a relação do aumento dos níveis de lactato e alanina com a alta proliferação de células tumorais?
 
 - Quais são as relações entre os metabólitos no câncer de próstata?
 - Quais são os metabólitos candidatos a biomarcadores do câncer de próstata?
   
 # Bases de Dados
 
-> Elencar bases de dados candidatas a serem utilizadas no projeto na forma de tabela:
 
  Base de Dados | Endereço na Web | Resumo descritivo
  ----- | ----- | -----
  The Human Metabolome Database (HMDB) | https://hmdb.ca/ | Banco de dados eletrônico com informações detalhadas sobre metabólitos de pequenas moléculas do corpo humano.
+ Metabolomics Workbench | https://www.metabolomicsworkbench.org/ | Repositório internacional para dados e metadados metabolômicos e que fornece ferramentas de análise e acesso a padrões de metabólitos, protocolos, tutoriais, etc.
 
 # Modelo Lógico
 
-> Modelo lógico da base de grafos que será construída. Para o modelo de grafos de propriedades, utilize este
-> [modelo de base](https://docs.google.com/presentation/d/10RN7bDKUka_Ro2_41WyEE76Wxm4AioiJOrsh6BRY3Kk/edit?usp=sharing) para construir o seu.
-> Coloque a imagem do PNG do seu modelo lógico como ilustrado abaixo (a imagem estará na pasta `image`):
->
-> ![Modelo Lógico de Grafos](images/modelo-logico-grafos.png)
+![Modelo Lógico de Grafos](images/modelo_logico.png)
 
 # Metodologia
-> Esta seção evoluirá ao longo do projeto. Nesta primeira entrega, informe técnicas de Ciência de Redes que pretende explorar,
-> tais como: detecção de comunidades, análise de centralidade, predição de links, ou a combinação de uma ou mais técnicas. Descreva o que perguntas pretende endereçar cm a técnica escolhida.
 
-Na análise do banco de dados para chegar na descoberta dos metabólitos que têm relação com o Câncer de Próstata, usaremos as técnicas de detecção de comunidades, descoberta e análise de vias atratoras, análise de comunidades e centralidade com esperança de indicarem grupo de metabólitos e associados e os principáis metabólitos que indicam o câncer.
-Finalmente, com o grafo de conhecimento construído será possível aplicar a predição de link para um novo metabólito, sendo possível inferir se a presença deste no ambiente encurtaria o caminho para a doença ou afastaria.
+1. Busca em bases de dados por metabólitos coletados em indivíduos saudáveis e naqueles diagnosticados com câncer de próstata.
+
+    a. Processamento para identificação daqueles com alterações significativas entre esses grupos.
+
+2. Estruturação de uma rede de interações entre esses metabólitos para indivíduos saudáveis e com câncer.
+
+3. Análise da topologia da rede e determinar a centralidade dos nós e a presença de hubs e comunidades.
+
+4. Comparação das redes e identificação de metabólitos candidatos a biomarcadores.
+
+5. Interpretação desses biomarcadores no contexto do desenvolvimento do câncer de próstata.
 
 # Ferramentas
 
-> Ferramentas a serem utilizadas (com base na visão atual do grupo sobre o projeto).
-
 Neo4j
+
 Cytoscape
+
+Python
 
 # Referências Bibliográficas
 
-> Lista de artigos, links e referências bibliográficas.
->
-> Fiquem à vontade para escolher o padrão de referenciamento preferido pelo grupo.
 
 NEPPEL, Tayonara Georgiane et al. CÂNCER: UMA DOENÇA MULTIFATORIAL1. PROPOSTAS DIDÁTICAS NA ABORDAGEM CIÊNCIA-TECNOLOGIA-SOCIEDADE: UMA PRODUÇÃO DO, p. 161.
 
@@ -113,4 +103,3 @@ REN, Shancheng et al. Integration of metabolomics and transcriptomics reveals ma
 
 LIMA, Ana Rita et al. NMR-based metabolomics studies of human prostate câncer tissue. Metabolomics, v. 14, n. 7, p. 1-11, 2018.
 
-Human Metabolome Database: Search Result for diseases, HMDB, Search Results for diseases. Disponível em: https://hmdb.ca/unearth/q?utf8=%E2%9C%93&query=prostate+cancer&searcher=diseases&button= . Acessado em: 14/04/2024.
