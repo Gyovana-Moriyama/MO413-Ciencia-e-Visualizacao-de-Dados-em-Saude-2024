@@ -67,6 +67,9 @@ A proposta desse projeto é utilizar a teoria dos grafos e algoritmos de anális
 > Esta seção evoluirá ao longo do projeto. Nesta primeira entrega, informe técnicas de Ciência de Redes que pretende explorar,
 > tais como: detecção de comunidades, análise de centralidade, predição de links, ou a combinação de uma ou mais técnicas. Descreva o que perguntas pretende endereçar cm a técnica escolhida.
 
+Na análise do banco de dados para chegar na descoberta dos metabólitos que têm relação com o Câncer de Próstata, usaremos as técnicas de detecção de comunidades, descoberta e análise de vias atratoras, análise de comunidades e centralidade com esperança de indicarem grupo de metabólitos e associados e os principáis metabólitos que indicam o câncer.
+Finalmente, com o grafo de conhecimento construído será possível aplicar a predição de link para um novo metabólito, sendo possível inferir se a presença deste no ambiente encurtaria o caminho para a doença ou afastaria.
+
 # Ferramentas
 
 > Ferramentas a serem utilizadas (com base na visão atual do grupo sobre o projeto).
@@ -109,3 +112,5 @@ SHAO Y, Ye G, Ren S, et al. Metabolomics and transcriptomics profiles reveal the
 REN, Shancheng et al. Integration of metabolomics and transcriptomics reveals major metabolic pathways and potential biomarker involved in prostate cancer. Molecular&amp; Cellular Proteomics, v. 15, n. 1, p. 154-163, 2016.
 
 LIMA, Ana Rita et al. NMR-based metabolomics studies of human prostate câncer tissue. Metabolomics, v. 14, n. 7, p. 1-11, 2018.
+
+Human Metabolome Database: Search Result for diseases, HMDB, Search Results for diseases. Disponível em: https://hmdb.ca/unearth/q?utf8=%E2%9C%93&query=prostate+cancer&searcher=diseases&button= . Acessado em: 14/04/2024.
