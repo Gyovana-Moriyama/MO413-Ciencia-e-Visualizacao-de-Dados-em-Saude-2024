@@ -18,8 +18,6 @@ O presente projeto foi originado no contexto das atividades da disciplina de pó
 
 # Descrição Resumida do Projeto
 
-> Descrição do tema do projeto, incluindo motivação e contexto gerador.
-
 O câncer é uma doença caracterizada pelo crescimento desordenado das células, resultando em neoplasias benignas ou malignas. As neoplasias benignas têm um crescimento lento e organizado, enquanto as malignas são autônomas, proliferam para tecidos vizinhos e podem causar metástase. O câncer se desenvolve em etapas, desde alterações celulares causadas por agentes cancerígenos até a proliferação descontrolada e a formação do tumor. 
 
 O câncer de próstata é o segundo mais comum no mundo, afetando exclusivamente homens devido à localização da próstata e sua função na produção de nutrientes para o esperma. O diagnóstico é feito por exames clínicos e laboratoriais, como o exame do toque e a avaliação dos níveis de PSA no sangue, embora o diagnóstico final seja confirmado por biópsia.
