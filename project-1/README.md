@@ -46,7 +46,7 @@ A proposta desse projeto é utilizar a teoria dos grafos e algoritmos de anális
 
 # Modelo Lógico
 
-![Modelo Lógico de Grafos](images/modelo_logico.png)
+![Modelo Lógico de Grafos](assets/images/modelo_logico.png)
 
 # Metodologia
 
