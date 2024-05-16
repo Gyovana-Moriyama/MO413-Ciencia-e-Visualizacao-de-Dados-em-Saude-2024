@@ -1,0 +1,195 @@
+"","Fold Change","log2(FC)"
+"Valproic acid",1.3284e+12,40.273
+"Lamotrigine",1.1776e+12,40.099
+"Meloxicam",4.5911e+11,38.74
+"Topiramate",6.8486e-12,-37.087
+"10,11-dihydro-10-hydroxycarbamazepine",1.3045e+11,36.925
+"carbamazepine 10,11-epoxide",1.118e+11,36.702
+"Trazodone",9.5719e+10,36.478
+"Clarithromycin",8.7045e+10,36.341
+"febuxostat",1.217e-11,-36.258
+"gliclazide",1.715e-11,-35.763
+"etravirine",2.1401e-11,-35.444
+"2-propyl-2-pentenoate (2-ene-valproate)",4.0062e+10,35.222
+"O-Desmethyltramadol",3.7093e-11,-34.65
+"O-desmethyltramadol glucuronide",4.614e-11,-34.335
+"Tramadol",4.7534e-11,-34.292
+"Darunavir",5.4232e-11,-34.102
+"raltegravir",6.3433e-11,-33.876
+"X-17137",1.4385e+10,33.744
+"rilpivirine",1.3656e+10,33.669
+"2-hydroxycarbamazepine",1.1974e+10,33.479
+"3-hydroxycarbamazepine",1.0263e+10,33.257
+"Cimetidine",1.0199e-10,-33.191
+"Minocycline",9747200000,33.182
+"Methadone",1.3147e-10,-32.825
+"3-Hydroxyvalproic acid",7241400000,32.754
+"Fluconazole",1.5084e-10,-32.626
+"X-25952",5303100000,32.304
+"donepezil",3260900000,31.603
+"5-hydroxyvalproate",2754800000,31.359
+"Chlorothiazide",2663700000,31.311
+"Atazanavir",2541600000,31.243
+"4-ene-Valproic acid",1615600000,30.589
+"Rosiglitazone",989070000,29.882
+"X-17355",1.2796e-09,-29.542
+"carbamazepine glucuronide",748130000,29.479
+"Dexamethasone",1.7365e-09,-29.101
+"ezetimibe",3.8088e-09,-27.968
+"Doxylamine",69.305,6.1149
+"Nicotinic acid",0.020889,-5.5811
+"X-25383",0.034488,-4.8578
+"O-Desmethylnaproxen",0.04511,-4.4704
+"Carbamazepine",16.487,4.0432
+"De(carboxymethoxy) cetirizine acetic acid",0.063944,-3.9671
+"Fexofenadine",12.71,3.6679
+"desmethylnaproxen sulfate",0.081246,-3.6216
+"Naproxen",0.09748,-3.3587
+"Guaifenesin",9.8772,3.3041
+"glucuronide of C10H14O2 (4)",9.7036,3.2785
+"fibrinopeptide B (1-13)",7.4083,2.8892
+"Allopurinol",7.2708,2.8621
+"Efavirenz",0.14659,-2.7701
+"Benazepril",0.15947,-2.6487
+"Candesartan",6.1165,2.6127
+"Verapamil",0.1737,-2.5253
+"meglumine",0.18309,-2.4493
+"carboxyibuprofen glucuronide",5.3148,2.41
+"glucuronide of C10H18O2 (2)",0.18893,-2.4041
+"D-Ribosylnicotinate",0.19288,-2.3742
+"glucuronide of C10H18O2 (6)",0.19535,-2.3559
+"ketopioglitazone",0.20356,-2.2965
+"ranitidine N-oxide",0.20649,-2.2759
+"X-24577",0.21284,-2.2322
+"Ureidoisobutyric acid",4.6184,2.2074
+"Inodxyl glucuronide",4.5667,2.1912
+"glucuronide of C10H18O2 (3)",0.22588,-2.1464
+"Glipizide",0.23378,-2.0968
+"Emtricitabine",0.23612,-2.0824
+"solifenacin",0.24958,-2.0024
+"X-25279",0.25364,-1.9791
+"glucuronide of C10H18O2 (8)",3.9273,1.9735
+"Anserine",0.25541,-1.9691
+"hydroxypioglitazone (M-IV)",0.2613,-1.9362
+"Benzoyl ecgonine",0.26794,-1.9
+"Allopurinol riboside",3.6888,1.8832
+"Valsartan",0.27296,-1.8732
+"fibrinopeptide A, phosphono-ser(3)",3.6548,1.8698
+"Glyburide",0.27512,-1.8619
+"glucuronide of C10H14O2 (7)",3.6119,1.8528
+"resveratrol sulfate (1)",3.5833,1.8413
+"Pioglitazone",0.28412,-1.8154
+"Doxycycline",0.28435,-1.8143
+"X-24973",3.5129,1.8127
+"Losartan",0.28594,-1.8062
+"glucuronide of C10H18O2 (7)",3.497,1.8061
+"Diphenhydramine",3.4569,1.7895
+"Mycophenolic acid",0.29155,-1.7782
+"ezetimibe glucuronide",0.29642,-1.7543
+"cefpodoxime",0.29887,-1.7424
+"X-25396",3.2547,1.7025
+"Carnosine",0.3077,-1.7004
+"Cetirizine",0.31157,-1.6824
+"3-Methoxytyramine sulfate",0.32722,-1.6117
+"Ranitidine",0.33016,-1.5988
+"7-hydroxywarfarin",0.33541,-1.576
+"Olmesartan",0.34923,-1.5177
+"methylnaphthyl sulfate (1)",0.34977,-1.5155
+"X-24571",2.7872,1.4788
+"Warfarin",0.36876,-1.4392
+"Amoxicillin",2.6806,1.4226
+"glucuronide of C10H18O2 (1)",2.6778,1.421
+"Oxypurinol",2.6389,1.3999
+"6-hydroxywarfarin",0.3913,-1.3537
+"ethyl maltol sulfate",0.39886,-1.3261
+"norfluoxetine",2.4722,1.3058
+"2,4-dichlorophenol sulfate",0.40658,-1.2984
+"X-25523",2.436,1.2845
+"Cholic acid",0.41753,-1.26
+"Lidocaine",0.4183,-1.2574
+"10-hydroxywarfarin",0.42155,-1.2462
+"Lamivudine",0.42652,-1.2293
+"glucoheptose",0.43326,-1.2067
+"equol sulfate",2.294,1.1978
+"X-25951",2.2906,1.1957
+"ibuprofen acyl glucuronide",0.44367,-1.1724
+"Chlorthalidone",0.44561,-1.1661
+"Ciprofloxacin",0.45552,-1.1344
+"Tadalafil",0.46209,-1.1138
+"Dimethyl sulfone",0.47893,-1.0621
+"fibrinopeptide A",2.0711,1.0504
+"2-ethylphenylsulfate",0.4903,-1.0283
+"Ibuprofen",0.49208,-1.023
+"Erythritol",0.49283,-1.0208
+"X-19299",2.0233,1.0167
+"4-Hydroxyphenylacetylglutamine",2.0193,1.0139
+"3,4-Dihydroxyphenylacetate sulfate",2.0007,1.0005
+"2-Hydroxyibuprofen",0.49995,-1.0001
+"THC carboxylic acid glucuronide",0.50502,-0.9856
+"8-methoxykynurenate",1.9586,0.96981
+"ribulose/xylulose",0.51185,-0.9662
+"X-15523",1.9352,0.9525
+"X-12812",1.9321,0.9502
+"X-24489",0.51908,-0.94597
+"4-Allylphenol sulfate",0.52097,-0.94074
+"Indoleacetyl glutamine",1.9151,0.93745
+"X-12834",1.9098,0.9334
+"Norcotinine",0.52445,-0.93112
+"fibrinopeptide A, des-ala(1)",1.866,0.89994
+"Escitalopram",0.53708,-0.89679
+"X-17301",0.53936,-0.89068
+"methylnaphthyl sulfate (2)",0.54028,-0.88822
+"Zolpidem",1.8286,0.87077
+"O-Acetyl-homoserine",0.55445,-0.85087
+"Eugenol sulfate",0.56052,-0.83516
+"X-21831",1.7751,0.82788
+"Levetiracetam",0.5656,-0.82214
+"X-18838",1.7591,0.81482
+"resveratrol glucuronide (1)",0.56869,-0.81429
+"resveratrol glucuronide (2)",0.56869,-0.81429
+"X-24581",0.56869,-0.81429
+"3-(methylthio)acetaminophen sulfate",1.7543,0.81091
+"Sucrose",0.57123,-0.80785
+"THC carboxylic acid",1.7207,0.78298
+"2,3-Diphosphoglyceric acid",1.7111,0.77495
+"Indapamide",1.7061,0.77068
+"X-25511",0.58892,-0.76387
+"4-vinylguaiacol glucuronide",1.6974,0.7633
+"glucuronide of C14H26O4 (2)",1.6896,0.75669
+"Pantoprazole",0.59587,-0.74693
+"alpha-Hydroxymetoprolol",1.6732,0.74263
+"Vanilloylglycine",1.6688,0.73878
+"genistein sulfate",1.664,0.73468
+"X-17655",1.662,0.73291
+"Hydroxybupropion",0.60407,-0.72722
+"vanillate glucuronide",1.6493,0.72188
+"Dihydroferulic acid 4-sulfate",1.6428,0.71614
+"Desvenlafaxine",1.6359,0.71012
+"2-Hydroxyacetaminophen sulfate",1.6293,0.70427
+"Enalapril",0.616,-0.699
+"Cholic acid glucuronide",0.6174,-0.69572
+"X-12199",1.6084,0.68565
+"X-25457",1.6059,0.6834
+"dibutyl sulfosuccinate",1.5986,0.67679
+"X-26062",0.62807,-0.67101
+"metoprolol acid metabolite",1.5881,0.6673
+"tauroursodeoxycholic acid sulfate (1)",1.5863,0.6657
+"Monoethylglycinexylidide",0.63109,-0.66407
+"Valproic acid glucuronide",1.5834,0.66302
+"2-Furoylglycine",1.5746,0.65499
+"3-Methoxytyrosine",0.63785,-0.64872
+"tenofovir",1.5591,0.64073
+"Sorbitol",0.64448,-0.6338
+"Toluene-4-sulfonic acid",1.5504,0.63263
+"Dexlansoprazole",0.64509,-0.63244
+"Vanillactic acid",0.65061,-0.62014
+"glucuronide of C12H22O4 (2)",1.5366,0.61976
+"Cotinine",0.65127,-0.61866
+"Salicyluric glucuronide",0.65392,-0.6128
+"2-Furoic acid",1.5244,0.60828
+"X-21838",1.5166,0.60087
+"Benazeprilat",0.6595,-0.60056
+"X-18240",1.5151,0.59939
+"X-12726",1.5134,0.59781
+"didesmethylcitalopram",1.5076,0.59221
+"tauroursodeoxycholic acid sulfate (2)",0.66339,-0.59207
