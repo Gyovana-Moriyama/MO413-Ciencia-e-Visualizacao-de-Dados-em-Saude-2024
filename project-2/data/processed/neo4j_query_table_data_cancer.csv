@@ -1,174 +1,60 @@
-c1.Name;c2.Name;cc.correlation
-taurine;gamma-glutamylcysteine;0.733747566
-l-tyrosine;taurine;0.768697153
-9,10-epoxyoctadecenoic acid;taurine;0.811089821
-9,10-epoxyoctadecenoic acid;l-tyrosine;0.737842375
-pyroglutamic acid;putrescine;0.742647814
-4-acetamidobutanoate;putrescine;0.934381078
-4-acetamidobutanoate;taurine;0.714977321
-4-acetamidobutanoate;pyroglutamic acid;0.888064304
-quinate;putrescine;0.807662373
-quinate;pyroglutamic acid;0.891864066
-quinate;4-acetamidobutanoate;0.893916749
-succinic acid;quinate;0.738633175
-l-n2-(2-carboxyethyl)arginine;putrescine;0.751082309
-l-n2-(2-carboxyethyl)arginine;pyroglutamic acid;0.819493768
-l-n2-(2-carboxyethyl)arginine;4-acetamidobutanoate;0.806527242
-l-n2-(2-carboxyethyl)arginine;quinate;0.720057746
-l-n2-(2-carboxyethyl)arginine;trehalose;0.739944044
-2-ketobutyric acid;putrescine;0.758708035
-2-ketobutyric acid;gamma-glutamylcysteine;0.750079216
-2-ketobutyric acid;4-acetamidobutanoate;0.715284699
-capric acid;trehalose;0.920277778
-capric acid;l-n2-(2-carboxyethyl)arginine;0.712248504
-hydroxyindole;tamoxifen;0.716937663
-indolelactic acid;2-ketobutyric acid;0.735857203
-citrulline;phenyl acetate;0.723978366
-citrulline;gamma-glutamylcysteine;0.729599724
-citrulline;9,10-epoxyoctadecenoic acid;0.795049828
-d-glycero-d-galacto-heptitol;putrescine;0.767084415
-l-malic acid;taurine;0.73975033
-l-malic acid;succinic acid;0.724902168
-mupirocin;l-malic acid;0.732577657
-gluconic acid;quinate;0.70952211
-gluconic acid;succinic acid;0.728822593
-4-quinolinecarboxylic acid;putrescine;0.751803407
-4-quinolinecarboxylic acid;4-acetamidobutanoate;0.821809307
-4-quinolinecarboxylic acid;2-ketobutyric acid;0.819307244
-4-quinolinecarboxylic acid;citrulline;0.78275249
-ornithine;quinate;0.727711073
-ornithine;succinic acid;0.721441542
-ornithine;gluconic acid;0.995125209
-prostaglandin f2a;4-acetamidobutanoate;0.719312677
-prostaglandin f2a;succinic acid;0.767886096
-prostaglandin f2a;l-malic acid;0.805889445
-prostaglandin f2a;gluconic acid;0.844993289
-prostaglandin f2a;4-quinolinecarboxylic acid;0.754491081
-prostaglandin f2a;ornithine;0.855246334
-(2'e,4'z,8e)-colneleic acid;2-ketobutyric acid;-0.817194997
-(2'e,4'z,8e)-colneleic acid;4-quinolinecarboxylic acid;-0.741939461
-l-dopa;pyroglutamic acid;0.712625557
-l-dopa;4-acetamidobutanoate;0.726346529
-l-dopa;l-n2-(2-carboxyethyl)arginine;0.712120334
-l-dopa;hydroxyindole;-0.741974556
-d-galactose;quinate;0.72623781
-d-galactose;succinic acid;0.722478778
-d-galactose;gluconic acid;0.996034384
-d-galactose;ornithine;0.999953021
-d-galactose;prostaglandin f2a;0.854608186
-phosphorylcholine;gamma-glutamylcysteine;-0.852211615
-phosphorylcholine;2-ketobutyric acid;-0.789612122
-n-acetyl-l-glutamate 5-semialdehyde;2-ketobutyric acid;-0.805943384
-n-acetyl-l-glutamate 5-semialdehyde;(2'e,4'z,8e)-colneleic acid;0.763283277
-n-acetyl-l-glutamate 5-semialdehyde;6-hydroxyhexanoic acid;0.755839163
-n-acetyl-l-glutamate 5-semialdehyde;erucic acid;0.791814311
-uric acid;2,4-dinitrotoluene;0.754860597
-11-dehydrocorticosterone;gamma-glutamylcysteine;0.736729694
-11-dehydrocorticosterone;citrulline;0.727090481
-adenine;2,4-dinitrotoluene;0.702244745
-l-threonine;indolelactic acid;-0.704479968
-l-threonine;(2'e,4'z,8e)-colneleic acid;0.718095921
-2-isopropylmalic acid;putrescine;0.8841201
-2-isopropylmalic acid;taurine;0.704834732
-2-isopropylmalic acid;9,10-epoxyoctadecenoic acid;0.743700786
-2-isopropylmalic acid;4-acetamidobutanoate;0.892905141
-2-isopropylmalic acid;2-ketobutyric acid;0.735950765
-2-isopropylmalic acid;4-quinolinecarboxylic acid;0.75072377
-2-isopropylmalic acid;l-dopa;0.721801468
-citramalic acid;putrescine;0.712755541
-citramalic acid;succinic acid;0.726616285
-13,14-dihydro-15-keto-pge2;azelaic acid;0.750280379
-9-oxoode;4-quinolinecarboxylic acid;0.763083247
-9-oxoode;prostaglandin f2a;0.722218685
-l-phenylalanine;l-2,4-diaminobutyric acid;0.974508923
-l-lactic acid;gamma-glutamylcysteine;-0.710340345
-l-lactic acid;2-ketobutyric acid;-0.72001618
-sulfate;diethylphosphoric acid;0.930232475
-l-glutamic gamma-semialdehyde;pyroglutamic acid;0.727885311
-butyric acid;gamma-glutamylcysteine;0.729673359
-butyric acid;taurine;0.741970311
-butyric acid;tamoxifen;-0.71006077
-butyric acid;9,10-epoxyoctadecenoic acid;0.740456953
-butyric acid;pyroglutamic acid;0.733519416
-butyric acid;4-acetamidobutanoate;0.773575763
-butyric acid;l-n2-(2-carboxyethyl)arginine;0.800085565
-butyric acid;2-ketobutyric acid;0.740470164
-butyric acid;citrulline;0.844204697
-butyric acid;4-quinolinecarboxylic acid;0.790418116
-butyric acid;(2'e,4'z,8e)-colneleic acid;-0.727048207
-butyric acid;n-acetyl-l-glutamate 5-semialdehyde;-0.745875612
-n-acetyl-d-glucosamine;gamma-glutamylcysteine;-0.745298026
-n-acetyl-d-glucosamine;2-ketobutyric acid;-0.73863944
-n-acetyl-d-glucosamine;phosphorylcholine;0.75608483
-n-acetyl-d-glucosamine;l-aspartic acid;0.718062813
-(s)-piperidine-2-carboxamide;n-acetylneuraminic acid;0.735874628
-5'-oxoinosine;4-acetamidobutanoate;0.717631924
-5'-oxoinosine;quinate;0.798946415
-5'-oxoinosine;succinic acid;0.825749301
-5'-oxoinosine;l-malic acid;0.767860573
-5'-oxoinosine;mupirocin;0.700238745
-5'-oxoinosine;gluconic acid;0.925180076
-5'-oxoinosine;ornithine;0.919868804
-5'-oxoinosine;prostaglandin f2a;0.856016641
-5'-oxoinosine;d-galactose;0.920788357
-5'-oxoinosine;citramalic acid;0.746262223
-l-cysteine;2-oxoarginine;-0.700749266
-2-keto-6-acetamidocaproate;se-methylselenocysteine;0.777903056
-ethylmethylacetic acid;taurine;0.785475723
-ethylmethylacetic acid;l-tyrosine;0.74351636
-ethylmethylacetic acid;9,10-epoxyoctadecenoic acid;0.879570521
-ethylmethylacetic acid;pyroglutamic acid;0.766515095
-ethylmethylacetic acid;4-acetamidobutanoate;0.748381376
-ethylmethylacetic acid;capric acid;0.764233272
-ethylmethylacetic acid;citrulline;0.761459381
-ethylmethylacetic acid;prostaglandin f2a;0.739099154
-ethylmethylacetic acid;butyric acid;0.802908367
-theobromine;quinate;0.72280659
-theobromine;succinic acid;0.724495846
-theobromine;gluconic acid;0.997685207
-theobromine;ornithine;0.999527995
-theobromine;prostaglandin f2a;0.852947451
-theobromine;d-galactose;0.99977882
-theobromine;5'-oxoinosine;0.922486012
-(r)-3-ureidoisobutyrate;gamma-glutamylcysteine;-0.741005111
-(r)-3-ureidoisobutyrate;phosphorylcholine;0.773296103
-(r)-3-ureidoisobutyrate;citramalic acid;-0.703447714
-suberic acid;2-ketobutyric acid;-0.795929314
-suberic acid;6-hydroxyhexanoic acid;0.73603494
-suberic acid;erucic acid;0.765434242
-suberic acid;n-acetyl-l-glutamate 5-semialdehyde;0.84356855
-alpha-d-glucose;phenyl acetate;0.701377324
-vanillylmandelic acid;taurine;0.710171458
-vanillylmandelic acid;l-tyrosine;0.756733658
-vanillylmandelic acid;gluconic acid;0.828560709
-vanillylmandelic acid;ornithine;0.866338016
-vanillylmandelic acid;prostaglandin f2a;0.784435058
-vanillylmandelic acid;d-galactose;0.862999375
-vanillylmandelic acid;5'-oxoinosine;0.783677966
-vanillylmandelic acid;ethylmethylacetic acid;0.825065975
-vanillylmandelic acid;theobromine;0.855476623
-d-xylitol;taurine;0.726550608
-d-xylitol;9,10-epoxyoctadecenoic acid;0.767437965
-d-xylitol;l-malic acid;0.759475083
-d-xylitol;adenine;0.791216128
-d-xylitol;2-keto-6-acetamidocaproate;0.740245758
-d-xylitol;alpha-d-glucose;0.741393747
-l-arginine;2-ketobutyric acid;-0.700642937
-l-arginine;(r)-3-ureidoisobutyrate;0.777550447
-dammarenediol ii;gluconic acid;0.88323112
-dammarenediol ii;ornithine;0.852322934
-dammarenediol ii;prostaglandin f2a;0.755516719
-dammarenediol ii;d-galactose;0.855729149
-dammarenediol ii;5'-oxoinosine;0.812424286
-dammarenediol ii;theobromine;0.862843179
-nalbuphine;methyl jasmonate;-0.767702881
-sinapyl alcohol;d-glycero-d-galacto-heptitol;0.711848978
-sinapyl alcohol;anhalamine;0.813076321
-inosine;suberic acid;0.905559031
-1d-myo-inositol 1,4,5,6-tetrakisphosphate;gamma-glutamylcysteine;0.709345885
-1d-myo-inositol 1,4,5,6-tetrakisphosphate;taurine;0.778511656
-1d-myo-inositol 1,4,5,6-tetrakisphosphate;9,10-epoxyoctadecenoic acid;0.809016683
-1d-myo-inositol 1,4,5,6-tetrakisphosphate;capric acid;0.732396602
-1d-myo-inositol 1,4,5,6-tetrakisphosphate;citrulline;0.836088214
-1d-myo-inositol 1,4,5,6-tetrakisphosphate;butyric acid;0.822055302
-1d-myo-inositol 1,4,5,6-tetrakisphosphate;ethylmethylacetic acid;0.773569153
+c1.name,c2.name,c.correlation,c1.KEGG,c2.KEGG
+gamma-glutamylcysteine,putrescine,0.5792467110000393,C00669,C00134
+l-tyrosine,putrescine,0.500439811171172,C00082,C00134
+l-tyrosine,gamma-glutamylcysteine,0.6820073204718431,C00082,C00669
+pyroglutamic acid,putrescine,0.7426478138032809,C01879,C00134
+pyroglutamic acid,gamma-glutamylcysteine,0.5870262221239109,C01879,C00669
+pyroglutamic acid,l-tyrosine,0.5121350081774259,C01879,C00082
+succinic acid,putrescine,0.5742839822390299,C00042,C00134
+succinic acid,pyroglutamic acid,0.6451619155085793,C00042,C01879
+2-ketobutyric acid,putrescine,0.7587080351528209,C00109,C00134
+2-ketobutyric acid,gamma-glutamylcysteine,0.7500792155725899,C00109,C00669
+2-ketobutyric acid,l-tyrosine,0.533720320083584,C00109,C00082
+2-ketobutyric acid,pyroglutamic acid,0.5250888155812734,C00109,C01879
+2-ketobutyric acid,succinic acid,0.5568398909922077,C00109,C00042
+citrulline,putrescine,0.5570065661144936,C00327,C00134
+citrulline,gamma-glutamylcysteine,0.7295997240545059,C00327,C00669
+citrulline,pyroglutamic acid,0.6755928492367512,C00327,C01879
+citrulline,succinic acid,0.5116810779178916,C00327,C00042
+citrulline,2-ketobutyric acid,0.6364131633712966,C00327,C00109
+ornithine,l-tyrosine,0.543731791154133,C00077,C00082
+ornithine,pyroglutamic acid,0.6657278740295975,C00077,C01879
+ornithine,succinic acid,0.7214415424500552,C00077,C00042
+l-valine,putrescine,0.5180230978572706,C00183,C00134
+l-valine,pyroglutamic acid,0.5786850565515141,C00183,C01879
+l-valine,citrulline,0.6237586313390651,C00183,C00327
+l-aspartic acid,putrescine,-0.5865092369731093,C00049,C00134
+l-aspartic acid,2-ketobutyric acid,-0.6782107158392586,C00049,C00109
+n-acetyl-l-glutamate 5-semialdehyde,putrescine,-0.5785949508272183,C01250,C00134
+n-acetyl-l-glutamate 5-semialdehyde,gamma-glutamylcysteine,-0.648446838769285,C01250,C00669
+n-acetyl-l-glutamate 5-semialdehyde,pyroglutamic acid,-0.6226996618970825,C01250,C01879
+n-acetyl-l-glutamate 5-semialdehyde,succinic acid,-0.6332247927675442,C01250,C00042
+n-acetyl-l-glutamate 5-semialdehyde,2-ketobutyric acid,-0.8059433838835632,C01250,C00109
+n-acetyl-l-glutamate 5-semialdehyde,citrulline,-0.6371313448920792,C01250,C00327
+n-acetyl-l-glutamate 5-semialdehyde,l-aspartic acid,0.5047463646658964,C01250,C00049
+l-threonine,putrescine,-0.623762700880112,C00188,C00134
+l-threonine,gamma-glutamylcysteine,-0.63307862454683,C00188,C00669
+l-threonine,pyroglutamic acid,-0.5293845279287785,C00188,C01879
+l-threonine,succinic acid,-0.5570514458252537,C00188,C00042
+l-threonine,2-ketobutyric acid,-0.6288128631554529,C00188,C00109
+l-threonine,citrulline,-0.559830419542365,C00188,C00327
+l-threonine,3-(2-hydroxyphenyl)propanoic acid,0.5276778392165753,C00188,C01198
+l-threonine,n-acetyl-l-glutamate 5-semialdehyde,0.6162231932744909,C00188,C01250
+2-isopropylmalic acid,putrescine,0.8841201000451264,C02504,C00134
+2-isopropylmalic acid,gamma-glutamylcysteine,0.6984407375400798,C02504,C00669
+2-isopropylmalic acid,l-tyrosine,0.5996312270894648,C02504,C00082
+2-isopropylmalic acid,pyroglutamic acid,0.6653397105289853,C02504,C01879
+2-isopropylmalic acid,succinic acid,0.5156249763836372,C02504,C00042
+2-isopropylmalic acid,2-ketobutyric acid,0.7359507651673264,C02504,C00109
+2-isopropylmalic acid,citrulline,0.668094212188953,C02504,C00327
+2-isopropylmalic acid,l-valine,0.6178662550703028,C02504,C00183
+2-isopropylmalic acid,l-aspartic acid,-0.5440320252888953,C02504,C00049
+2-isopropylmalic acid,n-acetyl-l-glutamate 5-semialdehyde,-0.561380409445074,C02504,C01250
+2-isopropylmalic acid,l-threonine,-0.5743521918845799,C02504,C00188
+l-cysteine,l-valine,-0.5023685084430167,C00097,C00183
+l-arginine,putrescine,-0.5153290244435339,C00062,C00134
+l-arginine,gamma-glutamylcysteine,-0.6919931473026111,C00062,C00669
+l-arginine,2-ketobutyric acid,-0.7006429369587187,C00062,C00109
+l-arginine,3-(2-hydroxyphenyl)propanoic acid,0.5060497498981439,C00062,C01198
+l-arginine,n-acetyl-l-glutamate 5-semialdehyde,0.6714289345938868,C00062,C01250
+l-arginine,l-threonine,0.6551697526265833,C00062,C00188
