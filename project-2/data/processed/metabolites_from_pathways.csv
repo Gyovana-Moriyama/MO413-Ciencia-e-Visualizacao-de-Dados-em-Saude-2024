@@ -1,0 +1,26 @@
+Query;Match;HMDB;PubChem;KEGG;SMILES;Comment;Pathway
+n-acetylornithine;N2-Acetylornithine;HMDB0003357;439232.0;C00437;CC(=O)N[C@@H](CCCN)C(O)=O;1;Arginine biosynthesis
+citrulline;Citrulline;HMDB0000904;9750.0;C00327;N[C@@H](CCCNC(N)=O)C(O)=O;1;Arginine biosynthesis
+ornithine;Ornithine;HMDB0000214;6262.0;C00077;NCCC[C@H](N)C(O)=O;1;Arginine biosynthesis
+n-acetylglutamic acid;N-Acetyl-L-glutamic acid;HMDB0001138;70914.0;C00624;CC(=O)N[C@@H](CCC(O)=O)C(O)=O;1;Arginine biosynthesis
+l-aspartic acid;L-Aspartic acid;HMDB0000191;5960.0;C00049;N[C@@H](CC(O)=O)C(O)=O;1;Arginine biosynthesis
+n-acetyl-l-glutamate 5-semialdehyde;N-Acetyl-L-glutamate 5-semialdehyde;HMDB0006488;192878.0;C01250;CC(=O)N[C@@H](CCC=O)C(O)=O;1;Arginine biosynthesis
+l-arginine;L-Arginine;HMDB0000517;6322.0;C00062;N[C@@H](CCCNC(N)=N)C(O)=O;1;Arginine biosynthesis
+2-ketobutyric acid;2-Ketobutyric acid;HMDB0000005;58.0;C00109;CCC(=O)C(O)=O;1;Valine, leucine and isoleucine biosynthesis
+l-valine;L-Valine;HMDB0000883;6287.0;C00183;CC(C)[C@H](N)C(O)=O;1;Valine, leucine and isoleucine biosynthesis
+l-threonine;L-Threonine;HMDB0000167;6288.0;C00188;C[C@@H](O)[C@H](N)C(O)=O;1;Valine, leucine and isoleucine biosynthesis
+2-isopropylmalic acid;2-Isopropylmalic acid;HMDB0000402;5280523.0;C02504;CC(C)[C@@](O)(CC(O)=O)C(O)=O;1;Valine, leucine and isoleucine biosynthesis
+l-tyrosine;L-Tyrosine;HMDB0000158;6057.0;C00082;N[C@@H](CC1=CC=C(O)C=C1)C(O)=O;1;Phenylalanine metabolism
+succinic acid;Succinic acid;HMDB0000254;1110.0;C00042;OC(=O)CCC(O)=O;1;Phenylalanine metabolism
+3-(2-hydroxyphenyl)propanoic acid;3-(2-Hydroxyphenyl)propanoic acid;HMDB0033752;873.0;C01198;OC(=O)CCC1=CC=CC=C1O;1;Phenylalanine metabolism
+phenylacetylglutamine;Phenylacetylglutamine;HMDB0006344;92258.0;C04148;NC(=O)CC[C@H](NC(=O)CC1=CC=CC=C1)C(O)=O;1;Phenylalanine metabolism
+l-phenylalanine;Phenylalanine;HMDB0000159;6140.0;C00079;N[C@@H](CC1=CC=CC=C1)C(O)=O;1;Phenylalanine metabolism
+phenylacetic acid;Phenylacetic acid;HMDB0000209;999.0;C07086;OC(=O)CC1=CC=CC=C1;1;Phenylalanine metabolism
+putrescine;Putrescine;HMDB0001414;1045.0;C00134;NCCCCN;1;Glutathione metabolism
+gamma-glutamylcysteine;gamma-Glutamylcysteine;HMDB0001049;123938.0;C00669;N[C@@H](CCC(=O)N[C@@H](CS)C(O)=O)C(O)=O;1;Glutathione metabolism
+pyroglutamic acid;Pyroglutamic acid;HMDB0000267;7405.0;C01879;OC(=O)[C@@H]1CCC(=O)N1;1;Glutathione metabolism
+ornithine;Ornithine;HMDB0000214;6262.0;C00077;NCCC[C@H](N)C(O)=O;1;Glutathione metabolism
+l-cysteine;L-Cysteine;HMDB0000574;5862.0;C00097;N[C@@H](CS)C(O)=O;1;Glutathione metabolism
+l-tyrosine;L-Tyrosine;HMDB0000158;6057.0;C00082;N[C@@H](CC1=CC=C(O)C=C1)C(O)=O;1;Phenylalanine, tyrosine and tryptophan biosynthesis
+quinate;Quinic acid;HMDB0003072;6508.0;C00296;O[C@@H]1C[C@@](O)(C[C@@H](O)[C@H]1O)C(O)=O;1;Phenylalanine, tyrosine and tryptophan biosynthesis
+l-phenylalanine;Phenylalanine;HMDB0000159;6140.0;C00079;N[C@@H](CC1=CC=CC=C1)C(O)=O;1;Phenylalanine, tyrosine and tryptophan biosynthesis
