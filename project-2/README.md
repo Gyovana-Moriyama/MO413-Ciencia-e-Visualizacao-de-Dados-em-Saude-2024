@@ -27,8 +27,7 @@ Os metabólitos exercem funções em todo o nicho "ômico", seja como mecanismo 
   
 # Slides
 
-> Coloque aqui o link para o PDF da apresentação da parte 2.
-
+[link to slides](assets/METABOLOMICA_NO_CANCER_DE_PROSTATA_V2.pdf)
 
 # Fundamentação Teórica
 
