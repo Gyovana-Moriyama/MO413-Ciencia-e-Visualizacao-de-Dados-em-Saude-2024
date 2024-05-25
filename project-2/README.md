@@ -85,11 +85,6 @@ Pergunta:
 > ![Modelo Lógico de Grafos](assets/images/modelo-logico-grafos.png)
 
 
-## Análise Preliminar
-
-> Este item não é obrigatório neste estágio. Apresente aqui uma análise preliminar dos dados se houver.
-> Utilize gráficos que descrevam os aspectos principais da base que são relevantes para as perguntas de pesquisa consideradas.
-
 ## Evolução do Projeto
 > Este item não é obrigatório neste estágio, mas pode ser uma preparação para o estágio final.
 > Relatório de evolução, descrevendo as evoluções na modelagem do projeto, dificuldades enfrentadas, mudanças de rumo, melhorias e lições aprendidas. Referências aos diagramas, modelos e recortes de mudanças são bem-vindos.
@@ -156,7 +151,10 @@ Rede com os metabólitos mais significativos nos saudáveis:
 
 ![Healthy](assets/images/healthy_all_enlarged.png)
 
-### 6. Interpretação biológica 
+## Análise Preliminar
+
+> Este item não é obrigatório neste estágio. Apresente aqui uma análise preliminar dos dados se houver.
+> Utilize gráficos que descrevam os aspectos principais da base que são relevantes para as perguntas de pesquisa consideradas.
 
 #### Interpretação das vias metabólicas
 
