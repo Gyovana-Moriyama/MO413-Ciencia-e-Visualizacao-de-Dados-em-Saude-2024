@@ -21,7 +21,7 @@ Como propriedades, as seguintes colunas foram utilizadas:
 
 | Nós | Arestas |
 | :--------: | :------: |
-| ![](../../assets/images/node_properties.png) | ![](../../assets/images/edge_properties.png) |
+| <img src="../../assets/images/node_properties.png" width="200"> | <img src="../../assets/images/edge_properties.png" width="200"> |
 
 ### Redes importadas
 
