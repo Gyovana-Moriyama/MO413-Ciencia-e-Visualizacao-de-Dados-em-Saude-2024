@@ -47,6 +47,7 @@ Objetivo:
 Pergunta:
 
 - Quais são os metabólitos candidatos a biomarcadores do câncer de próstata?
+- Quais as funções desses metabólitos, e como estão relacionados com o desenvolvimento do câncer de próstata?
 
 # Metodologia
 
@@ -56,7 +57,7 @@ Pergunta:
 1.  Obtenção de dados experimentais controle vs. câncer
 2.  Análise estatística dos metabólitos: utilização de volcano plot
 3.  Enriquecimento das vias metabólicas
-4.  Construção de redes de correlação entre metqabólitos
+4.  Construção de redes de correlação entre metabólitos
 5.  Análise comparativa da topologia das duas redes: utilização de métodos como medidas de centralidade (betweenness, degree, eigenvector, closeness)
 6.  Interpretação biológica dos achados 
 
@@ -73,11 +74,13 @@ Pergunta:
 > * O que descobriu sobre essa base?
 > * Quais as transformações e tratamentos (e.g., dados faltantes e limpeza) feitos?
 
-1. Os dados utilizados no projeto foram obtidos do estudo *MTBLS6039: Serum organic acid metabolites can be used as potential biomarkers to identify prostatitis, benign prostatic hyperplasia, and prostate cancer (Untargeted assay)*, o qual apresenta dados de 80 participantes no total: 20 homens saudáveis e 60 pacientes com prostatite, HBP ou CaP. Para o projeto foram utilizados os dados dos participantes saudáveis e dos diagnosticados com o câncer de próstata. Esses dados são referentes à cromatografia líquida acoplada à espectrometria de massas de 411 metabólitos identificados.
+1. Os dados utilizados no projeto foram obtidos do estudo *MTBLS6039: Serum organic acid metabolites can be used as potential biomarkers to identify prostatitis, benign prostatic hyperplasia, and prostate cancer (Untargeted assay)*, o qual apresenta dados de 80 participantes no total: 20 homens saudáveis e 60 pacientes com prostatite, HBP ou CaP. Para o projeto foram utilizados os dados dos participantes saudáveis e dos diagnosticados com o câncer de próstata. Esses dados foram obtidos através da técnica da cromatografia líquida acoplada à espectrometria de massas, e a partir do espectro de massas resultante do método, 411 metabólitos diferentes foram identificados.
 
 > Falar sobre as transformações e tratamentos feitos na base
-> Coloca mesmo o KEGG como base de dados??
+2. Os dados foram filtrados e normalizados dentro da própria ferramenta MetaboAnalyst. Aplicou-se um filtro para remoção de dados (nesse caso, metabólitos) cuja variância nas amostras mostrou-se inferior a 10% do intervalo interquartil. Em sequência, as intensidades desses picos foram normalizadas: os dados foram centralizados na mediana, e a amplitude foi redimensionada para o intervalo [0, 1] usando-se os valores máximo e mínimo.
 
+> Coloca mesmo o KEGG como base de dados??
+3. Para a seleção de metabólitos presentes somente nas cinco vias metabólicas significativamente alteradas, utilizou-se o banco de dados do KEGG. Os constituintes de cada uma dessas cinco vias foram usado para filtragem dos metabólitos diferenciais encontrados na análise estatística dos dados.
 
 ## Modelo Lógico
 
@@ -92,39 +95,39 @@ Pergunta:
 
 ### 1. Obtenção de dados experimentais controle vs. câncer:
 
-Foram obtidos os dados experimentais do controle vs. câncer de 40 participantes (20 saudáveis e 20 diagnosticados com câncer de próstata). Esses dados representam a cromatografia líquida acoplada à espectrometria de massas de 411 metabólitos identificados.
+Foram obtidos os dados experimentais do controle vs. câncer de 40 participantes (20 saudáveis e 20 diagnosticados com câncer de próstata). Esses dados representam o espectro de massas obtido da cromatografia líquida acoplada à espectrometria de massas, que identificou 411 metabólitos diferentes.
 
 ### 2. Análise estatística dos metabólitos:
 
-Realização de análise estatística dos metabólitos: foi utilizada a ferramenta MetaboAnalyst para a determinação de metabólitos diferenciais nos indivíduos de cada condição. Para isso foi feito um volcano plot utilizando os dados dos 40 participantes e a variação expressiva e significativa foi determinada para os metabólitos que apresentaram log2(FC) > 2.0 e p value < 0.05. Nessa etapa foram encontrados 133 metabólitos diferenciais.
+Para a realização de análise estatística dos metabólitos, a ferramenta MetaboAnalyst for usada para a determinação de metabólitos diferenciais entre indivíduos de cada condição. Para isso, foi consrtuído um volcano plot utilizando os dados dos 40 participantes, e a variação expressiva e significativa foi determinada para aqueles metabólitos que apresentaram log2(FC) > 2.0 e p value < 0.05. Nessa etapa, foram encontrados 133 metabólitos diferenciais.
 
 ![volcano plot](assets/images/volcano_0_dpi72.png)
 
 ### 3. Enriquecimento das vias metabólicas: 
 
-Para essa etapa, também foi utilizado a ferramenta MetaboAnalyst para a determinação das vias metabólicas afetadas pelos metabólitos alterados na condição câncer. Para o enriquecimento das vias metabólicas, utilizamos os 133 metabólitos encontrados anteriormente. No total foram encontradas as seguintes vias:
+Para essa etapa, também foi utilizada a ferramenta MetaboAnalyst. Para o enriquecimento das vias metabólicas, os 133 metabólitos encontrados anteriormente foram forncecidos e, ao todo, as seguintes vias foram identificadas como as mais afetadas pela super-representação desses compostos:
 
 ![Vias metabólicas](assets/images/vias-enriquecidas.png)
 
 ![Vias metabolicas 2](assets/images/vias-enriquecidas-2.png)
 
-Atualmente, foram escolhidas as 5 primeiras vias que apresentaram p value < 0.05, sendo elas:
+Nesta etapa do projeto, foram escolhidas as cinco primeiras vias que apresentaram p-value < 0.05, sendo elas:
   - Biossíntese da Arginina
-  - Biossíntese deValina, Leucina e Isoleucina
-  - Metabolismo e biossíntese de Fenilalanina, Tirosina e Triptofano
+  - Biossíntese de Valina, Leucina e Isoleucina
+  - Metabolismo e Biossíntese de Fenilalanina, Tirosina e Triptofano
   - Metabolismo da Glutationa
 
 ### 4. Construção de redes de correlação: 
 
-Foi calculada a correlação de Pearson entre os metabólitos diferenciais encontrados anteriormente, tanto para participantes saudáveis como com câncer. A partir dessa correlação e das vias enriquecidas, foram selecionados os metabólitos presentes nas vias 5 principais vias escolhidas para a construção de duas redes de metabólitos, uma para os saudáveis e outra para os com câncer. Para isso, foi utilizada a ferramenta Neo4j.
+Foi calculada a correlação de Pearson entre os metabólitos diferenciais encontrados anteriormente, tanto para o grupo dos saudáveis, como no do câncer. Somente as interações entre metabólitos cuja correlação foi superior a 0.6 foram consideradas na construção das redes. A partir dessas correlações e dos metabólitos presentes nas cinco vias mais significativamente enriquecidas, duas redes de metabólitos foram construídas, uma para o grupo dos saudáveis, e outra para os do câncer. A ferramenta Neo4j foi utilizada para isso.
 
 ![Pearson correlation](assets/images/pearson_correlation.png)
 
-Rede de participantes que apresentam Câncer de Próstata
+Rede do grupo câncer:
 
 ![Rede com cancer](assets/images/cancer_cose.png)
 
-Rede de participantes saudáveis
+Rede do grupo saudável:
 
 ![Rede sem cancer](assets/images/healthy_cose.png)
 
@@ -134,19 +137,19 @@ Para a análise comparativa, foi utilizada a ferramenta Cytoscape.
 
 > Preencher com achados das análises
 
-#### Análise Centralidade
+#### Análise da centralidade dos nós
 
-Analisando a topologia do grafo, é possível avaliar a importância de cada nó, encontrando padrões em um conjunto de dados. Assim, analisamos 3 medidas de centralidade (Betweenness, Closeness e Eigenvector) em cada rede e com isso chegamos a metabólitos mais significativos para cada rede.
+Analisando a topologia do grafo, é possível avaliar a importância de cada nó, encontrando padrões em um conjunto de dados. Assim, 3 medidas de centralidade (Betweenness, Closeness e Eigenvector) foram calculadas em cada rede e, com isso, os metabólitos mais significativos em cada uma delas foram identificados:
 
 ![Centralidade cancer](assets/images/3d_scatter_cancer.png)
 
 ![Centralidade healthy](assets/images/3d_scatter_healthy.png)
 
-Rede com os metabólitos mais significativos no câncer:
+Rede destacando, em vermelho, os metabólitos mais significativos no grupo de participantes com câncer, mas que se encontram pouco interligados no grupo dos:
 
 ![Cancer](assets/images/cancer_all_enlarged.png)
 
-Rede com os metabólitos mais significativos nos saudáveis:
+Rede destacando, em rosa, com os metabólitos mais significativos no grupo de participantes saudáveis, mas pouco conectados na condição câncer:
 
 ![Healthy](assets/images/healthy_all_enlarged.png)
 
@@ -169,23 +172,20 @@ Rede com os metabólitos mais significativos nos saudáveis:
 
 #### Interpretação dos metabólitos com importância nas análises comparativas
 
-Com câncer:
+Metabólitos significativos na condição câncer, mas pouco significativos entre saudáveis:
 
-- Ácido 2-cetobutírico: A presença de ácido 2-cetobutírico tem sido associada ao câncer de próstata por ele ser um intermediário no metabolismo da treonina e da cisteína, além de ser um marcador de estresse oxidativo e de disfunção mitocondrial.
-  
+- Ácido 2-cetobutírico: A presença de ácido 2-cetobutírico tem sido associada ao câncer de próstata por ele ser um intermediário no metabolismo da treonina e da cisteína, além de ser um marcador de estresse oxidativo e de disfunção mitocondrial.   
 Nesse contexto, níveis elevados de ácido 2-cetobutírico podem indicar alterações no metabolismo para suportar seu rápido crescimento e sobrevivência.
 
 - Gama-glutamilcisteína: Intermediária na síntese do glutationa, é um importante antioxidante celular que protege as células contra o extresse oxidativo e danos causados por radicais livres.
-
 O aumento dos níveis de gama-glutamilcisteína pode refletir a maior atividade na via de síntese do glutationa, sugerindo que as células cancerígenas estão tentando se proteger contra danos oxidativos. Esse fenômeno pode estar relacionado à resistência ao tratamento e à progressão da doença.
 
 - N-acetil-l-glutamato 5-semialdeído: Intermediário no metabolismo da prolina e da arginina, aminoácidos que desempenham papéis importantes no crescimento e na sobrevivência celular. Alterações no metabolismo desses aminoácidos podem ser indicativas de mudanças metabólicas que sustentam o crescimento e a proliferação das células cancerígenas.
-
 Esse metabolismo alterado inclui a reprogramação das vias de síntese e degradação de aminoácidos.
 
 - Ácido Piroglutâmico: Conhecido como 5-oxoprolina, também é um intermediário do metabolismo da glutationa. Como parte da via de síntese e degradação da glutationa, pode ter seus níveis aumentados em resposta à maior demanda por antioxidantes.
 
-Sem câncer:
+Metabólitos significativos na condição saudável, mas pouco significativos no câncer:
 
 - L-threonina: É um aminoácido essencial e tem uma relação indireta, mas significativa, através de suas contribuições para processos celulares que podem afetar o crescimento e a sobrevivência das células cancerígenas. Atua na síntese de proteínas e no metabolismo celular, na produção de compostos bioativos, na resposta imune e na regulação da via da Glicina-Serina-Treonina.
 
