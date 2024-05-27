@@ -120,6 +120,14 @@ Foi calculada a correlação de Pearson entre os metabólitos diferenciais encon
 
 ![Pearson correlation](assets/images/pearson_correlation.png)
 
+Uma vez que temos a rede de correlação, podemos ver quais são as vias mais expressivas na rede, ou seja, vias que mais se relacionam e, portanto, podem ser diferenciais para pacientes com câncer em vista do controle. Para buscar essa diferenciação, usamos as métricas de centralidade de cada nó.
+
+
+A análise da centralidade foi feito com os algoritmos de Eigenvector, Betweenness e Closeness
+
+O programa para as análises foi o Cytoscape na versão 3.10.2, Java 17.0.5
+O cálculo das centralidades foi feito pelo plugin CytoNCA, na versão 2.1.6
+
 Rede de participantes que apresentam Câncer de Próstata
 
 ![Rede com cancer](assets/images/cancer_cose.png)
