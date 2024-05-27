@@ -1,6 +1,6 @@
 # MO413-Ciencia-e-Visualizacao-de-Dados-em-Saude-2024
 
-# Projeto Metabolômica no diagnóstico do Câncer de Próstata
+# Projeto Metabolômica no Câncer de Próstata
 
 
 |Nome  | RA | Especialização|
