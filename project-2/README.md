@@ -35,24 +35,18 @@ A proposta desse projeto é utilizar a teoria dos grafos e algoritmos de anális
 
 A metodologia aplicada foi baseada na seguinte publicação: Metabolomics and correlation network analyses of core biomarkers in type 2 diabetes (https://pubmed.ncbi.nlm.nih.gov/32930872/)
 
-# Pergunta de Pesquisa
-
-> Perguntas de pesquisa (revisadas e atualizadas) que o projeto pretende responder ou hipóteses a serem avaliadas, enunciadas de maneira objetiva e verificável.
-> Se o estágio atual do projeto contribuiu para as perguntas de pesquisa, apresente aqui elementos dele que ajudem a responder a questão.
+# Perguntas de Pesquisa
 
 Objetivo: 
 
 - Identificar os principais metabólitos e vias metabólicas associadas ao câncer de próstata.
 
-Pergunta:
+Perguntas:
 
 - Quais são os metabólitos candidatos a biomarcadores do câncer de próstata?
 - Quais as funções desses metabólitos, e como estão relacionados com o desenvolvimento do câncer de próstata?
 
 # Metodologia
-
-> Proposta de metodologia incluindo especificação de quais de Ciência de Redes que estão sendo usadas no projeto,
-> tais como: detecção de comunidades, análise de centralidade, predição de links, ou a combinação de uma ou mais técnicas. Descreva o que perguntas pretende endereçar com a técnica escolhida.
 
 1.  Obtenção de dados experimentais controle vs. câncer
 2.  Análise estatística dos metabólitos: utilização de volcano plot
@@ -63,35 +57,22 @@ Pergunta:
 
 ## Bases de Dados e Evolução
 
-> Para cada base, coloque uma entrada na tabela no modelo a seguir e depois detalhamento sobre como ela foi analisada/usada, conforme exemplo a seguir.
-
 > Base de Dados | Endereço na Web | Resumo descritivo
 > ----- | ----- | -----
 > Metabolights MTBLS6039 | https://www.ebi.ac.uk/metabolights/editor/MTBLS6039/files | Base de dados de um estudo contendo dados de 20 homens saudáveis e 60 pacientes com prostatite, HBP ou CaP que foram identificados usando cromatografia líquida não direcionada-espectrometria de massa (LC-MS). 
 > KEGG PATHWAY Database | [http://base2.org/](https://www.kegg.jp/kegg/pathway.html) | KEGG é uma coleção de bancos de dados que tratam de genomas, vias biológicas, doenças, medicamentos e substâncias químicas.
 
-> Faça uma descrição sobre o que concluiu sobre esta base. Sugere-se que respondam perguntas ou forneçam informações indicadas a seguir:
-> * O que descobriu sobre essa base?
-> * Quais as transformações e tratamentos (e.g., dados faltantes e limpeza) feitos?
-
 1. Os dados utilizados no projeto foram obtidos do estudo *MTBLS6039: Serum organic acid metabolites can be used as potential biomarkers to identify prostatitis, benign prostatic hyperplasia, and prostate cancer (Untargeted assay)*, o qual apresenta dados de 80 participantes no total: 20 homens saudáveis e 60 pacientes com prostatite, HBP ou CaP. Para o projeto foram utilizados os dados dos participantes saudáveis e dos diagnosticados com o câncer de próstata. Esses dados foram obtidos através da técnica da cromatografia líquida acoplada à espectrometria de massas, e a partir do espectro de massas resultante do método, 411 metabólitos diferentes foram identificados.
 
-> Falar sobre as transformações e tratamentos feitos na base
 2. Os dados foram filtrados e normalizados dentro da própria ferramenta MetaboAnalyst. Aplicou-se um filtro para remoção de dados (nesse caso, metabólitos) cuja variância nas amostras mostrou-se inferior a 10% do intervalo interquartil. Em sequência, as intensidades desses picos foram normalizadas: os dados foram centralizados na mediana, e a amplitude foi redimensionada para o intervalo [0, 1] usando-se os valores máximo e mínimo.
 
-> Coloca mesmo o KEGG como base de dados??
 3. Para a seleção de metabólitos presentes somente nas cinco vias metabólicas significativamente alteradas, utilizou-se o banco de dados do KEGG. Os constituintes de cada uma dessas cinco vias foram usado para filtragem dos metabólitos diferenciais encontrados na análise estatística dos dados.
 
 ## Modelo Lógico
 
 > ![Modelo Lógico de Grafos](assets/images/modelo-logico-grafos.png)
 
-
 ## Evolução do Projeto
-> Este item não é obrigatório neste estágio, mas pode ser uma preparação para o estágio final.
-> Relatório de evolução, descrevendo as evoluções na modelagem do projeto, dificuldades enfrentadas, mudanças de rumo, melhorias e lições aprendidas. Referências aos diagramas, modelos e recortes de mudanças são bem-vindos.
-> Podem ser apresentados destaques na evolução dos modelos conceitual e lógico. O modelo inicial e intermediários (quando relevantes) e explicação de refinamentos, mudanças ou evolução do projeto que fundamentaram as decisões.
-> Relatar o processo para se alcançar os resultados é tão importante quanto os resultados.
 
 ### 1. Obtenção de dados experimentais controle vs. câncer:
 
@@ -125,12 +106,6 @@ Foi calculada a correlação de Pearson entre os metabólitos diferenciais encon
 
 Uma vez que temos a rede de correlação, podemos ver quais são as vias mais expressivas na rede, ou seja, vias que mais se relacionam e, portanto, podem ser diferenciais para pacientes com câncer em vista do controle. Para buscar essa diferenciação, usamos as métricas de centralidade de cada nó.
 
-
-A análise da centralidade foi feito com os algoritmos de Eigenvector, Betweenness e Closeness
-
-O programa para as análises foi o Cytoscape na versão 3.10.2, Java 17.0.5
-O cálculo das centralidades foi feito pelo plugin CytoNCA, na versão 2.1.6
-
 Rede de participantes que apresentam Câncer de Próstata
 
 ![Rede com cancer](assets/images/cancer_cose.png)
@@ -142,8 +117,6 @@ Rede do grupo saudável:
 ### 5. Análise comparativa da topologia das duas redes: 
 
 Para a análise comparativa, foi utilizada a ferramenta Cytoscape.
-
-> Preencher com achados das análises
 
 #### Análise da centralidade dos nós
 
@@ -163,12 +136,7 @@ Rede destacando, em rosa, com os metabólitos mais significativos no grupo de pa
 
 ## Análise Preliminar
 
-> Este item não é obrigatório neste estágio. Apresente aqui uma análise preliminar dos dados se houver.
-> Utilize gráficos que descrevam os aspectos principais da base que são relevantes para as perguntas de pesquisa consideradas.
-
 #### Interpretação das vias metabólicas
-
-> Referencias bibliográficas????
 
 - Biossíntese da Arginina: O metabolismo da arginina, um aminoácido condicionalmente essencial, desempenha um papel crucial na progressão e no prognóstico do câncer. Um estudo recente enfatizou que os genes de biossíntese de arginina estão associados à evasão imunológica em vários tipos de câncer ( Tan et al., 2024). Num estudo de cancer de prostata, o knockdown do prostate-specific membrane antigen (PSMA) pode inibir a proliferação e a metástase de células de CaP, bem como diminuir a expressão de receptor de andrógeno (AR) e promover a expressão de c-Fos e FosB por meio do aumento da biossíntese de arginina (Hong et al., 2022).
   
@@ -202,8 +170,6 @@ Metabólitos significativos na condição saudável, mas pouco significativos no
 - L-fenilacetato: Composto derivado do metabolismo da fenilalanina e tem sido estudado por seu potencial terapêutico no tratamento de vários tipos de câncer. Envolve várias vias e mecanismos biológicos: indução da diferenciação celular, inibição da proliferação celular, modulação do metabolismo de glutamina, redução do estresse oxidativo e inibição de enzimas tumorais. 
 
 # Ferramentas
-
-> Ferramentas já utilizadas e/ou ainda a serem utilizadas (com base na visão atual do grupo sobre o projeto).
 
 - Python: processamento dos dados
 - MetaboAnalyst (https://www.metaboanalyst.ca/): Análises estatísticas do dados, volcano plot, enriquecimento de vias
