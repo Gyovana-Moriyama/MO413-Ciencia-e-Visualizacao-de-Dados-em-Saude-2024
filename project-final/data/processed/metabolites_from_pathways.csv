@@ -1,0 +1,57 @@
+Query;Match;KEGG;Pathway
+n-acetylornithine;N2-Acetylornithine;C00437;Arginine biosynthesis
+citrulline;Citrulline;C00327;Arginine biosynthesis
+ornithine;Ornithine;C00077;Arginine biosynthesis
+n-acetylglutamic acid;N-Acetyl-L-glutamic acid;C00624;Arginine biosynthesis
+l-aspartic acid;L-Aspartic acid;C00049;Arginine biosynthesis
+n-acetyl-l-glutamate 5-semialdehyde;N-Acetyl-L-glutamate 5-semialdehyde;C01250;Arginine biosynthesis
+l-arginine;L-Arginine;C00062;Arginine biosynthesis
+2-ketobutyric acid;2-Ketobutyric acid;C00109;Valine, leucine and isoleucine biosynthesis
+l-valine;L-Valine;C00183;Valine, leucine and isoleucine biosynthesis
+l-threonine;L-Threonine;C00188;Valine, leucine and isoleucine biosynthesis
+2-isopropylmalic acid;2-Isopropylmalic acid;C02504;Valine, leucine and isoleucine biosynthesis
+l-tyrosine;L-Tyrosine;C00082;Phenylalanine metabolism
+succinic acid;Succinic acid;C00042;Phenylalanine metabolism
+3-(2-hydroxyphenyl)propanoic acid;3-(2-Hydroxyphenyl)propanoic acid;C01198;Phenylalanine metabolism
+phenylacetylglutamine;Phenylacetylglutamine;C04148;Phenylalanine metabolism
+l-phenylalanine;Phenylalanine;C00079;Phenylalanine metabolism
+phenylacetic acid;Phenylacetic acid;C07086;Phenylalanine metabolism
+putrescine;Putrescine;C00134;Glutathione metabolism
+gamma-glutamylcysteine;gamma-Glutamylcysteine;C00669;Glutathione metabolism
+pyroglutamic acid;Pyroglutamic acid;C01879;Glutathione metabolism
+ornithine;Ornithine;C00077;Glutathione metabolism
+l-cysteine;L-Cysteine;C00097;Glutathione metabolism
+l-tyrosine;L-Tyrosine;C00082;Phenylalanine, tyrosine and tryptophan biosynthesis
+quinate;Quinic acid;C00296;Phenylalanine, tyrosine and tryptophan biosynthesis
+l-phenylalanine;Phenylalanine;C00079;Phenylalanine, tyrosine and tryptophan biosynthesis
+l-2,4-diaminobutyric acid;L-2,4-diaminobutyric acid;C03283;Glycine, serine and threonine metabolism
+glyceric acid;Glyceric acid;C00258;Glycine, serine and threonine metabolism
+2-ketobutyric acid;2-Ketobutyric acid;C00109;Glycine, serine and threonine metabolism
+l-aspartic acid;L-Aspartic acid;C00049;Glycine, serine and threonine metabolism
+l-threonine;L-Threonine;C00188;Glycine, serine and threonine metabolism
+choline;Choline;C00114;Glycine, serine and threonine metabolism
+l-cysteine;L-Cysteine;C00097;Glycine, serine and threonine metabolism
+putrescine;Putrescine;C00134;Arginine and proline metabolism
+4-acetamidobutanoate;4-Acetamidobutanoic acid;C02946;Arginine and proline metabolism
+2-oxoarginine;2-Oxoarginine;C03771;Arginine and proline metabolism
+ornithine;Ornithine;C00077;Arginine and proline metabolism
+n-acetyl-l-glutamate 5-semialdehyde;N-Acetyl-L-glutamate 5-semialdehyde;C01250;Arginine and proline metabolism
+l-glutamic gamma-semialdehyde;L-Glutamic gamma-semialdehyde;C01165;Arginine and proline metabolism
+l-arginine;L-Arginine;C00062;Arginine and proline metabolism
+uric acid;Uric acid;C00366;Purine metabolism
+adenine;Adenine;C00147;Purine metabolism
+deoxyinosine;Deoxyinosine;C05512;Purine metabolism
+guanine;Guanine;C00242;Purine metabolism
+sulfate;Sulfate;C00059;Purine metabolism
+hypoxanthine;Hypoxanthine;C00262;Purine metabolism
+inosine;Inosine;C00294;Purine metabolism
+d-mannose;D-Mannose;C00159;Galactose metabolism
+d-galactose;D-Galactose;C00124;Galactose metabolism
+alpha-d-glucose;alpha-D-Glucose;C00267;Galactose metabolism
+sucrose;Sucrose;C00089;Galactose metabolism
+taurine;Taurine;C00245;Taurine and hypotaurine metabolism
+acetylphosphate;Acetylphosphate;C00227;Taurine and hypotaurine metabolism
+l-cysteine;L-Cysteine;C00097;Taurine and hypotaurine metabolism
+l-valine;L-Valine;C00183;Pantothenate and CoA biosynthesis
+l-aspartic acid;L-Aspartic acid;C00049;Pantothenate and CoA biosynthesis
+l-cysteine;L-Cysteine;C00097;Pantothenate and CoA biosynthesis
