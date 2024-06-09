@@ -1,144 +1,144 @@
-c1.name,c2.name,c.correlation,c1.kegg_id,c2.kegg_id,c1.pathway,c2.pathway
-n-acetyl-l-glutamate 5-semialdehyde,citrulline,-0.6371313448920792,C01250,C00327,Arginine and proline metabolism,Arginine biosynthesis
-n-acetyl-l-glutamate 5-semialdehyde,l-aspartic acid,0.5047463646658964,C01250,C00049,Arginine and proline metabolism,Pantothenate and CoA biosynthesis
-l-arginine,n-acetyl-l-glutamate 5-semialdehyde,0.6714289345938868,C00062,C01250,Arginine and proline metabolism,Arginine and proline metabolism
-2-ketobutyric acid,citrulline,0.6364131633712964,C00109,C00327,"Glycine, serine and threonine metabolism",Arginine biosynthesis
-2-ketobutyric acid,l-aspartic acid,-0.6782107158392586,C00109,C00049,"Glycine, serine and threonine metabolism",Pantothenate and CoA biosynthesis
-2-ketobutyric acid,n-acetyl-l-glutamate 5-semialdehyde,-0.8059433838835632,C00109,C01250,"Glycine, serine and threonine metabolism",Arginine and proline metabolism
-2-ketobutyric acid,l-arginine,-0.7006429369587187,C00109,C00062,"Glycine, serine and threonine metabolism",Arginine and proline metabolism
-l-valine,citrulline,0.6237586313390651,C00183,C00327,Pantothenate and CoA biosynthesis,Arginine biosynthesis
-l-threonine,citrulline,-0.559830419542365,C00188,C00327,"Glycine, serine and threonine metabolism",Arginine biosynthesis
-l-threonine,n-acetyl-l-glutamate 5-semialdehyde,0.6162231932744909,C00188,C01250,"Glycine, serine and threonine metabolism",Arginine and proline metabolism
-l-threonine,l-arginine,0.6551697526265832,C00188,C00062,"Glycine, serine and threonine metabolism",Arginine and proline metabolism
-l-threonine,2-ketobutyric acid,-0.6288128631554529,C00188,C00109,"Glycine, serine and threonine metabolism","Glycine, serine and threonine metabolism"
-2-isopropylmalic acid,citrulline,0.668094212188953,C02504,C00327,"Valine, leucine and isoleucine biosynthesis",Arginine biosynthesis
-2-isopropylmalic acid,l-aspartic acid,-0.5440320252888953,C02504,C00049,"Valine, leucine and isoleucine biosynthesis",Pantothenate and CoA biosynthesis
-2-isopropylmalic acid,n-acetyl-l-glutamate 5-semialdehyde,-0.561380409445074,C02504,C01250,"Valine, leucine and isoleucine biosynthesis",Arginine and proline metabolism
-2-isopropylmalic acid,2-ketobutyric acid,0.7359507651673264,C02504,C00109,"Valine, leucine and isoleucine biosynthesis","Glycine, serine and threonine metabolism"
-2-isopropylmalic acid,l-valine,0.6178662550703028,C02504,C00183,"Valine, leucine and isoleucine biosynthesis",Pantothenate and CoA biosynthesis
-2-isopropylmalic acid,l-threonine,-0.5743521918845799,C02504,C00188,"Valine, leucine and isoleucine biosynthesis","Glycine, serine and threonine metabolism"
-l-tyrosine,ornithine,0.5437317911541328,C00082,C00077,"Phenylalanine, tyrosine and tryptophan biosynthesis",Arginine and proline metabolism
-l-tyrosine,2-ketobutyric acid,0.533720320083584,C00082,C00109,"Phenylalanine, tyrosine and tryptophan biosynthesis","Glycine, serine and threonine metabolism"
-l-tyrosine,2-isopropylmalic acid,0.5996312270894648,C00082,C02504,"Phenylalanine, tyrosine and tryptophan biosynthesis","Valine, leucine and isoleucine biosynthesis"
-succinic acid,citrulline,0.5116810779178916,C00042,C00327,Phenylalanine metabolism,Arginine biosynthesis
-succinic acid,ornithine,0.7214415424500552,C00042,C00077,Phenylalanine metabolism,Arginine and proline metabolism
-succinic acid,n-acetyl-l-glutamate 5-semialdehyde,-0.6332247927675442,C00042,C01250,Phenylalanine metabolism,Arginine and proline metabolism
-succinic acid,2-ketobutyric acid,0.5568398909922077,C00042,C00109,Phenylalanine metabolism,"Glycine, serine and threonine metabolism"
-succinic acid,l-threonine,-0.5570514458252538,C00042,C00188,Phenylalanine metabolism,"Glycine, serine and threonine metabolism"
-succinic acid,2-isopropylmalic acid,0.5156249763836372,C00042,C02504,Phenylalanine metabolism,"Valine, leucine and isoleucine biosynthesis"
-3-(2-hydroxyphenyl)propanoic acid,l-arginine,0.5060497498981439,C01198,C00062,Phenylalanine metabolism,Arginine and proline metabolism
-3-(2-hydroxyphenyl)propanoic acid,l-threonine,0.5276778392165753,C01198,C00188,Phenylalanine metabolism,"Glycine, serine and threonine metabolism"
-putrescine,citrulline,0.5570065661144935,C00134,C00327,Arginine and proline metabolism,Arginine biosynthesis
-putrescine,l-aspartic acid,-0.5865092369731093,C00134,C00049,Arginine and proline metabolism,Pantothenate and CoA biosynthesis
-putrescine,n-acetyl-l-glutamate 5-semialdehyde,-0.5785949508272185,C00134,C01250,Arginine and proline metabolism,Arginine and proline metabolism
-putrescine,l-arginine,-0.5153290244435339,C00134,C00062,Arginine and proline metabolism,Arginine and proline metabolism
-putrescine,2-ketobutyric acid,0.7587080351528209,C00134,C00109,Arginine and proline metabolism,"Glycine, serine and threonine metabolism"
-putrescine,l-valine,0.5180230978572706,C00134,C00183,Arginine and proline metabolism,Pantothenate and CoA biosynthesis
-putrescine,l-threonine,-0.623762700880112,C00134,C00188,Arginine and proline metabolism,"Glycine, serine and threonine metabolism"
-putrescine,2-isopropylmalic acid,0.8841201000451265,C00134,C02504,Arginine and proline metabolism,"Valine, leucine and isoleucine biosynthesis"
-putrescine,l-tyrosine,0.500439811171172,C00134,C00082,Arginine and proline metabolism,"Phenylalanine, tyrosine and tryptophan biosynthesis"
-putrescine,succinic acid,0.5742839822390299,C00134,C00042,Arginine and proline metabolism,Phenylalanine metabolism
-gamma-glutamylcysteine,citrulline,0.7295997240545059,C00669,C00327,Glutathione metabolism,Arginine biosynthesis
-gamma-glutamylcysteine,n-acetyl-l-glutamate 5-semialdehyde,-0.6484468387692851,C00669,C01250,Glutathione metabolism,Arginine and proline metabolism
-gamma-glutamylcysteine,l-arginine,-0.6919931473026111,C00669,C00062,Glutathione metabolism,Arginine and proline metabolism
-gamma-glutamylcysteine,2-ketobutyric acid,0.7500792155725899,C00669,C00109,Glutathione metabolism,"Glycine, serine and threonine metabolism"
-gamma-glutamylcysteine,l-threonine,-0.63307862454683,C00669,C00188,Glutathione metabolism,"Glycine, serine and threonine metabolism"
-gamma-glutamylcysteine,2-isopropylmalic acid,0.6984407375400798,C00669,C02504,Glutathione metabolism,"Valine, leucine and isoleucine biosynthesis"
-gamma-glutamylcysteine,l-tyrosine,0.6820073204718431,C00669,C00082,Glutathione metabolism,"Phenylalanine, tyrosine and tryptophan biosynthesis"
-gamma-glutamylcysteine,putrescine,0.5792467110000393,C00669,C00134,Glutathione metabolism,Arginine and proline metabolism
-pyroglutamic acid,citrulline,0.6755928492367512,C01879,C00327,Glutathione metabolism,Arginine biosynthesis
-pyroglutamic acid,ornithine,0.6657278740295974,C01879,C00077,Glutathione metabolism,Arginine and proline metabolism
-pyroglutamic acid,n-acetyl-l-glutamate 5-semialdehyde,-0.6226996618970825,C01879,C01250,Glutathione metabolism,Arginine and proline metabolism
-pyroglutamic acid,2-ketobutyric acid,0.5250888155812734,C01879,C00109,Glutathione metabolism,"Glycine, serine and threonine metabolism"
-pyroglutamic acid,l-valine,0.5786850565515141,C01879,C00183,Glutathione metabolism,Pantothenate and CoA biosynthesis
-pyroglutamic acid,l-threonine,-0.5293845279287787,C01879,C00188,Glutathione metabolism,"Glycine, serine and threonine metabolism"
-pyroglutamic acid,2-isopropylmalic acid,0.6653397105289853,C01879,C02504,Glutathione metabolism,"Valine, leucine and isoleucine biosynthesis"
-pyroglutamic acid,l-tyrosine,0.5121350081774259,C01879,C00082,Glutathione metabolism,"Phenylalanine, tyrosine and tryptophan biosynthesis"
-pyroglutamic acid,succinic acid,0.6451619155085793,C01879,C00042,Glutathione metabolism,Phenylalanine metabolism
-pyroglutamic acid,putrescine,0.7426478138032809,C01879,C00134,Glutathione metabolism,Arginine and proline metabolism
-pyroglutamic acid,gamma-glutamylcysteine,0.5870262221239109,C01879,C00669,Glutathione metabolism,Glutathione metabolism
-l-cysteine,l-valine,-0.5023685084430167,C00097,C00183,Pantothenate and CoA biosynthesis,Pantothenate and CoA biosynthesis
-quinate,ornithine,0.727711073086373,C00296,C00077,"Phenylalanine, tyrosine and tryptophan biosynthesis",Arginine and proline metabolism
-quinate,n-acetyl-l-glutamate 5-semialdehyde,-0.523725300277437,C00296,C01250,"Phenylalanine, tyrosine and tryptophan biosynthesis",Arginine and proline metabolism
-quinate,2-ketobutyric acid,0.531093977294367,C00296,C00109,"Phenylalanine, tyrosine and tryptophan biosynthesis","Glycine, serine and threonine metabolism"
-quinate,l-valine,0.5410161508715389,C00296,C00183,"Phenylalanine, tyrosine and tryptophan biosynthesis",Pantothenate and CoA biosynthesis
-quinate,2-isopropylmalic acid,0.6499622614253056,C00296,C02504,"Phenylalanine, tyrosine and tryptophan biosynthesis","Valine, leucine and isoleucine biosynthesis"
-quinate,succinic acid,0.7386331745666826,C00296,C00042,"Phenylalanine, tyrosine and tryptophan biosynthesis",Phenylalanine metabolism
-quinate,putrescine,0.8076623732045136,C00296,C00134,"Phenylalanine, tyrosine and tryptophan biosynthesis",Arginine and proline metabolism
-quinate,pyroglutamic acid,0.8918640656398553,C00296,C01879,"Phenylalanine, tyrosine and tryptophan biosynthesis",Glutathione metabolism
-"l-2,4-diaminobutyric acid",l-phenylalanine,0.9745089225129921,C03283,C00079,"Glycine, serine and threonine metabolism","Phenylalanine, tyrosine and tryptophan biosynthesis"
-glyceric acid,n-acetyl-l-glutamate 5-semialdehyde,-0.538557749233028,C00258,C01250,"Glycine, serine and threonine metabolism",Arginine and proline metabolism
-glyceric acid,2-ketobutyric acid,0.5326559015034881,C00258,C00109,"Glycine, serine and threonine metabolism","Glycine, serine and threonine metabolism"
-glyceric acid,l-valine,0.5143166377909717,C00258,C00183,"Glycine, serine and threonine metabolism",Pantothenate and CoA biosynthesis
-glyceric acid,2-isopropylmalic acid,0.5895119182431164,C00258,C02504,"Glycine, serine and threonine metabolism","Valine, leucine and isoleucine biosynthesis"
-glyceric acid,l-tyrosine,0.5086977050322813,C00258,C00082,"Glycine, serine and threonine metabolism","Phenylalanine, tyrosine and tryptophan biosynthesis"
-glyceric acid,succinic acid,0.595520838785643,C00258,C00042,"Glycine, serine and threonine metabolism",Phenylalanine metabolism
-glyceric acid,putrescine,0.6427709452711637,C00258,C00134,"Glycine, serine and threonine metabolism",Arginine and proline metabolism
-glyceric acid,pyroglutamic acid,0.6846833702926781,C00258,C01879,"Glycine, serine and threonine metabolism",Glutathione metabolism
-glyceric acid,quinate,0.6838746342623125,C00258,C00296,"Glycine, serine and threonine metabolism","Phenylalanine, tyrosine and tryptophan biosynthesis"
-choline,3-(2-hydroxyphenyl)propanoic acid,-0.5473077676339779,C00114,C01198,"Glycine, serine and threonine metabolism",Phenylalanine metabolism
-4-acetamidobutanoate,citrulline,0.695537148318473,C02946,C00327,Arginine and proline metabolism,Arginine biosynthesis
-4-acetamidobutanoate,ornithine,0.6331807087054373,C02946,C00077,Arginine and proline metabolism,Arginine and proline metabolism
-4-acetamidobutanoate,l-aspartic acid,-0.5276479135648757,C02946,C00049,Arginine and proline metabolism,Pantothenate and CoA biosynthesis
-4-acetamidobutanoate,n-acetyl-l-glutamate 5-semialdehyde,-0.5933090920871927,C02946,C01250,Arginine and proline metabolism,Arginine and proline metabolism
-4-acetamidobutanoate,2-ketobutyric acid,0.7152846990182469,C02946,C00109,Arginine and proline metabolism,"Glycine, serine and threonine metabolism"
-4-acetamidobutanoate,l-valine,0.6285602650823394,C02946,C00183,Arginine and proline metabolism,Pantothenate and CoA biosynthesis
-4-acetamidobutanoate,l-threonine,-0.606349713603264,C02946,C00188,Arginine and proline metabolism,"Glycine, serine and threonine metabolism"
-4-acetamidobutanoate,2-isopropylmalic acid,0.8929051413499033,C02946,C02504,Arginine and proline metabolism,"Valine, leucine and isoleucine biosynthesis"
-4-acetamidobutanoate,l-tyrosine,0.5840599671966722,C02946,C00082,Arginine and proline metabolism,"Phenylalanine, tyrosine and tryptophan biosynthesis"
-4-acetamidobutanoate,succinic acid,0.6586435228535318,C02946,C00042,Arginine and proline metabolism,Phenylalanine metabolism
-4-acetamidobutanoate,putrescine,0.9343810779477585,C02946,C00134,Arginine and proline metabolism,Arginine and proline metabolism
-4-acetamidobutanoate,gamma-glutamylcysteine,0.6769746843283464,C02946,C00669,Arginine and proline metabolism,Glutathione metabolism
-4-acetamidobutanoate,pyroglutamic acid,0.8880643035505501,C02946,C01879,Arginine and proline metabolism,Glutathione metabolism
-4-acetamidobutanoate,quinate,0.8939167492240477,C02946,C00296,Arginine and proline metabolism,"Phenylalanine, tyrosine and tryptophan biosynthesis"
-4-acetamidobutanoate,glyceric acid,0.667604499884734,C02946,C00258,Arginine and proline metabolism,"Glycine, serine and threonine metabolism"
-2-oxoarginine,l-valine,0.5906773652178404,C03771,C00183,Arginine and proline metabolism,Pantothenate and CoA biosynthesis
-2-oxoarginine,3-(2-hydroxyphenyl)propanoic acid,0.5144637605087572,C03771,C01198,Arginine and proline metabolism,Phenylalanine metabolism
-2-oxoarginine,l-cysteine,-0.7007492657406681,C03771,C00097,Arginine and proline metabolism,Pantothenate and CoA biosynthesis
-l-glutamic gamma-semialdehyde,pyroglutamic acid,0.7278853106656439,C01165,C01879,Arginine and proline metabolism,Glutathione metabolism
-l-glutamic gamma-semialdehyde,quinate,0.6712856637150808,C01165,C00296,Arginine and proline metabolism,"Phenylalanine, tyrosine and tryptophan biosynthesis"
-l-glutamic gamma-semialdehyde,4-acetamidobutanoate,0.5121781973680921,C01165,C02946,Arginine and proline metabolism,Arginine and proline metabolism
-uric acid,l-arginine,-0.6381178214729265,C00366,C00062,Purine metabolism,Arginine and proline metabolism
-uric acid,2-ketobutyric acid,0.607540100092789,C00366,C00109,Purine metabolism,"Glycine, serine and threonine metabolism"
-uric acid,gamma-glutamylcysteine,0.5256814517731301,C00366,C00669,Purine metabolism,Glutathione metabolism
-adenine,ornithine,0.5161134547227908,C00147,C00077,Purine metabolism,Arginine and proline metabolism
-adenine,l-tyrosine,0.5132879245039033,C00147,C00082,Purine metabolism,"Phenylalanine, tyrosine and tryptophan biosynthesis"
-adenine,uric acid,0.684194974449951,C00147,C00366,Purine metabolism,Purine metabolism
-deoxyinosine,l-aspartic acid,0.5178761427410529,C05512,C00049,Purine metabolism,Pantothenate and CoA biosynthesis
-deoxyinosine,2-ketobutyric acid,-0.5061835272360239,C05512,C00109,Purine metabolism,"Glycine, serine and threonine metabolism"
-deoxyinosine,quinate,-0.5078460287445099,C05512,C00296,Purine metabolism,"Phenylalanine, tyrosine and tryptophan biosynthesis"
-deoxyinosine,glyceric acid,-0.5771048747551913,C05512,C00258,Purine metabolism,"Glycine, serine and threonine metabolism"
-guanine,3-(2-hydroxyphenyl)propanoic acid,0.590172286484037,C00242,C01198,Purine metabolism,Phenylalanine metabolism
-hypoxanthine,phenylacetic acid,0.6486007208198463,C00262,C07086,Purine metabolism,Phenylalanine metabolism
-hypoxanthine,l-glutamic gamma-semialdehyde,0.5188005050202323,C00262,C01165,Purine metabolism,Arginine and proline metabolism
-inosine,n-acetyl-l-glutamate 5-semialdehyde,0.672863062590413,C00294,C01250,Purine metabolism,Arginine and proline metabolism
-inosine,l-arginine,0.6999912460132098,C00294,C00062,Purine metabolism,Arginine and proline metabolism
-inosine,2-ketobutyric acid,-0.6695190195434668,C00294,C00109,Purine metabolism,"Glycine, serine and threonine metabolism"
-inosine,3-(2-hydroxyphenyl)propanoic acid,0.6593760290589863,C00294,C01198,Purine metabolism,Phenylalanine metabolism
-inosine,uric acid,-0.5593527167356851,C00294,C00366,Purine metabolism,Purine metabolism
-inosine,deoxyinosine,0.5091331127054826,C00294,C05512,Purine metabolism,Purine metabolism
-inosine,hypoxanthine,0.6886812760097024,C00294,C00262,Purine metabolism,Purine metabolism
-d-galactose,ornithine,0.9999530212615102,C00124,C00077,Galactose metabolism,Arginine and proline metabolism
-d-galactose,l-tyrosine,0.5402157791723379,C00124,C00082,Galactose metabolism,"Phenylalanine, tyrosine and tryptophan biosynthesis"
-d-galactose,succinic acid,0.7224787780850803,C00124,C00042,Galactose metabolism,Phenylalanine metabolism
-d-galactose,pyroglutamic acid,0.6610580238842141,C00124,C01879,Galactose metabolism,Glutathione metabolism
-d-galactose,quinate,0.7262378100500335,C00124,C00296,Galactose metabolism,"Phenylalanine, tyrosine and tryptophan biosynthesis"
-d-galactose,4-acetamidobutanoate,0.6297521747361441,C00124,C02946,Galactose metabolism,Arginine and proline metabolism
-d-galactose,adenine,0.5177121279695637,C00124,C00147,Galactose metabolism,Purine metabolism
-alpha-d-glucose,2-isopropylmalic acid,0.579183890496412,C00267,C02504,Galactose metabolism,"Valine, leucine and isoleucine biosynthesis"
-sucrose,alpha-d-glucose,0.6579215595946815,C00089,C00267,Galactose metabolism,Galactose metabolism
-taurine,citrulline,0.6642949990292578,C00245,C00327,Taurine and hypotaurine metabolism,Arginine biosynthesis
-taurine,ornithine,0.5001788182329888,C00245,C00077,Taurine and hypotaurine metabolism,Arginine and proline metabolism
-taurine,n-acetyl-l-glutamate 5-semialdehyde,-0.5767505200058889,C00245,C01250,Taurine and hypotaurine metabolism,Arginine and proline metabolism
-taurine,2-ketobutyric acid,0.6717197300834199,C00245,C00109,Taurine and hypotaurine metabolism,"Glycine, serine and threonine metabolism"
-taurine,2-isopropylmalic acid,0.7048347321812284,C00245,C02504,Taurine and hypotaurine metabolism,"Valine, leucine and isoleucine biosynthesis"
-taurine,l-tyrosine,0.7686971532404321,C00245,C00082,Taurine and hypotaurine metabolism,"Phenylalanine, tyrosine and tryptophan biosynthesis"
-taurine,succinic acid,0.5228439573844428,C00245,C00042,Taurine and hypotaurine metabolism,Phenylalanine metabolism
-taurine,putrescine,0.5931220539316027,C00245,C00134,Taurine and hypotaurine metabolism,Arginine and proline metabolism
-taurine,gamma-glutamylcysteine,0.7337475659263909,C00245,C00669,Taurine and hypotaurine metabolism,Glutathione metabolism
-taurine,pyroglutamic acid,0.6255402676440669,C00245,C01879,Taurine and hypotaurine metabolism,Glutathione metabolism
-taurine,quinate,0.5508995872454892,C00245,C00296,Taurine and hypotaurine metabolism,"Phenylalanine, tyrosine and tryptophan biosynthesis"
-taurine,glyceric acid,0.5788204941555911,C00245,C00258,Taurine and hypotaurine metabolism,"Glycine, serine and threonine metabolism"
-taurine,4-acetamidobutanoate,0.7149773210064938,C00245,C02946,Taurine and hypotaurine metabolism,Arginine and proline metabolism
-taurine,adenine,0.563126286966799,C00245,C00147,Taurine and hypotaurine metabolism,Purine metabolism
-taurine,alpha-d-glucose,0.5455307911231986,C00245,C00267,Taurine and hypotaurine metabolism,Galactose metabolism
+c1.name;c2.name;c.correlation;c1.kegg_id;c2.kegg_id;c1.pathway;c2.pathway
+n-acetyl-l-glutamate 5-semialdehyde;citrulline;-0.6371313448920792;C01250;C00327;Arginine and proline metabolism;Arginine biosynthesis
+n-acetyl-l-glutamate 5-semialdehyde;l-aspartic acid;0.5047463646658964;C01250;C00049;Arginine and proline metabolism;Pantothenate and CoA biosynthesis
+l-arginine;n-acetyl-l-glutamate 5-semialdehyde;0.6714289345938868;C00062;C01250;Arginine and proline metabolism;Arginine and proline metabolism
+2-ketobutyric acid;citrulline;0.6364131633712964;C00109;C00327;Glycine, serine and threonine metabolism;Arginine biosynthesis
+2-ketobutyric acid;l-aspartic acid;-0.6782107158392586;C00109;C00049;Glycine, serine and threonine metabolism;Pantothenate and CoA biosynthesis
+2-ketobutyric acid;n-acetyl-l-glutamate 5-semialdehyde;-0.8059433838835632;C00109;C01250;Glycine, serine and threonine metabolism;Arginine and proline metabolism
+2-ketobutyric acid;l-arginine;-0.7006429369587187;C00109;C00062;Glycine, serine and threonine metabolism;Arginine and proline metabolism
+l-valine;citrulline;0.6237586313390651;C00183;C00327;Pantothenate and CoA biosynthesis;Arginine biosynthesis
+l-threonine;citrulline;-0.559830419542365;C00188;C00327;Glycine, serine and threonine metabolism;Arginine biosynthesis
+l-threonine;n-acetyl-l-glutamate 5-semialdehyde;0.6162231932744909;C00188;C01250;Glycine, serine and threonine metabolism;Arginine and proline metabolism
+l-threonine;l-arginine;0.6551697526265832;C00188;C00062;Glycine, serine and threonine metabolism;Arginine and proline metabolism
+l-threonine;2-ketobutyric acid;-0.6288128631554529;C00188;C00109;Glycine, serine and threonine metabolism;Glycine, serine and threonine metabolism
+2-isopropylmalic acid;citrulline;0.668094212188953;C02504;C00327;Valine, leucine and isoleucine biosynthesis;Arginine biosynthesis
+2-isopropylmalic acid;l-aspartic acid;-0.5440320252888953;C02504;C00049;Valine, leucine and isoleucine biosynthesis;Pantothenate and CoA biosynthesis
+2-isopropylmalic acid;n-acetyl-l-glutamate 5-semialdehyde;-0.561380409445074;C02504;C01250;Valine, leucine and isoleucine biosynthesis;Arginine and proline metabolism
+2-isopropylmalic acid;2-ketobutyric acid;0.7359507651673264;C02504;C00109;Valine, leucine and isoleucine biosynthesis;Glycine, serine and threonine metabolism
+2-isopropylmalic acid;l-valine;0.6178662550703028;C02504;C00183;Valine, leucine and isoleucine biosynthesis;Pantothenate and CoA biosynthesis
+2-isopropylmalic acid;l-threonine;-0.5743521918845799;C02504;C00188;Valine, leucine and isoleucine biosynthesis;Glycine, serine and threonine metabolism
+l-tyrosine;ornithine;0.5437317911541328;C00082;C00077;Phenylalanine, tyrosine and tryptophan biosynthesis;Arginine and proline metabolism
+l-tyrosine;2-ketobutyric acid;0.533720320083584;C00082;C00109;Phenylalanine, tyrosine and tryptophan biosynthesis;Glycine, serine and threonine metabolism
+l-tyrosine;2-isopropylmalic acid;0.5996312270894648;C00082;C02504;Phenylalanine, tyrosine and tryptophan biosynthesis;Valine, leucine and isoleucine biosynthesis
+succinic acid;citrulline;0.5116810779178916;C00042;C00327;Phenylalanine metabolism;Arginine biosynthesis
+succinic acid;ornithine;0.7214415424500552;C00042;C00077;Phenylalanine metabolism;Arginine and proline metabolism
+succinic acid;n-acetyl-l-glutamate 5-semialdehyde;-0.6332247927675442;C00042;C01250;Phenylalanine metabolism;Arginine and proline metabolism
+succinic acid;2-ketobutyric acid;0.5568398909922077;C00042;C00109;Phenylalanine metabolism;Glycine, serine and threonine metabolism
+succinic acid;l-threonine;-0.5570514458252538;C00042;C00188;Phenylalanine metabolism;Glycine, serine and threonine metabolism
+succinic acid;2-isopropylmalic acid;0.5156249763836372;C00042;C02504;Phenylalanine metabolism;Valine, leucine and isoleucine biosynthesis
+3-(2-hydroxyphenyl)propanoic acid;l-arginine;0.5060497498981439;C01198;C00062;Phenylalanine metabolism;Arginine and proline metabolism
+3-(2-hydroxyphenyl)propanoic acid;l-threonine;0.5276778392165753;C01198;C00188;Phenylalanine metabolism;Glycine, serine and threonine metabolism
+putrescine;citrulline;0.5570065661144935;C00134;C00327;Arginine and proline metabolism;Arginine biosynthesis
+putrescine;l-aspartic acid;-0.5865092369731093;C00134;C00049;Arginine and proline metabolism;Pantothenate and CoA biosynthesis
+putrescine;n-acetyl-l-glutamate 5-semialdehyde;-0.5785949508272185;C00134;C01250;Arginine and proline metabolism;Arginine and proline metabolism
+putrescine;l-arginine;-0.5153290244435339;C00134;C00062;Arginine and proline metabolism;Arginine and proline metabolism
+putrescine;2-ketobutyric acid;0.7587080351528209;C00134;C00109;Arginine and proline metabolism;Glycine, serine and threonine metabolism
+putrescine;l-valine;0.5180230978572706;C00134;C00183;Arginine and proline metabolism;Pantothenate and CoA biosynthesis
+putrescine;l-threonine;-0.623762700880112;C00134;C00188;Arginine and proline metabolism;Glycine, serine and threonine metabolism
+putrescine;2-isopropylmalic acid;0.8841201000451265;C00134;C02504;Arginine and proline metabolism;Valine, leucine and isoleucine biosynthesis
+putrescine;l-tyrosine;0.500439811171172;C00134;C00082;Arginine and proline metabolism;Phenylalanine, tyrosine and tryptophan biosynthesis
+putrescine;succinic acid;0.5742839822390299;C00134;C00042;Arginine and proline metabolism;Phenylalanine metabolism
+gamma-glutamylcysteine;citrulline;0.7295997240545059;C00669;C00327;Glutathione metabolism;Arginine biosynthesis
+gamma-glutamylcysteine;n-acetyl-l-glutamate 5-semialdehyde;-0.6484468387692851;C00669;C01250;Glutathione metabolism;Arginine and proline metabolism
+gamma-glutamylcysteine;l-arginine;-0.6919931473026111;C00669;C00062;Glutathione metabolism;Arginine and proline metabolism
+gamma-glutamylcysteine;2-ketobutyric acid;0.7500792155725899;C00669;C00109;Glutathione metabolism;Glycine, serine and threonine metabolism
+gamma-glutamylcysteine;l-threonine;-0.63307862454683;C00669;C00188;Glutathione metabolism;Glycine, serine and threonine metabolism
+gamma-glutamylcysteine;2-isopropylmalic acid;0.6984407375400798;C00669;C02504;Glutathione metabolism;Valine, leucine and isoleucine biosynthesis
+gamma-glutamylcysteine;l-tyrosine;0.6820073204718431;C00669;C00082;Glutathione metabolism;Phenylalanine, tyrosine and tryptophan biosynthesis
+gamma-glutamylcysteine;putrescine;0.5792467110000393;C00669;C00134;Glutathione metabolism;Arginine and proline metabolism
+pyroglutamic acid;citrulline;0.6755928492367512;C01879;C00327;Glutathione metabolism;Arginine biosynthesis
+pyroglutamic acid;ornithine;0.6657278740295974;C01879;C00077;Glutathione metabolism;Arginine and proline metabolism
+pyroglutamic acid;n-acetyl-l-glutamate 5-semialdehyde;-0.6226996618970825;C01879;C01250;Glutathione metabolism;Arginine and proline metabolism
+pyroglutamic acid;2-ketobutyric acid;0.5250888155812734;C01879;C00109;Glutathione metabolism;Glycine, serine and threonine metabolism
+pyroglutamic acid;l-valine;0.5786850565515141;C01879;C00183;Glutathione metabolism;Pantothenate and CoA biosynthesis
+pyroglutamic acid;l-threonine;-0.5293845279287787;C01879;C00188;Glutathione metabolism;Glycine, serine and threonine metabolism
+pyroglutamic acid;2-isopropylmalic acid;0.6653397105289853;C01879;C02504;Glutathione metabolism;Valine, leucine and isoleucine biosynthesis
+pyroglutamic acid;l-tyrosine;0.5121350081774259;C01879;C00082;Glutathione metabolism;Phenylalanine, tyrosine and tryptophan biosynthesis
+pyroglutamic acid;succinic acid;0.6451619155085793;C01879;C00042;Glutathione metabolism;Phenylalanine metabolism
+pyroglutamic acid;putrescine;0.7426478138032809;C01879;C00134;Glutathione metabolism;Arginine and proline metabolism
+pyroglutamic acid;gamma-glutamylcysteine;0.5870262221239109;C01879;C00669;Glutathione metabolism;Glutathione metabolism
+l-cysteine;l-valine;-0.5023685084430167;C00097;C00183;Pantothenate and CoA biosynthesis;Pantothenate and CoA biosynthesis
+quinate;ornithine;0.727711073086373;C00296;C00077;Phenylalanine, tyrosine and tryptophan biosynthesis;Arginine and proline metabolism
+quinate;n-acetyl-l-glutamate 5-semialdehyde;-0.523725300277437;C00296;C01250;Phenylalanine, tyrosine and tryptophan biosynthesis;Arginine and proline metabolism
+quinate;2-ketobutyric acid;0.531093977294367;C00296;C00109;Phenylalanine, tyrosine and tryptophan biosynthesis;Glycine, serine and threonine metabolism
+quinate;l-valine;0.5410161508715389;C00296;C00183;Phenylalanine, tyrosine and tryptophan biosynthesis;Pantothenate and CoA biosynthesis
+quinate;2-isopropylmalic acid;0.6499622614253056;C00296;C02504;Phenylalanine, tyrosine and tryptophan biosynthesis;Valine, leucine and isoleucine biosynthesis
+quinate;succinic acid;0.7386331745666826;C00296;C00042;Phenylalanine, tyrosine and tryptophan biosynthesis;Phenylalanine metabolism
+quinate;putrescine;0.8076623732045136;C00296;C00134;Phenylalanine, tyrosine and tryptophan biosynthesis;Arginine and proline metabolism
+quinate;pyroglutamic acid;0.8918640656398553;C00296;C01879;Phenylalanine, tyrosine and tryptophan biosynthesis;Glutathione metabolism
+l-2,4-diaminobutyric acid;l-phenylalanine;0.974508922512992;C03283;C00079;Glycine, serine and threonine metabolism;Phenylalanine, tyrosine and tryptophan biosynthesis
+glyceric acid;n-acetyl-l-glutamate 5-semialdehyde;-0.538557749233028;C00258;C01250;Glycine, serine and threonine metabolism;Arginine and proline metabolism
+glyceric acid;2-ketobutyric acid;0.5326559015034881;C00258;C00109;Glycine, serine and threonine metabolism;Glycine, serine and threonine metabolism
+glyceric acid;l-valine;0.5143166377909717;C00258;C00183;Glycine, serine and threonine metabolism;Pantothenate and CoA biosynthesis
+glyceric acid;2-isopropylmalic acid;0.5895119182431164;C00258;C02504;Glycine, serine and threonine metabolism;Valine, leucine and isoleucine biosynthesis
+glyceric acid;l-tyrosine;0.5086977050322813;C00258;C00082;Glycine, serine and threonine metabolism;Phenylalanine, tyrosine and tryptophan biosynthesis
+glyceric acid;succinic acid;0.595520838785643;C00258;C00042;Glycine, serine and threonine metabolism;Phenylalanine metabolism
+glyceric acid;putrescine;0.6427709452711637;C00258;C00134;Glycine, serine and threonine metabolism;Arginine and proline metabolism
+glyceric acid;pyroglutamic acid;0.6846833702926781;C00258;C01879;Glycine, serine and threonine metabolism;Glutathione metabolism
+glyceric acid;quinate;0.6838746342623125;C00258;C00296;Glycine, serine and threonine metabolism;Phenylalanine, tyrosine and tryptophan biosynthesis
+choline;3-(2-hydroxyphenyl)propanoic acid;-0.5473077676339779;C00114;C01198;Glycine, serine and threonine metabolism;Phenylalanine metabolism
+4-acetamidobutanoate;citrulline;0.695537148318473;C02946;C00327;Arginine and proline metabolism;Arginine biosynthesis
+4-acetamidobutanoate;ornithine;0.6331807087054373;C02946;C00077;Arginine and proline metabolism;Arginine and proline metabolism
+4-acetamidobutanoate;l-aspartic acid;-0.5276479135648757;C02946;C00049;Arginine and proline metabolism;Pantothenate and CoA biosynthesis
+4-acetamidobutanoate;n-acetyl-l-glutamate 5-semialdehyde;-0.5933090920871927;C02946;C01250;Arginine and proline metabolism;Arginine and proline metabolism
+4-acetamidobutanoate;2-ketobutyric acid;0.7152846990182469;C02946;C00109;Arginine and proline metabolism;Glycine, serine and threonine metabolism
+4-acetamidobutanoate;l-valine;0.6285602650823394;C02946;C00183;Arginine and proline metabolism;Pantothenate and CoA biosynthesis
+4-acetamidobutanoate;l-threonine;-0.606349713603264;C02946;C00188;Arginine and proline metabolism;Glycine, serine and threonine metabolism
+4-acetamidobutanoate;2-isopropylmalic acid;0.8929051413499033;C02946;C02504;Arginine and proline metabolism;Valine, leucine and isoleucine biosynthesis
+4-acetamidobutanoate;l-tyrosine;0.5840599671966722;C02946;C00082;Arginine and proline metabolism;Phenylalanine, tyrosine and tryptophan biosynthesis
+4-acetamidobutanoate;succinic acid;0.6586435228535318;C02946;C00042;Arginine and proline metabolism;Phenylalanine metabolism
+4-acetamidobutanoate;putrescine;0.9343810779477584;C02946;C00134;Arginine and proline metabolism;Arginine and proline metabolism
+4-acetamidobutanoate;gamma-glutamylcysteine;0.6769746843283464;C02946;C00669;Arginine and proline metabolism;Glutathione metabolism
+4-acetamidobutanoate;pyroglutamic acid;0.8880643035505501;C02946;C01879;Arginine and proline metabolism;Glutathione metabolism
+4-acetamidobutanoate;quinate;0.8939167492240477;C02946;C00296;Arginine and proline metabolism;Phenylalanine, tyrosine and tryptophan biosynthesis
+4-acetamidobutanoate;glyceric acid;0.667604499884734;C02946;C00258;Arginine and proline metabolism;Glycine, serine and threonine metabolism
+2-oxoarginine;l-valine;0.5906773652178404;C03771;C00183;Arginine and proline metabolism;Pantothenate and CoA biosynthesis
+2-oxoarginine;3-(2-hydroxyphenyl)propanoic acid;0.5144637605087572;C03771;C01198;Arginine and proline metabolism;Phenylalanine metabolism
+2-oxoarginine;l-cysteine;-0.7007492657406681;C03771;C00097;Arginine and proline metabolism;Pantothenate and CoA biosynthesis
+l-glutamic gamma-semialdehyde;pyroglutamic acid;0.7278853106656439;C01165;C01879;Arginine and proline metabolism;Glutathione metabolism
+l-glutamic gamma-semialdehyde;quinate;0.6712856637150808;C01165;C00296;Arginine and proline metabolism;Phenylalanine, tyrosine and tryptophan biosynthesis
+l-glutamic gamma-semialdehyde;4-acetamidobutanoate;0.5121781973680921;C01165;C02946;Arginine and proline metabolism;Arginine and proline metabolism
+uric acid;l-arginine;-0.6381178214729265;C00366;C00062;Purine metabolism;Arginine and proline metabolism
+uric acid;2-ketobutyric acid;0.607540100092789;C00366;C00109;Purine metabolism;Glycine, serine and threonine metabolism
+uric acid;gamma-glutamylcysteine;0.5256814517731301;C00366;C00669;Purine metabolism;Glutathione metabolism
+adenine;ornithine;0.5161134547227908;C00147;C00077;Purine metabolism;Arginine and proline metabolism
+adenine;l-tyrosine;0.5132879245039033;C00147;C00082;Purine metabolism;Phenylalanine, tyrosine and tryptophan biosynthesis
+adenine;uric acid;0.684194974449951;C00147;C00366;Purine metabolism;Purine metabolism
+deoxyinosine;l-aspartic acid;0.5178761427410529;C05512;C00049;Purine metabolism;Pantothenate and CoA biosynthesis
+deoxyinosine;2-ketobutyric acid;-0.5061835272360239;C05512;C00109;Purine metabolism;Glycine, serine and threonine metabolism
+deoxyinosine;quinate;-0.5078460287445099;C05512;C00296;Purine metabolism;Phenylalanine, tyrosine and tryptophan biosynthesis
+deoxyinosine;glyceric acid;-0.5771048747551913;C05512;C00258;Purine metabolism;Glycine, serine and threonine metabolism
+guanine;3-(2-hydroxyphenyl)propanoic acid;0.590172286484037;C00242;C01198;Purine metabolism;Phenylalanine metabolism
+hypoxanthine;phenylacetic acid;0.6486007208198463;C00262;C07086;Purine metabolism;Phenylalanine metabolism
+hypoxanthine;l-glutamic gamma-semialdehyde;0.5188005050202323;C00262;C01165;Purine metabolism;Arginine and proline metabolism
+inosine;n-acetyl-l-glutamate 5-semialdehyde;0.672863062590413;C00294;C01250;Purine metabolism;Arginine and proline metabolism
+inosine;l-arginine;0.6999912460132098;C00294;C00062;Purine metabolism;Arginine and proline metabolism
+inosine;2-ketobutyric acid;-0.6695190195434668;C00294;C00109;Purine metabolism;Glycine, serine and threonine metabolism
+inosine;3-(2-hydroxyphenyl)propanoic acid;0.6593760290589863;C00294;C01198;Purine metabolism;Phenylalanine metabolism
+inosine;uric acid;-0.5593527167356851;C00294;C00366;Purine metabolism;Purine metabolism
+inosine;deoxyinosine;0.5091331127054826;C00294;C05512;Purine metabolism;Purine metabolism
+inosine;hypoxanthine;0.6886812760097024;C00294;C00262;Purine metabolism;Purine metabolism
+d-galactose;ornithine;0.9999530212615102;C00124;C00077;Galactose metabolism;Arginine and proline metabolism
+d-galactose;l-tyrosine;0.5402157791723379;C00124;C00082;Galactose metabolism;Phenylalanine, tyrosine and tryptophan biosynthesis
+d-galactose;succinic acid;0.7224787780850803;C00124;C00042;Galactose metabolism;Phenylalanine metabolism
+d-galactose;pyroglutamic acid;0.6610580238842141;C00124;C01879;Galactose metabolism;Glutathione metabolism
+d-galactose;quinate;0.7262378100500335;C00124;C00296;Galactose metabolism;Phenylalanine, tyrosine and tryptophan biosynthesis
+d-galactose;4-acetamidobutanoate;0.6297521747361441;C00124;C02946;Galactose metabolism;Arginine and proline metabolism
+d-galactose;adenine;0.5177121279695637;C00124;C00147;Galactose metabolism;Purine metabolism
+alpha-d-glucose;2-isopropylmalic acid;0.579183890496412;C00267;C02504;Galactose metabolism;Valine, leucine and isoleucine biosynthesis
+sucrose;alpha-d-glucose;0.6579215595946815;C00089;C00267;Galactose metabolism;Galactose metabolism
+taurine;citrulline;0.6642949990292578;C00245;C00327;Taurine and hypotaurine metabolism;Arginine biosynthesis
+taurine;ornithine;0.5001788182329888;C00245;C00077;Taurine and hypotaurine metabolism;Arginine and proline metabolism
+taurine;n-acetyl-l-glutamate 5-semialdehyde;-0.5767505200058889;C00245;C01250;Taurine and hypotaurine metabolism;Arginine and proline metabolism
+taurine;2-ketobutyric acid;0.6717197300834199;C00245;C00109;Taurine and hypotaurine metabolism;Glycine, serine and threonine metabolism
+taurine;2-isopropylmalic acid;0.7048347321812284;C00245;C02504;Taurine and hypotaurine metabolism;Valine, leucine and isoleucine biosynthesis
+taurine;l-tyrosine;0.7686971532404321;C00245;C00082;Taurine and hypotaurine metabolism;Phenylalanine, tyrosine and tryptophan biosynthesis
+taurine;succinic acid;0.5228439573844428;C00245;C00042;Taurine and hypotaurine metabolism;Phenylalanine metabolism
+taurine;putrescine;0.5931220539316027;C00245;C00134;Taurine and hypotaurine metabolism;Arginine and proline metabolism
+taurine;gamma-glutamylcysteine;0.7337475659263909;C00245;C00669;Taurine and hypotaurine metabolism;Glutathione metabolism
+taurine;pyroglutamic acid;0.6255402676440669;C00245;C01879;Taurine and hypotaurine metabolism;Glutathione metabolism
+taurine;quinate;0.5508995872454892;C00245;C00296;Taurine and hypotaurine metabolism;Phenylalanine, tyrosine and tryptophan biosynthesis
+taurine;glyceric acid;0.5788204941555911;C00245;C00258;Taurine and hypotaurine metabolism;Glycine, serine and threonine metabolism
+taurine;4-acetamidobutanoate;0.7149773210064938;C00245;C02946;Taurine and hypotaurine metabolism;Arginine and proline metabolism
+taurine;adenine;0.563126286966799;C00245;C00147;Taurine and hypotaurine metabolism;Purine metabolism
+taurine;alpha-d-glucose;0.5455307911231986;C00245;C00267;Taurine and hypotaurine metabolism;Galactose metabolism
