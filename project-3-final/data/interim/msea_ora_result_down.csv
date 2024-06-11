@@ -1,0 +1,27 @@
+"","total","expected","hits","Raw p","Holm p","FDR"
+"Arginine biosynthesis",14,0.218,3,0.00108,0.0868,0.0868
+"Pantothenate and CoA biosynthesis",20,0.312,3,0.00319,0.252,0.0973
+"Purine metabolism",70,1.09,5,0.00365,0.285,0.0973
+"Valine, leucine and isoleucine biosynthesis",8,0.125,2,0.00617,0.475,0.123
+"Glycine, serine and threonine metabolism",33,0.515,3,0.0134,1,0.214
+"D-Amino acid metabolism",15,0.234,2,0.0216,1,0.288
+"Thiamine metabolism",7,0.109,1,0.104,1,0.861
+"Glycerophospholipid metabolism",36,0.561,2,0.106,1,0.861
+"Phenylalanine metabolism",8,0.125,1,0.118,1,0.861
+"Taurine and hypotaurine metabolism",8,0.125,1,0.118,1,0.861
+"Sulfur metabolism",8,0.125,1,0.118,1,0.861
+"Tyrosine metabolism",42,0.655,2,0.138,1,0.918
+"Butanoate metabolism",15,0.234,1,0.211,1,1
+"Nicotinate and nicotinamide metabolism",15,0.234,1,0.211,1,1
+"Histidine metabolism",16,0.25,1,0.223,1,1
+"Retinol metabolism",17,0.265,1,0.236,1,1
+"beta-Alanine metabolism",21,0.327,1,0.283,1,1
+"Pyruvate metabolism",23,0.359,1,0.305,1,1
+"Alanine, aspartate and glutamate metabolism",28,0.437,1,0.359,1,1
+"Glutathione metabolism",28,0.437,1,0.359,1,1
+"Cysteine and methionine metabolism",33,0.515,1,0.408,1,1
+"Arginine and proline metabolism",36,0.561,1,0.436,1,1
+"Pyrimidine metabolism",39,0.608,1,0.462,1,1
+"Valine, leucine and isoleucine degradation",39,0.608,1,0.462,1,1
+"Amino sugar and nucleotide sugar metabolism",42,0.655,1,0.488,1,1
+"Drug metabolism - cytochrome P450",55,0.858,1,0.585,1,1

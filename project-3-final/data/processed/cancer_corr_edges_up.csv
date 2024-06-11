@@ -1,0 +1,226 @@
+source;target;correlation
+citrulline;ornithine;0.38280308407821795
+citrulline;n-acetylglutamic acid;0.37012324767853144
+citrulline;l-tyrosine;0.4825218824997653
+citrulline;succinic acid;0.5116810779178916
+citrulline;3-(2-hydroxyphenyl)propanoic acid;-0.003459236481031934
+citrulline;phenylacetylglutamine;0.046868698775311496
+citrulline;l-phenylalanine;0.1448593814140173
+citrulline;putrescine;0.5570065661144935
+citrulline;gamma-glutamylcysteine;0.7295997240545059
+citrulline;pyroglutamic acid;0.6755928492367512
+citrulline;ornithine;0.38280308407821795
+citrulline;l-tyrosine;0.4825218824997653
+citrulline;quinate;0.4713736620696893
+citrulline;l-phenylalanine;0.1448593814140173
+citrulline;putrescine;0.5570065661144935
+citrulline;4-acetamidobutanoate;0.695537148318473
+citrulline;ornithine;0.38280308407821795
+citrulline;l-glutamic gamma-semialdehyde;0.2463856396134356
+citrulline;d-galactose;0.3769180458778893
+citrulline;alpha-d-glucose;0.3653626689923674
+citrulline;sucrose;0.02484870827213908
+ornithine;n-acetylglutamic acid;0.021179478569608404
+ornithine;l-tyrosine;0.5437317911541328
+ornithine;succinic acid;0.7214415424500552
+ornithine;3-(2-hydroxyphenyl)propanoic acid;-0.1480756220927893
+ornithine;phenylacetylglutamine;0.18088927011386136
+ornithine;l-phenylalanine;0.049118772172686266
+ornithine;putrescine;0.4768054282990408
+ornithine;gamma-glutamylcysteine;0.31631187000169286
+ornithine;pyroglutamic acid;0.6657278740295974
+ornithine;l-tyrosine;0.5437317911541328
+ornithine;quinate;0.727711073086373
+ornithine;l-phenylalanine;0.049118772172686266
+ornithine;putrescine;0.4768054282990408
+ornithine;4-acetamidobutanoate;0.6331807087054373
+ornithine;l-glutamic gamma-semialdehyde;0.34009793135388217
+ornithine;d-galactose;0.9999530212615102
+ornithine;alpha-d-glucose;0.03151225650996409
+ornithine;sucrose;-0.18543525068769565
+n-acetylglutamic acid;l-tyrosine;0.28497915937836954
+n-acetylglutamic acid;succinic acid;0.26218624501331933
+n-acetylglutamic acid;3-(2-hydroxyphenyl)propanoic acid;0.2024635673903492
+n-acetylglutamic acid;phenylacetylglutamine;-0.10886426260560693
+n-acetylglutamic acid;l-phenylalanine;0.05555096917557899
+n-acetylglutamic acid;putrescine;0.28690934654435846
+n-acetylglutamic acid;gamma-glutamylcysteine;0.35001480455713424
+n-acetylglutamic acid;pyroglutamic acid;-0.0028766975833455976
+n-acetylglutamic acid;ornithine;0.021179478569608397
+n-acetylglutamic acid;l-tyrosine;0.28497915937836954
+n-acetylglutamic acid;quinate;-0.006473911129574313
+n-acetylglutamic acid;l-phenylalanine;0.05555096917557899
+n-acetylglutamic acid;putrescine;0.28690934654435846
+n-acetylglutamic acid;4-acetamidobutanoate;0.25776838426467275
+n-acetylglutamic acid;ornithine;0.021179478569608397
+n-acetylglutamic acid;l-glutamic gamma-semialdehyde;-0.20988532133536497
+n-acetylglutamic acid;d-galactose;0.020264257503738423
+n-acetylglutamic acid;alpha-d-glucose;0.28346081441336685
+n-acetylglutamic acid;sucrose;0.1981447601719474
+l-tyrosine;succinic acid;0.4934864290321711
+l-tyrosine;3-(2-hydroxyphenyl)propanoic acid;-0.2102676101974551
+l-tyrosine;phenylacetylglutamine;0.15297163566489178
+l-tyrosine;l-phenylalanine;-0.05744807017470961
+l-tyrosine;putrescine;0.500439811171172
+l-tyrosine;gamma-glutamylcysteine;0.6820073204718431
+l-tyrosine;pyroglutamic acid;0.5121350081774259
+l-tyrosine;ornithine;0.543731791154133
+l-tyrosine;quinate;0.3970924257116228
+l-tyrosine;l-phenylalanine;-0.05744807017470961
+l-tyrosine;putrescine;0.500439811171172
+l-tyrosine;4-acetamidobutanoate;0.5840599671966722
+l-tyrosine;ornithine;0.543731791154133
+l-tyrosine;l-glutamic gamma-semialdehyde;0.06883044015214299
+l-tyrosine;d-galactose;0.5402157791723379
+l-tyrosine;alpha-d-glucose;0.4093287113425148
+l-tyrosine;sucrose;0.22614713933198904
+succinic acid;3-(2-hydroxyphenyl)propanoic acid;-0.3146730388260436
+succinic acid;phenylacetylglutamine;0.26887555531284574
+succinic acid;l-phenylalanine;0.1817142313998937
+succinic acid;putrescine;0.5742839822390299
+succinic acid;gamma-glutamylcysteine;0.4752154732204063
+succinic acid;pyroglutamic acid;0.6451619155085793
+succinic acid;ornithine;0.7214415424500552
+succinic acid;l-tyrosine;0.4934864290321711
+succinic acid;quinate;0.7386331745666826
+succinic acid;l-phenylalanine;0.1817142313998937
+succinic acid;putrescine;0.5742839822390299
+succinic acid;4-acetamidobutanoate;0.6586435228535318
+succinic acid;ornithine;0.7214415424500552
+succinic acid;l-glutamic gamma-semialdehyde;0.3787309734317907
+succinic acid;d-galactose;0.7224787780850803
+succinic acid;alpha-d-glucose;0.1496493985318768
+succinic acid;sucrose;-0.11361310841946805
+3-(2-hydroxyphenyl)propanoic acid;phenylacetylglutamine;-0.19083209525270328
+3-(2-hydroxyphenyl)propanoic acid;l-phenylalanine;0.21183181629505793
+3-(2-hydroxyphenyl)propanoic acid;putrescine;-0.151385867678205
+3-(2-hydroxyphenyl)propanoic acid;gamma-glutamylcysteine;-0.1566381166056438
+3-(2-hydroxyphenyl)propanoic acid;pyroglutamic acid;-0.016423742313437132
+3-(2-hydroxyphenyl)propanoic acid;ornithine;-0.14807562209278927
+3-(2-hydroxyphenyl)propanoic acid;l-tyrosine;-0.21026761019745505
+3-(2-hydroxyphenyl)propanoic acid;quinate;-0.117376404509651
+3-(2-hydroxyphenyl)propanoic acid;l-phenylalanine;0.21183181629505793
+3-(2-hydroxyphenyl)propanoic acid;putrescine;-0.151385867678205
+3-(2-hydroxyphenyl)propanoic acid;4-acetamidobutanoate;-0.07146120921495987
+3-(2-hydroxyphenyl)propanoic acid;ornithine;-0.14807562209278927
+3-(2-hydroxyphenyl)propanoic acid;l-glutamic gamma-semialdehyde;0.19173514431384986
+3-(2-hydroxyphenyl)propanoic acid;d-galactose;-0.1510661519600744
+3-(2-hydroxyphenyl)propanoic acid;alpha-d-glucose;-0.11318746992224085
+3-(2-hydroxyphenyl)propanoic acid;sucrose;-0.2684637655682566
+phenylacetylglutamine;l-phenylalanine;-0.04206087482221687
+phenylacetylglutamine;putrescine;-0.00917163576721004
+phenylacetylglutamine;gamma-glutamylcysteine;0.06393621912535744
+phenylacetylglutamine;pyroglutamic acid;-0.05436059041066441
+phenylacetylglutamine;ornithine;0.18088927011386136
+phenylacetylglutamine;l-tyrosine;0.15297163566489178
+phenylacetylglutamine;quinate;0.05238083153603604
+phenylacetylglutamine;l-phenylalanine;-0.04206087482221687
+phenylacetylglutamine;putrescine;-0.00917163576721004
+phenylacetylglutamine;4-acetamidobutanoate;-0.06214051579079502
+phenylacetylglutamine;ornithine;0.18088927011386136
+phenylacetylglutamine;l-glutamic gamma-semialdehyde;-0.20443727318037103
+phenylacetylglutamine;d-galactose;0.18172106976662464
+phenylacetylglutamine;alpha-d-glucose;0.04742047641808998
+phenylacetylglutamine;sucrose;-0.2456556353982399
+l-phenylalanine;putrescine;0.19558180728164604
+l-phenylalanine;gamma-glutamylcysteine;0.08033591663158036
+l-phenylalanine;pyroglutamic acid;0.18225994130640186
+l-phenylalanine;ornithine;0.049118772172686315
+l-phenylalanine;l-tyrosine;-0.05744807017470958
+l-phenylalanine;quinate;0.37521599848863585
+l-phenylalanine;putrescine;0.19558180728164604
+l-phenylalanine;4-acetamidobutanoate;0.28542654347119845
+l-phenylalanine;ornithine;0.049118772172686315
+l-phenylalanine;l-glutamic gamma-semialdehyde;0.3221771965039734
+l-phenylalanine;d-galactose;0.04840007028573144
+l-phenylalanine;alpha-d-glucose;0.0982858709798985
+l-phenylalanine;sucrose;-0.131036916700778
+putrescine;gamma-glutamylcysteine;0.5792467110000393
+putrescine;pyroglutamic acid;0.7426478138032809
+putrescine;ornithine;0.4768054282990408
+putrescine;l-tyrosine;0.500439811171172
+putrescine;quinate;0.8076623732045136
+putrescine;l-phenylalanine;0.19558180728164593
+putrescine;4-acetamidobutanoate;0.9343810779477585
+putrescine;ornithine;0.4768054282990408
+putrescine;l-glutamic gamma-semialdehyde;0.3956028481501293
+putrescine;d-galactose;0.4745630291411365
+putrescine;alpha-d-glucose;0.30724023635923714
+putrescine;sucrose;-0.09212101914045666
+gamma-glutamylcysteine;pyroglutamic acid;0.5870262221239109
+gamma-glutamylcysteine;ornithine;0.31631187000169286
+gamma-glutamylcysteine;l-tyrosine;0.6820073204718431
+gamma-glutamylcysteine;quinate;0.4519686407571955
+gamma-glutamylcysteine;l-phenylalanine;0.08033591663158036
+gamma-glutamylcysteine;putrescine;0.5792467110000394
+gamma-glutamylcysteine;4-acetamidobutanoate;0.6769746843283464
+gamma-glutamylcysteine;ornithine;0.31631187000169286
+gamma-glutamylcysteine;l-glutamic gamma-semialdehyde;0.08694172493802695
+gamma-glutamylcysteine;d-galactose;0.31181827068839196
+gamma-glutamylcysteine;alpha-d-glucose;0.31681390958530936
+gamma-glutamylcysteine;sucrose;0.120581700040488
+pyroglutamic acid;ornithine;0.6657278740295975
+pyroglutamic acid;l-tyrosine;0.5121350081774257
+pyroglutamic acid;quinate;0.8918640656398553
+pyroglutamic acid;l-phenylalanine;0.1822599413064018
+pyroglutamic acid;putrescine;0.7426478138032809
+pyroglutamic acid;4-acetamidobutanoate;0.8880643035505501
+pyroglutamic acid;ornithine;0.6657278740295975
+pyroglutamic acid;l-glutamic gamma-semialdehyde;0.7278853106656439
+pyroglutamic acid;d-galactose;0.6610580238842141
+pyroglutamic acid;alpha-d-glucose;0.18275724218530703
+pyroglutamic acid;sucrose;-0.22139483537624774
+ornithine;l-tyrosine;0.5437317911541328
+ornithine;quinate;0.727711073086373
+ornithine;l-phenylalanine;0.049118772172686266
+ornithine;putrescine;0.4768054282990408
+ornithine;4-acetamidobutanoate;0.6331807087054373
+ornithine;l-glutamic gamma-semialdehyde;0.34009793135388217
+ornithine;d-galactose;0.9999530212615102
+ornithine;alpha-d-glucose;0.03151225650996409
+ornithine;sucrose;-0.18543525068769565
+l-tyrosine;quinate;0.3970924257116228
+l-tyrosine;l-phenylalanine;-0.05744807017470961
+l-tyrosine;putrescine;0.500439811171172
+l-tyrosine;4-acetamidobutanoate;0.5840599671966722
+l-tyrosine;ornithine;0.543731791154133
+l-tyrosine;l-glutamic gamma-semialdehyde;0.06883044015214299
+l-tyrosine;d-galactose;0.5402157791723379
+l-tyrosine;alpha-d-glucose;0.4093287113425148
+l-tyrosine;sucrose;0.22614713933198904
+quinate;l-phenylalanine;0.3752159984886357
+quinate;putrescine;0.8076623732045135
+quinate;4-acetamidobutanoate;0.8939167492240477
+quinate;ornithine;0.727711073086373
+quinate;l-glutamic gamma-semialdehyde;0.6712856637150808
+quinate;d-galactose;0.7262378100500335
+quinate;alpha-d-glucose;0.13920471618257077
+quinate;sucrose;-0.23845725820410518
+l-phenylalanine;putrescine;0.19558180728164604
+l-phenylalanine;4-acetamidobutanoate;0.28542654347119845
+l-phenylalanine;ornithine;0.049118772172686315
+l-phenylalanine;l-glutamic gamma-semialdehyde;0.3221771965039734
+l-phenylalanine;d-galactose;0.04840007028573144
+l-phenylalanine;alpha-d-glucose;0.0982858709798985
+l-phenylalanine;sucrose;-0.131036916700778
+putrescine;4-acetamidobutanoate;0.9343810779477585
+putrescine;ornithine;0.4768054282990408
+putrescine;l-glutamic gamma-semialdehyde;0.3956028481501293
+putrescine;d-galactose;0.4745630291411365
+putrescine;alpha-d-glucose;0.30724023635923714
+putrescine;sucrose;-0.09212101914045666
+4-acetamidobutanoate;ornithine;0.6331807087054374
+4-acetamidobutanoate;l-glutamic gamma-semialdehyde;0.5121781973680921
+4-acetamidobutanoate;d-galactose;0.6297521747361441
+4-acetamidobutanoate;alpha-d-glucose;0.34890058638710597
+4-acetamidobutanoate;sucrose;-0.06023060000969727
+ornithine;l-glutamic gamma-semialdehyde;0.34009793135388217
+ornithine;d-galactose;0.9999530212615102
+ornithine;alpha-d-glucose;0.03151225650996409
+ornithine;sucrose;-0.18543525068769565
+l-glutamic gamma-semialdehyde;d-galactose;0.33646075188641783
+l-glutamic gamma-semialdehyde;alpha-d-glucose;-0.07322090003486602
+l-glutamic gamma-semialdehyde;sucrose;-0.3492393128796788
+d-galactose;alpha-d-glucose;0.029571268796658844
+d-galactose;sucrose;-0.18464864959246488
+alpha-d-glucose;sucrose;0.6579215595946815
