@@ -1,0 +1,24 @@
+Query;Match;KEGG;Pathway
+citrulline;Citrulline;C00327;Arginine biosynthesis
+ornithine;Ornithine;C00077;Arginine biosynthesis
+n-acetylglutamic acid;N-Acetyl-L-glutamic acid;C00624;Arginine biosynthesis
+l-tyrosine;L-Tyrosine;C00082;Phenylalanine metabolism
+succinic acid;Succinic acid;C00042;Phenylalanine metabolism
+3-(2-hydroxyphenyl)propanoic acid;3-(2-Hydroxyphenyl)propanoic acid;C01198;Phenylalanine metabolism
+phenylacetylglutamine;Phenylacetylglutamine;C04148;Phenylalanine metabolism
+l-phenylalanine;Phenylalanine;C00079;Phenylalanine metabolism
+putrescine;Putrescine;C00134;Glutathione metabolism
+gamma-glutamylcysteine;gamma-Glutamylcysteine;C00669;Glutathione metabolism
+pyroglutamic acid;Pyroglutamic acid;C01879;Glutathione metabolism
+ornithine;Ornithine;C00077;Glutathione metabolism
+l-tyrosine;L-Tyrosine;C00082;Phenylalanine, tyrosine and tryptophan biosynthesis
+quinate;Quinic acid;C00296;Phenylalanine, tyrosine and tryptophan biosynthesis
+l-phenylalanine;Phenylalanine;C00079;Phenylalanine, tyrosine and tryptophan biosynthesis
+putrescine;Putrescine;C00134;Arginine and proline metabolism
+4-acetamidobutanoate;4-Acetamidobutanoic acid;C02946;Arginine and proline metabolism
+ornithine;Ornithine;C00077;Arginine and proline metabolism
+l-glutamic gamma-semialdehyde;L-Glutamic gamma-semialdehyde;C01165;Arginine and proline metabolism
+d-mannose;D-Mannose;C00159;Galactose metabolism
+d-galactose;D-Galactose;C00124;Galactose metabolism
+alpha-d-glucose;alpha-D-Glucose;C00267;Galactose metabolism
+sucrose;Sucrose;C00089;Galactose metabolism

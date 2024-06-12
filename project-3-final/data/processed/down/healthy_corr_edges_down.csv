@@ -1,0 +1,263 @@
+source;target;correlation
+l-aspartic acid;n-acetyl-l-glutamate 5-semialdehyde;0.20434174794322496
+l-aspartic acid;l-arginine;0.3679209778943936
+l-aspartic acid;l-valine;0.533293730752484
+l-aspartic acid;l-cysteine;0.4021929273720653
+l-aspartic acid;uric acid;-0.13639344782422705
+l-aspartic acid;deoxyinosine;-0.07817204239293482
+l-aspartic acid;guanine;0.09810135581981726
+l-aspartic acid;sulfate;0.022449544420231095
+l-aspartic acid;inosine;-0.1758102360771046
+l-aspartic acid;l-valine;0.533293730752484
+l-aspartic acid;l-threonine;-0.13439848614628244
+l-aspartic acid;l-threonine;-0.13439848614628244
+l-aspartic acid;choline;0.19623189918112685
+l-aspartic acid;l-cysteine;0.4021929273720653
+l-aspartic acid;cis-4-hydroxy-d-proline;-0.14485059879596265
+l-aspartic acid;diaminopimelic acid;0.687666539553015
+l-aspartic acid;2-oxoarginine;0.677187272044122
+l-aspartic acid;l-threonine;-0.13439848614628244
+l-aspartic acid;l-cysteine;0.4021929273720653
+l-aspartic acid;l-arginine;0.3679209778943936
+n-acetyl-l-glutamate 5-semialdehyde;l-arginine;0.3243013031599597
+n-acetyl-l-glutamate 5-semialdehyde;l-valine;0.20733970950468011
+n-acetyl-l-glutamate 5-semialdehyde;l-aspartic acid;0.20434174794322502
+n-acetyl-l-glutamate 5-semialdehyde;l-cysteine;0.148536358555856
+n-acetyl-l-glutamate 5-semialdehyde;uric acid;0.27545186851267345
+n-acetyl-l-glutamate 5-semialdehyde;deoxyinosine;0.16125771344599868
+n-acetyl-l-glutamate 5-semialdehyde;guanine;-0.16315432226121246
+n-acetyl-l-glutamate 5-semialdehyde;sulfate;-0.12716604031088383
+n-acetyl-l-glutamate 5-semialdehyde;inosine;-0.4462484834491103
+n-acetyl-l-glutamate 5-semialdehyde;l-valine;0.20733970950468011
+n-acetyl-l-glutamate 5-semialdehyde;l-threonine;0.569565660544772
+n-acetyl-l-glutamate 5-semialdehyde;l-aspartic acid;0.20434174794322502
+n-acetyl-l-glutamate 5-semialdehyde;l-threonine;0.569565660544772
+n-acetyl-l-glutamate 5-semialdehyde;choline;0.12797513810745004
+n-acetyl-l-glutamate 5-semialdehyde;l-cysteine;0.148536358555856
+n-acetyl-l-glutamate 5-semialdehyde;cis-4-hydroxy-d-proline;0.17625081861060804
+n-acetyl-l-glutamate 5-semialdehyde;diaminopimelic acid;0.35252475126995814
+n-acetyl-l-glutamate 5-semialdehyde;2-oxoarginine;0.29994079618260333
+n-acetyl-l-glutamate 5-semialdehyde;l-aspartic acid;0.20434174794322502
+n-acetyl-l-glutamate 5-semialdehyde;l-threonine;0.569565660544772
+n-acetyl-l-glutamate 5-semialdehyde;l-cysteine;0.148536358555856
+n-acetyl-l-glutamate 5-semialdehyde;l-arginine;0.3243013031599597
+l-arginine;l-valine;0.6867305903046509
+l-arginine;l-aspartic acid;0.3679209778943936
+l-arginine;l-cysteine;0.20405295029174528
+l-arginine;uric acid;-0.16969455155239804
+l-arginine;deoxyinosine;-0.22438644152399032
+l-arginine;guanine;-0.08201488296121749
+l-arginine;sulfate;0.22286143358471613
+l-arginine;inosine;-0.1252026887555574
+l-arginine;l-valine;0.6867305903046509
+l-arginine;l-threonine;-0.08756648721059819
+l-arginine;l-aspartic acid;0.3679209778943936
+l-arginine;l-threonine;-0.08756648721059819
+l-arginine;choline;0.8792444807597803
+l-arginine;l-cysteine;0.20405295029174528
+l-arginine;cis-4-hydroxy-d-proline;0.25907019762700884
+l-arginine;diaminopimelic acid;0.6667463989736511
+l-arginine;2-oxoarginine;0.6646241535576526
+l-arginine;l-aspartic acid;0.3679209778943936
+l-arginine;l-threonine;-0.08756648721059819
+l-arginine;l-cysteine;0.20405295029174528
+l-valine;l-aspartic acid;0.533293730752484
+l-valine;l-cysteine;0.19478852014526202
+l-valine;uric acid;-0.057374616375642735
+l-valine;deoxyinosine;0.026421418532182668
+l-valine;guanine;0.16390961099907417
+l-valine;sulfate;0.18660197439195733
+l-valine;inosine;0.0457049909094612
+l-valine;l-threonine;-0.23709789224013583
+l-valine;l-aspartic acid;0.533293730752484
+l-valine;l-threonine;-0.23709789224013583
+l-valine;choline;0.5579766594770166
+l-valine;l-cysteine;0.19478852014526202
+l-valine;cis-4-hydroxy-d-proline;0.11248599323755613
+l-valine;diaminopimelic acid;0.8403552596832226
+l-valine;2-oxoarginine;0.8457712878468671
+l-valine;l-aspartic acid;0.533293730752484
+l-valine;l-threonine;-0.23709789224013583
+l-valine;l-cysteine;0.19478852014526202
+l-valine;l-arginine;0.6867305903046509
+l-aspartic acid;l-cysteine;0.4021929273720653
+l-aspartic acid;uric acid;-0.13639344782422705
+l-aspartic acid;deoxyinosine;-0.07817204239293482
+l-aspartic acid;guanine;0.09810135581981726
+l-aspartic acid;sulfate;0.022449544420231095
+l-aspartic acid;inosine;-0.1758102360771046
+l-aspartic acid;l-valine;0.533293730752484
+l-aspartic acid;l-threonine;-0.13439848614628244
+l-aspartic acid;l-threonine;-0.13439848614628244
+l-aspartic acid;choline;0.19623189918112685
+l-aspartic acid;l-cysteine;0.4021929273720653
+l-aspartic acid;cis-4-hydroxy-d-proline;-0.14485059879596265
+l-aspartic acid;diaminopimelic acid;0.687666539553015
+l-aspartic acid;2-oxoarginine;0.677187272044122
+l-aspartic acid;l-threonine;-0.13439848614628244
+l-aspartic acid;l-cysteine;0.4021929273720653
+l-aspartic acid;l-arginine;0.3679209778943936
+l-cysteine;uric acid;0.2719334822752127
+l-cysteine;deoxyinosine;-0.07865418299982793
+l-cysteine;guanine;0.03847275596115336
+l-cysteine;sulfate;0.5107414126396862
+l-cysteine;inosine;0.13370412665003995
+l-cysteine;l-valine;0.19478852014526207
+l-cysteine;l-threonine;-0.22420921076248024
+l-cysteine;l-aspartic acid;0.4021929273720653
+l-cysteine;l-threonine;-0.22420921076248024
+l-cysteine;choline;0.2739403261965711
+l-cysteine;cis-4-hydroxy-d-proline;-0.11441616723047328
+l-cysteine;diaminopimelic acid;0.181172996761699
+l-cysteine;2-oxoarginine;0.15408452780672893
+l-cysteine;l-aspartic acid;0.4021929273720653
+l-cysteine;l-threonine;-0.22420921076248024
+l-cysteine;l-arginine;0.20405295029174525
+uric acid;deoxyinosine;0.1007811948855196
+uric acid;guanine;-0.31738054932831183
+uric acid;sulfate;0.32452702372316317
+uric acid;inosine;0.12599207175212426
+uric acid;l-valine;-0.05737461637564268
+uric acid;l-threonine;0.5566299942719715
+uric acid;l-aspartic acid;-0.13639344782422705
+uric acid;l-threonine;0.5566299942719715
+uric acid;choline;-0.07365393714678711
+uric acid;l-cysteine;0.2719334822752127
+uric acid;cis-4-hydroxy-d-proline;-0.11199361969271641
+uric acid;diaminopimelic acid;-0.015619462132249563
+uric acid;2-oxoarginine;-0.031025569619489594
+uric acid;l-aspartic acid;-0.13639344782422705
+uric acid;l-threonine;0.5566299942719715
+uric acid;l-cysteine;0.2719334822752127
+uric acid;l-arginine;-0.16969455155239807
+deoxyinosine;guanine;0.05988505689688605
+deoxyinosine;sulfate;-0.09248609746364503
+deoxyinosine;inosine;-0.06732914211620362
+deoxyinosine;l-valine;0.02642141853218265
+deoxyinosine;l-threonine;-0.028586204666629422
+deoxyinosine;l-aspartic acid;-0.07817204239293479
+deoxyinosine;l-threonine;-0.028586204666629422
+deoxyinosine;choline;-0.34086430437987586
+deoxyinosine;l-cysteine;-0.07865418299982786
+deoxyinosine;cis-4-hydroxy-d-proline;0.3808574897323785
+deoxyinosine;diaminopimelic acid;-0.08636773784935733
+deoxyinosine;2-oxoarginine;-0.06844433908897596
+deoxyinosine;l-aspartic acid;-0.07817204239293479
+deoxyinosine;l-threonine;-0.028586204666629422
+deoxyinosine;l-cysteine;-0.07865418299982786
+deoxyinosine;l-arginine;-0.22438644152399037
+guanine;sulfate;-0.03312672729310498
+guanine;inosine;0.02788827071191398
+guanine;l-valine;0.16390961099907425
+guanine;l-threonine;-0.6934986100834365
+guanine;l-aspartic acid;0.09810135581981724
+guanine;l-threonine;-0.6934986100834365
+guanine;choline;-0.13779464123634017
+guanine;l-cysteine;0.03847275596115335
+guanine;cis-4-hydroxy-d-proline;0.2254968722695785
+guanine;diaminopimelic acid;0.06217116867522403
+guanine;2-oxoarginine;0.061396339948095874
+guanine;l-aspartic acid;0.09810135581981724
+guanine;l-threonine;-0.6934986100834365
+guanine;l-cysteine;0.03847275596115335
+guanine;l-arginine;-0.0820148829612175
+sulfate;inosine;0.43767829140005937
+sulfate;l-valine;0.18660197439195753
+sulfate;l-threonine;-0.15633873259442221
+sulfate;l-aspartic acid;0.02244954442023116
+sulfate;l-threonine;-0.15633873259442221
+sulfate;choline;0.3141042842782568
+sulfate;l-cysteine;0.510741412639686
+sulfate;cis-4-hydroxy-d-proline;-0.001184818692331127
+sulfate;diaminopimelic acid;0.0963561463945308
+sulfate;2-oxoarginine;0.11354348614501691
+sulfate;l-aspartic acid;0.02244954442023116
+sulfate;l-threonine;-0.15633873259442221
+sulfate;l-cysteine;0.510741412639686
+sulfate;l-arginine;0.22286143358471627
+inosine;l-valine;0.045704990909461236
+inosine;l-threonine;-0.2562482278699215
+inosine;l-aspartic acid;-0.17581023607710455
+inosine;l-threonine;-0.2562482278699215
+inosine;choline;0.18821599620889962
+inosine;l-cysteine;0.1337041266500399
+inosine;cis-4-hydroxy-d-proline;-0.2721406259210308
+inosine;diaminopimelic acid;-0.08482333531956752
+inosine;2-oxoarginine;-0.05216804832515635
+inosine;l-aspartic acid;-0.17581023607710455
+inosine;l-threonine;-0.2562482278699215
+inosine;l-cysteine;0.1337041266500399
+inosine;l-arginine;-0.12520268875555735
+l-valine;l-threonine;-0.23709789224013583
+l-valine;l-aspartic acid;0.533293730752484
+l-valine;l-threonine;-0.23709789224013583
+l-valine;choline;0.5579766594770166
+l-valine;l-cysteine;0.19478852014526202
+l-valine;cis-4-hydroxy-d-proline;0.11248599323755613
+l-valine;diaminopimelic acid;0.8403552596832226
+l-valine;2-oxoarginine;0.8457712878468671
+l-valine;l-aspartic acid;0.533293730752484
+l-valine;l-threonine;-0.23709789224013583
+l-valine;l-cysteine;0.19478852014526202
+l-valine;l-arginine;0.6867305903046509
+l-threonine;l-aspartic acid;-0.13439848614628244
+l-threonine;choline;-0.13096496820806722
+l-threonine;l-cysteine;-0.22420921076248024
+l-threonine;cis-4-hydroxy-d-proline;-0.11697932794344389
+l-threonine;diaminopimelic acid;-0.03175347975606896
+l-threonine;2-oxoarginine;-0.06478604431173304
+l-threonine;l-aspartic acid;-0.13439848614628244
+l-threonine;l-cysteine;-0.22420921076248024
+l-threonine;l-arginine;-0.08756648721059819
+l-aspartic acid;l-threonine;-0.13439848614628244
+l-aspartic acid;choline;0.19623189918112685
+l-aspartic acid;l-cysteine;0.4021929273720653
+l-aspartic acid;cis-4-hydroxy-d-proline;-0.14485059879596265
+l-aspartic acid;diaminopimelic acid;0.687666539553015
+l-aspartic acid;2-oxoarginine;0.677187272044122
+l-aspartic acid;l-threonine;-0.13439848614628244
+l-aspartic acid;l-cysteine;0.4021929273720653
+l-aspartic acid;l-arginine;0.3679209778943936
+l-threonine;choline;-0.13096496820806722
+l-threonine;l-cysteine;-0.22420921076248024
+l-threonine;cis-4-hydroxy-d-proline;-0.11697932794344389
+l-threonine;diaminopimelic acid;-0.03175347975606896
+l-threonine;2-oxoarginine;-0.06478604431173304
+l-threonine;l-aspartic acid;-0.13439848614628244
+l-threonine;l-cysteine;-0.22420921076248024
+l-threonine;l-arginine;-0.08756648721059819
+choline;l-cysteine;0.27394032619657116
+choline;cis-4-hydroxy-d-proline;0.2915923933662804
+choline;diaminopimelic acid;0.42226503681302063
+choline;2-oxoarginine;0.42864518214308867
+choline;l-aspartic acid;0.19623189918112682
+choline;l-threonine;-0.13096496820806716
+choline;l-cysteine;0.27394032619657116
+choline;l-arginine;0.8792444807597802
+l-cysteine;cis-4-hydroxy-d-proline;-0.11441616723047328
+l-cysteine;diaminopimelic acid;0.181172996761699
+l-cysteine;2-oxoarginine;0.15408452780672893
+l-cysteine;l-aspartic acid;0.4021929273720653
+l-cysteine;l-threonine;-0.22420921076248024
+l-cysteine;l-arginine;0.20405295029174525
+cis-4-hydroxy-d-proline;diaminopimelic acid;-0.15505511257748478
+cis-4-hydroxy-d-proline;2-oxoarginine;-0.14570232394878982
+cis-4-hydroxy-d-proline;l-aspartic acid;-0.14485059879596254
+cis-4-hydroxy-d-proline;l-threonine;-0.11697932794344391
+cis-4-hydroxy-d-proline;l-cysteine;-0.11441616723047335
+cis-4-hydroxy-d-proline;l-arginine;0.25907019762700884
+diaminopimelic acid;2-oxoarginine;0.9931398318818446
+diaminopimelic acid;l-aspartic acid;0.687666539553015
+diaminopimelic acid;l-threonine;-0.03175347975606898
+diaminopimelic acid;l-cysteine;0.181172996761699
+diaminopimelic acid;l-arginine;0.6667463989736513
+2-oxoarginine;l-aspartic acid;0.6771872720441221
+2-oxoarginine;l-threonine;-0.06478604431173304
+2-oxoarginine;l-cysteine;0.154084527806729
+2-oxoarginine;l-arginine;0.6646241535576526
+l-aspartic acid;l-threonine;-0.13439848614628244
+l-aspartic acid;l-cysteine;0.4021929273720653
+l-aspartic acid;l-arginine;0.3679209778943936
+l-threonine;l-cysteine;-0.22420921076248024
+l-threonine;l-arginine;-0.08756648721059819
+l-cysteine;l-arginine;0.20405295029174525
