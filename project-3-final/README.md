@@ -127,7 +127,7 @@ plt.show();
 
 ### 1.  Obtenção de dados experimentais controle vs. câncer
 
-Os dados utilizados no projeto foram obtidos do estudo *MTBLS6039: Serumorganicacidmetabolitescanusedas potentialbiomarkerstoidentifyprostatitis, benignprostatichyperplasia, andprostatecancer(Untargetedassay)*. A base de dados apresenta dados de 80 participantes, porém utilizamos dados de apenas 40 participantes, 20 do grupo controle (saudável) e 20 diagnosticados com câncer de próstata. Esses dados foram obtidos através da técnica da cromatografia líquida acoplada à espectrometria de massas, e a partir do espectro de massas resultante do método, 411 metabólitos diferentes foram identificados. Esses dados representam as intensidades dos picos correspondentes a cada um dos metabólitos identificados.
+Os dados utilizados no projeto foram obtidos do estudo *MTBLS6039: Serum organic acid metabolites can be used as potential biomarkers to identify prostatitis, benign prostatic hyperplasia, and prostate cancer (Untargeted assay)*. A base de dados apresenta dados de 80 participantes, porém utilizamos dados de apenas 40 participantes, 20 do grupo controle (saudável) e 20 diagnosticados com câncer de próstata. Esses dados foram obtidos através da técnica da cromatografia líquida acoplada à espectrometria de massas, e a partir do espectro de massas resultante do método, 411 metabólitos diferentes foram identificados. Esses dados representam as intensidades dos picos correspondentes a cada um dos metabólitos identificados.
 
 ### 2.  Análise estatística dos metabólitos
 ### 3.  Enriquecimento das vias metabólicas
