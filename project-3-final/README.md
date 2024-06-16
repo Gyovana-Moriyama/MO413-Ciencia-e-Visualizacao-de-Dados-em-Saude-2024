@@ -12,8 +12,6 @@
 >
 > Relevância
 >
-> Trabalhos relacionados
->
 
 ### Câncer de Próstata 
 
@@ -35,6 +33,8 @@ O desequilíbrio do metabolismo está direto e fortemente relacionado com o dese
 
 Os metabólitos exercem funções em todo o nicho "ômico", seja como mecanismo de modificação química metabólica das macromoléculas ou como mecanismo de interação entre o próprio metabólito e uma macromolécula determinada. Na atividade biológica dos metabólitos, há descobertas de que seu acúmulo module células cancerígenas através da interação existente entre proteína e proteína. Além de serem usados como marcadores tumorais, inibidores enzimáticos e modificadores de DNA, podem agir na proliferação de células cancerígenas por meio de alterações na atividade enzimática e na pós-tradução proteica.
 
+> Trabalhos relacionados
+> 
 > Indicação (bastante resumida) da análise proposta
 >
 > Indicação (bastante resumida) dos resultados alcançados
@@ -130,8 +130,87 @@ plt.show();
 Os dados utilizados no projeto foram obtidos do estudo *MTBLS6039: Serum organic acid metabolites can be used as potential biomarkers to identify prostatitis, benign prostatic hyperplasia, and prostate cancer (Untargeted assay)*. A base de dados apresenta dados de 80 participantes, porém utilizamos dados de apenas 40 participantes, 20 do grupo controle (saudável) e 20 diagnosticados com câncer de próstata. Esses dados foram obtidos através da técnica da cromatografia líquida acoplada à espectrometria de massas, e a partir do espectro de massas resultante do método, 411 metabólitos diferentes foram identificados. Esses dados representam as intensidades dos picos correspondentes a cada um dos metabólitos identificados.
 
 ### 2.  Análise estatística dos metabólitos
+
+Foi realizada uma análise estatística univariada dos dados, utilizando a ferramenta MetaboAnalyst, onde foi feito filtragem e normalização dos dados dentro da própria ferramenta. O filtro utilizado foi o de remoção dos dados cuja variância foi inferior a 10% do intervalo interquartil e a normalização utilizada foi a de centralização dos dados na mediana.
+
+Após a filtragem e normalização dos dados, foi feito um *volcano plot* para determinar os metabólitos que tiveram alterações significativas e expressivas entre os indivíduos de diferentes condições. Para a construção desse gráfico, foi utilizado log(FC) > 2.0 e p-value < 0.05.
+
+![Volcano plot](assets/images/volcano_0_dpi72.png)
+
+A partir do *volcano plot* uma lista de metabólitos diferenciais é extraída, resultante da análise. Assim, é feita a separação desses metabólitos em dois subgrupos considerando o sinal do valor do log(FC): sobre, e sub-representados no grupo câncer em relação ao saudável. Com isso, temos 133 metabólitos diferenciais, sendo desses, 56 sub-representados e 77 sobrerrepresentados.
+
 ### 3.  Enriquecimento das vias metabólicas
+
+A partir dos dois subgrupos de metabólitos diferenciais, foi realizado o enriquecimento de vias com a análise de sobrerrepresentação de metabólitos utilizando a ferramenta MetaboAnalyst. Assim, metabólitos diferenciais de cada subgrupo foram fornecidos a ferramenta para identificação das vias metabólicas associadas a eles.
+
+Cada subgrupo resultou em uma lista de vias, o subgrupo dos metabólitos sobrerrepresentados resultou nas vias que são mais ativas em indivídous com câncer do que em pessoas saudáveis, e o outro subgrupo resultou no contrário, vias que apresentam menor atividade em indivíduos com câncer.
+
+Vias metabólicas sub-representadas:
+
+![Vias sub-representadas](assets/images/ora_0_dpi72_down.png)
+
+Vias metabólicas sobrerrepresentadas:
+
+![Vias sobrerrepresentadas](assets/images/ora_0_dpi72_up.png)
+
+As vias com maior significância (p-value < 0.05) no conjunto de metabólitos de entrada foram selecionadas para análise em cada um dos subgrupos, sendo elas:
+
+Vias metabólicas sub-representadas:
+
+- Arginine biosynthesis
+- Pantothenate and CoA biosynthesis
+- Purine metabolism
+- Valine, leucine and isoleucine biosynthesis
+- Glycine, serine and threonine metabolism
+- D-Amino acid metabolism
+
+Vias metabólicas sobrerrepresentadas:
+
+- Arginine biosynthesis
+- Phenylalanine metabolism
+- Glutathione metabolism
+- Phenylalanine, tyrosine and tryptophan biosynthesis
+- Arginine and proline metabolism
+- Galactose metabolism
+
 ### 4.  Construção de redes de correlação entre metabólitos
+
+Para a construção de redes de correlação entre os metabólitos, primeiro foi feita a filtragem de metabólitos diferenciais associados às vias metabólicas de maior significância. Para isso, foi utilizada a lista de metabólitos associados às vias que é fornecido pelo MetaboAnalyst no Enriquecimento de Vias. Esses metabólitos associados às vias, possuem um identificador único chamado *Compound ID*, que também está presente na página da via no KEGG. Com isso, as informações de *Compound ID* desses dois bancos são cruzadas, o que resulta em uma lista de metabólitos significativamente alterados relacionados às vias enriquecidas. Com essa filtragem, foram obtidos 25 metabólitos associados às vias sub-representadas e 23 associados às vias sobrerrepresentadas.
+
+Após essa filtragem, foi determinada a correlação entre os metabólitos nos seguintes grupos:
+
+Presentes nas vias sub-representadas:
+- Em indivíduos saudáveis
+- Em indivíduos diagnosticados com câncer de próstata
+
+Presentes nas vias sobrerrepresentadas:
+- Em indivíduos saudáveis
+- Em indivíduos diagnosticados com câncer de próstata
+
+Correlação entre os metabólitos das vias sub-representadas:
+
+![Correlacao Vias sub-representadas](assets/images/corr_heatmap_down.png)
+
+Correlação entre os metabólitos das vias sobrerrepresentadas:
+
+![Correlacao Vias sobrerrepresentadas](assets/images/corr_heatmap_up.png)
+
+
+Com isso, quatro redes de correlação entre metabólitos são construídas, nas quais, os metabólitos são os nós, e a correlação entre eles, a aresta que os ligam. Para essa construção, cada uma das quatro matrizes de correlação tornou-se uma rede, e foram consideradas somente as arestas cujo valor de correlação foi superior a 0.6 ou inferior a -0.6.
+
+Redes das vias sub-representadas:
+
+Câncer            |  Saudável
+:-------------------------:|:-------------------------:
+![Rede sub-representado cancer](assets/images/new/down_cancer.png)  |  ![Rede sub-representado saudavel](assets/images/new/down_healthy.png)
+
+Redes das vias sobrerrepresentadas:
+
+Câncer            |  Saudável
+:-------------------------:|:-------------------------:
+![Rede sobrerrepresentado cancer](assets/images/new/up_cancer.png)  |  ![Rede sobrerrepresentado saudavel](assets/images/new/up_healthy.png)
+
+
 ### 5.  Análise comparativa da topologia das redes
 ### 6.  Construção de redes de interação entre metabólitos e as vias enriquecidas
 ### 7.  Análise comparativa da topologia das redes
