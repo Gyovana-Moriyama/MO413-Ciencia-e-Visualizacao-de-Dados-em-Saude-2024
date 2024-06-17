@@ -210,8 +210,36 @@ Câncer            |  Saudável
 :-------------------------:|:-------------------------:
 ![Rede sobrerrepresentado cancer](assets/images/new/up_cancer.png)  |  ![Rede sobrerrepresentado saudavel](assets/images/new/up_healthy.png)
 
+### 5.  Análise comparativa das redes
 
-### 5.  Análise comparativa da topologia das redes
+Para a análise comparativa das redes, primeiro foi feita uma comparação utilizando as seguintes medidas de centralidade: Betweenness, Closeness, Eigenvector. Com isso, os resultados de cada medição foram ilustrados em um gráfico em que cada eixo indica uma das medidas, desse modo, os metabólitos mais distantes da origem são aquele com as maiores medidas.
+
+Gráficos das medidas de centralidades das redes das vias sub-representadas:
+
+Câncer            |  Saudável
+:-------------------------:|:-------------------------:
+![Rede sub-representado cancer](assets/images/3d_scatter_cancer_down.png)  |  ![Rede sub-representado saudavel](assets/images/3d_scatter_healthy_down.png)
+
+Gráficos das medidas de centralidades das redes das vias sobrerrepresentadas:
+
+Câncer            |  Saudável
+:-------------------------:|:-------------------------:
+![Rede sobrerrepresentado cancer](assets/images/3d_scatter_cancer_up.png)  |  ![Rede sobrerrepresentado saudavel](assets/images/3d_scatter_healthy_up.png)
+
+Levando em conta esses gráficos, conseguimos selecionar metabólitos mais importantes para cada rede:
+
+Gráficos das medidas de centralidades das redes das vias sub-representadas:
+
+Câncer            |  Saudável
+:-------------------------:|:-------------------------:
+![Rede sub-representado cancer](assets/images/3d_scatter_cancer_down.png)  |  ![Rede sub-representado saudavel](assets/images/3d_scatter_healthy_down.png)
+
+Gráficos das medidas de centralidades das redes das vias sobrerrepresentadas:
+
+Câncer            |  Saudável
+:-------------------------:|:-------------------------:
+![Rede sobrerrepresentado cancer](assets/images/3d_scatter_cancer_up.png)  |  ![Rede sobrerrepresentado saudavel](assets/images/3d_scatter_healthy_up.png)
+
 ### 6.  Construção de redes de interação entre metabólitos e as vias enriquecidas
 ### 7.  Análise comparativa da topologia das redes
 
