@@ -293,9 +293,42 @@ Câncer            |  Saudável
 
 ### 6.  Construção de redes de interação entre metabólitos e as vias enriquecidas
 
+Para entender como diferentes vias metabólicas se relacionam no câncer e como um metabólito pode afetar mais de uma via, duas redes em que vias metabólicas são associadas a seus metabólitos foram construídas, a primeira para as vias sub-representadas e a segunda para as vias sobrerrepresentadas.
 
+![Rede com vias sub-representadas](assets/images/pathway_metabolites_down.png)
+
+![Rede com vias sobrerrepresentadas](assets/images/pathway_metabolites_up.png)
+
+Os metabólitos pertencentes a cada uma das vias foram obtidos do KEGG, da mesma maneira como foi citada no item 4.
+
+Para a construção da rede, as seguintes bibliotecas de Python foram utilizadas:
+- gseapy: foi utilizada para construção das relações entre vias e metabólitos de cada rede.
+- networkx: utilizada para salvar cada rede como um arquivo gml
 
 ### 7.  Análise comparativa da topologia das redes de interação entre metabólitos e as vias enriquecidas
+
+Nessas redes, a cor dos metabólitos representa a medida de centralidade betweenness, portanto quanto mais amarelo, menor betweenness e quanto mais roxo, maior betweenness. Assim, foram separados os seguintes metabólitos como mais significativos para cada rede:
+
+Vias metabólicas sub-representadas:
+- ornithine
+- putrescine
+- l-tyrosine
+- l-phenylalanine
+
+Vias metabólicas sobrerrepresentadas:
+- l-arginine
+- 2-oxoarginine
+- diaminopimelic acid
+
+Por fim, foi feita a clusterização de cada rede utilizando o algoritmo GLay do Cytoscape. Assim, obtivemos os seguintes clusters para cada rede:
+
+Vias metabólicas sub-representadas:
+
+![Vias cluster sub-representadas](assets/images/pathway_metabolites_down_clustered.png)
+
+Vias metabólicas sobrerrepresentadas:
+
+![Vias cluster sobrerrepresentadas](assets/images/pathway_metabolites_up_clustered.png)
 
 ## Evolução do Projeto
 
