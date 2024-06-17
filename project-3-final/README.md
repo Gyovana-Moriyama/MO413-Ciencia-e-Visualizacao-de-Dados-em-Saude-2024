@@ -198,50 +198,104 @@ Correlação entre os metabólitos das vias sobrerrepresentadas:
 
 Com isso, quatro redes de correlação entre metabólitos são construídas, nas quais, os metabólitos são os nós, e a correlação entre eles, a aresta que os ligam. Para essa construção, cada uma das quatro matrizes de correlação tornou-se uma rede, e foram consideradas somente as arestas cujo valor de correlação foi superior a 0.6 ou inferior a -0.6.
 
-Redes das vias sub-representadas:
+**Redes das vias sub-representadas:**
 
 Câncer            |  Saudável
 :-------------------------:|:-------------------------:
 ![Rede sub-representado cancer](assets/images/new/down_cancer.png)  |  ![Rede sub-representado saudavel](assets/images/new/down_healthy.png)
 
-Redes das vias sobrerrepresentadas:
+**Redes das vias sobrerrepresentadas:**
 
 Câncer            |  Saudável
 :-------------------------:|:-------------------------:
 ![Rede sobrerrepresentado cancer](assets/images/new/up_cancer.png)  |  ![Rede sobrerrepresentado saudavel](assets/images/new/up_healthy.png)
 
-### 5.  Análise comparativa das redes
+### 5.  Análise comparativa das redes de correlação
 
-Para a análise comparativa das redes, primeiro foi feita uma comparação utilizando as seguintes medidas de centralidade: Betweenness, Closeness, Eigenvector. Com isso, os resultados de cada medição foram ilustrados em um gráfico em que cada eixo indica uma das medidas, desse modo, os metabólitos mais distantes da origem são aquele com as maiores medidas.
+Para a análise comparativa das redes de correlação, primeiro foi feita uma comparação utilizando as seguintes medidas de centralidade: Betweenness, Closeness, Eigenvector. Com isso, os resultados de cada medição foram ilustrados em um gráfico em que cada eixo indica uma das medidas, desse modo, os metabólitos mais distantes da origem são aquele com as maiores medidas.
 
-Gráficos das medidas de centralidades das redes das vias sub-representadas:
+**Gráficos das medidas de centralidades das redes das vias sub-representadas:**
+Câncer            |  Saudável
+:-------------------------:|:-------------------------:
+![Gráfico sub-representado cancer](assets/images/3d_scatter_cancer_down.png)  |  ![Gráfico sub-representado saudavel](assets/images/3d_scatter_healthy_down.png)
+
+**Gráficos das medidas de centralidades das redes das vias sobrerrepresentadas:**
 
 Câncer            |  Saudável
 :-------------------------:|:-------------------------:
-![Rede sub-representado cancer](assets/images/3d_scatter_cancer_down.png)  |  ![Rede sub-representado saudavel](assets/images/3d_scatter_healthy_down.png)
-
-Gráficos das medidas de centralidades das redes das vias sobrerrepresentadas:
-
-Câncer            |  Saudável
-:-------------------------:|:-------------------------:
-![Rede sobrerrepresentado cancer](assets/images/3d_scatter_cancer_up.png)  |  ![Rede sobrerrepresentado saudavel](assets/images/3d_scatter_healthy_up.png)
+![Gráfico sobrerrepresentado cancer](assets/images/3d_scatter_cancer_up.png)  |  ![Gráfico sobrerrepresentado saudavel](assets/images/3d_scatter_healthy_up.png)
 
 Levando em conta esses gráficos, conseguimos selecionar metabólitos mais importantes para cada rede:
 
-Gráficos das medidas de centralidades das redes das vias sub-representadas:
+**Redes que destacam os principais metabólitos das vias sub-representadas:**
 
 Câncer            |  Saudável
 :-------------------------:|:-------------------------:
-![Rede sub-representado cancer](assets/images/3d_scatter_cancer_down.png)  |  ![Rede sub-representado saudavel](assets/images/3d_scatter_healthy_down.png)
+![Rede sub-representado cancer](assets/images/new/signif_cancer_down.png)  |  ![Rede sub-representado saudavel](assets/images/new/signif_healthy_down.png)
 
-Gráficos das medidas de centralidades das redes das vias sobrerrepresentadas:
+**Redes que destacam os principais metabólitos das vias sobrerrepresentadas:**
 
 Câncer            |  Saudável
 :-------------------------:|:-------------------------:
-![Rede sobrerrepresentado cancer](assets/images/3d_scatter_cancer_up.png)  |  ![Rede sobrerrepresentado saudavel](assets/images/3d_scatter_healthy_up.png)
+![Rede sobrerrepresentado cancer](assets/images/new/signif_cancer_up.png)  |  ![Rede sobrerrepresentado saudavel](assets/images/new/signif_healthy_up.png)
+
+Nessas redes, os metabólitos representados com a cor vermelha, indicam os metabólitos significativos de cada rede.
+
+Além disso, foi feita uma análise diferencial das redes, levando em conta cada um dos metabólitos significativos, tanto na rede de indivíduos com câncer quanto na de pessoas saudáveis. Essa análise levou em conta as diferenças que cada metabólito apresenta em cada rede, como por exemplo, a diferença nas ligações quando comparado câncer com saudável.
+
+**Metabólitos sub-representados:**
+
+**n-acetyl-l-glutamate 5 semialdehyde**
+
+Câncer            |  Saudável
+:-------------------------:|:-------------------------:
+![Rede sub-representado cancer](assets/images/new/view1_cancer_down.png)  |  ![Rede sub-representado saudavel](assets/images/new/view1_healthy_down.png)
+
+*diaminopimelic acid**
+
+Câncer            |  Saudável
+:-------------------------:|:-------------------------:
+![Rede sub-representado cancer](assets/images/new/view2_cancer_down.png)  |  ![Rede sub-representado saudavel](assets/images/new/view2_healthy_down.png)
+
+**Metabólitos sobrerrepresentados:**
+
+**pyroglutamic acid**
+
+Câncer            |  Saudável
+:-------------------------:|:-------------------------:
+![Rede sub-representado cancer](assets/images/new/view3_cancer_up.png)  |  ![Rede sub-representado saudavel](assets/images/new/view3_healthy_up.png)
+
+**4-acetamidobutanoate**
+
+Câncer            |  Saudável
+:-------------------------:|:-------------------------:
+![Rede sub-representado cancer](assets/images/new/view4_cancer_up.png)  |  ![Rede sub-representado saudavel](assets/images/new/view4_healthy_up.png)
+
+**gamma-glutamylcysteine**
+
+Câncer            |  Saudável
+:-------------------------:|:-------------------------:
+![Rede sub-representado cancer](assets/images/new/view5_cancer_up.png)  |  ![Rede sub-representado saudavel](assets/images/new/view5_healthy_up.png)
+
+Por fim, foi feita a clusterização de cada rede utilizando o algoritmo GLay do Cytoscape:
+
+**Clusterização das redes das vias sub-representadas:**
+
+Câncer            |  Saudável
+:-------------------------:|:-------------------------:
+![Rede sub-representado cancer](assets/images/new/cluster_cancer_down.png)  |  ![Rede sub-representado saudavel](assets/images/new/cluster_healthy_down.png)
+
+**Clusterização das redes das vias  sobrerrepresentadas:**
+
+Câncer            |  Saudável
+:-------------------------:|:-------------------------:
+![Rede sobrerrepresentado cancer](assets/images/new/cluster_cancer_up.png)  |  ![Rede sobrerrepresentado saudavel](assets/images/new/cluster_healthy_up.png)
 
 ### 6.  Construção de redes de interação entre metabólitos e as vias enriquecidas
-### 7.  Análise comparativa da topologia das redes
+
+
+
+### 7.  Análise comparativa da topologia das redes de interação entre metabólitos e as vias enriquecidas
 
 ## Evolução do Projeto
 
