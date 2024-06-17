@@ -349,7 +349,11 @@ Vias metabólicas sobrerrepresentadas:
 
 > Discussão dos resultados. Relacionar os resultados com as perguntas de pesquisa ou hipóteses avaliadas.
 >
-> A discussão dos resultados também pode ser feita opcionalmente na seção de Resultados, na medida em que os resultados são apresentados. Aspectos importantes a serem discutidos: Por que seu modelo alcançou (ou não) um bom resultado? É possível tirar conclusões dos resultados? Quais? Há indicações de direções para estudo? São necessários trabalhos mais profundos?
+> A discussão dos resultados também pode ser feita opcionalmente na seção de Resultados, na medida em que os resultados são apresentados. Aspectos importantes a serem discutidos:
+> Por que seu modelo alcançou (ou não) um bom resultado?
+> É possível tirar conclusões dos resultados? Quais?
+> Há indicações de direções para estudo?
+> São necessários trabalhos mais profundos?
 
 # Conclusão
 
