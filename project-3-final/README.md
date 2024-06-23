@@ -426,8 +426,88 @@ A clusterização de cada rede utilizando o algoritmo GLay produziu as comunidad
 
 </center>
 
-### 7. Interpretação biológica
+### 7. Interpretação biológica e validação dos resultados com a literatura
 
+#### 7.1. Análise das vias enriquecidas
+
+1. Biossíntese de arginina
+    - O metabolismo da arginina, um aminoácido condicionalmente essencial, desempenha um papel crucial na progressão e no prognóstico do câncer. Um estudo recente enfatizou que os genes de biossíntese de arginina estão associados à evasão imunológica em vários tipos de câncer (Tan et al., 2024). Num estudo de câncer de prostata, o *knockdown* do *prostate-specific membrane antigen* (PSMA) pode inibir a proliferação e a metástase de células de CaP (câncer de próstata), bem como diminuir a expressão de receptor de andrógeno (AR) e promover a expressão de c-Fos e FosB por meio do aumento da biossíntese de arginina (Hong et al., 2022).
+
+2. Metabolismo de fenilalanina e Biossíntese de fenilalanina, tirosina e triptofano
+    - Estudos revelaram que o metabolismo da fenilalanina junto com a biossíntese de fenilalanina, tirosina e triptofano têm alto potencial como biomarcadores de câncer de próstata (Akbari et al., 2021). Interessantemente esta via e estes metabólitos foram reportados como possíveis biomarcadores para câncer de mama (Chen et al., 2021).
+
+3. Metabolismo da glutationa
+    - A glutationa é um antioxidante crucial na proteção contra o estresse oxidativo. Células cancerígenas frequentemente têm níveis elevados de glutationa para combater o estresse induzido pelo ambiente tumoral.
+    - Em 2020, foram reportados alguns casos em que os níveis dos principais antioxidantes, incluindo os grupos -SH e o glutationa (GSH), estão aumentando em doentes com CaP (câncer de próstata) em comparação com controles saudáveis (HC). Além disso, as enzimas relacionadas com a GSH, como a GSH peroxidase (GPx), a GST transferase (GST) e a GSH redutase (GR), podem estar diminuídas no CaP em comparação com os controles (Sajjaboontawee et al., 2020).
+
+4. Metabolismo da galactose
+    - Alterações no metabolismo de açúcares podem afetar a glicólise e a via das pentoses, essenciais para a produção de energia e precursores biossintéticos.
+    - Num estudo de 1994, dois componentes do metabolismo de galactose foram reportados como possíveis biomarcadores em indivíduos com câncer de próstata, onde testaram a D-galactose-beta-[1-->3]-N-acetil-D-galactosamina na diferenciação entre as lesões benignas, malignas e pré-malignas da próstata (Shmasuddin and Beasley, 1994).
+
+5. Biossíntese do pantotenato e CoA
+    - O pantotenato é o precursor chave para a biossíntese da coenzima A (CoA) e das proteínas transportadoras que possuem um grupo protético fosfopanteína. O grupo fosfopanteína é doado a estas proteínas pela CoA e é utilizado para transportar intermediários entre os locais ativos das enzimas envolvidas na síntese de ácidos gordos, péptidos não ribossómicos e policetídeos. A CoA é um cofator essencial para o crescimento celular e está envolvida em muitas reações metabólicas, incluindo a síntese de fosfolípidos, a síntese e a degradação de ácidos gordos e o funcionamento do ciclo do ácido tricarboxílico. A formação pré-biótica e a estabilidade dos precursores do pantotenato sugerem que a função do CoA era importante nas primeiras vias metabólicas (Leonardi et al., 2007).
+
+6. Metabolismo de purina
+    - Purinas são componentes dos ácidos nucleicos (DNA e RNA). A demanda aumentada por purinas é uma característica comum das células cancerígenas, fornecendo nucleotídeos necessários para suportar a rápida proliferação.
+    - **Os níveis de purinas nas células dos mamíferos são mantidos por uma ação coordenada das vias biossintéticas de recuperação e de novo .** Em condições fisiológicas normais, a maior parte do *pool* celular de purinas é derivada da reciclagem de bases degradadas através da via de recuperação. Além disso, as bases presentes na matriz extracelular podem ser transportadas para o interior da célula para gerar o nucleotídeo correspondente. Em condições celulares que exigem níveis mais elevados de purinas, a procura intracelular de purinas é satisfeita através da regulação positiva da via biossintética (Pedley et al., 2017).
+
+7) Biossíntese de valina, leucina e isoleucina 
+    - Classicamente, o metabolismo do câncer tem se concentrado no metabolismo central do carbono, incluindo a glicólise e o ciclo do ácido tricarboxílico (ciclo do ácido cítrico, ciclo TCA). Os aminoácidos de cadeia ramificada (BCAAs; valina, leucina e isoleucina) são fontes alternativas de moléculas orgânicas que também podem alimentar o ciclo TCA (Liue et al., 2020).
+
+8) Metabolismo de D-aminoácidos
+    - Os d-aminoácidos, os homólogos enantioméricos dos l-aminoácidos, foram durante muito tempo considerados não funcionais ou nem sequer presentes nos organismos vivos. Atualmente, reconhece-se que os d-aminoácidos desempenham papéis importantes em numerosos processos fisiológicos do corpo humano. A relação mais frequentemente estudada entre os d-aminoácidos e a fisiologia humana diz respeito à contribuição da d-serina e do d-aspartato para a neurotransmissão. Estes d-aminoácidos e vários outros foram também implicados na regulação da imunidade inata e na função de barreira intestinal. É importante notar que a presença de certos d-aminoácidos no corpo humano tem sido associada a várias doenças, incluindo a esquizofrenia, a esclerose lateral amiotrófica e doenças relacionadas com a idade, como a catarata e a aterosclerose. Além disso, há cada vez mais provas que sustentam um papel dos d-aminoácidos no desenvolvimento, na fisiopatologia e no tratamento de câncer (Bastings et al., 2019).
+
+#### 7.2 Análise de metabólitos diferenciais
+
+1. Metabólitos sub-representados no câncer 
+
+    - Nas redes de correlação apresentadas, pode-se observar que o metabólito L-arginina está presente tanto em indivíduos saudáveis quanto em indivíduos com câncer e se encontraram sub, o que significa que eles estão presentes em poucas quantidades.
+
+    - L-arginina
+        - A L-arginina desempenha um papel importante no metabolismo de um organismo. Ela é o precursor da síntese de proteínas e de outras moléculas de grande importância biológica, incluindo óxido nítrico, ornitina, poliaminas, agmatina, prolina, glutamato, creatina, dimetilarginina e ureia (Scibior et al., 2004).
+        - A L-arginina é conhecida também por ser um aminoácido proteinogênico e é essencial para a síntese de proteínas em células em proliferação ativa, como as células tumorais. Ela também está envolvida em outros processos metabólicos relacionados ao crescimento do tumor. Por outro lado, sabe-se que a atividade das células imunológicas também depende muito da biodisponibilidade da L-Arg. Portanto, o metabolismo da L-Arg tem um papel ambíguo na oncologia (Starikova et al., 2023).
+    
+    - 2-Oxoarginina
+        - O 2-Oxoarginina é um metabólito composto guanidino do catabolismo da arginina. Num estudo este metabólito foi positivamente associado à secreção de insulina e pode estar mecanicamente relacionado aos resultados com a citrulina, em que a conversão de arginina em 2-oxoarginina é desviada de uma via de produção de óxido nítrico. Numa alteração do metabolismo da arginina (Palmer et al.,2018), alguns derivados podem estar associados com diversas condições patológicas, que incluem doenças metabólicas. 
+
+    - Ácido diaminopimélico
+        - O ácido diaminopimélico (DAP) pode ser encontrado na urina humana. Nos seres humanos, o sistema imunológico inato pode reconhecer componentes da parede celular bacteriana, inclusive o DAP. Os receptores do sistema imunológico, como os receptores NOD (*Nucleotide-binding Oligomerisation Domain*), podem detectar a presença de DAP, desencadeando respostas imunológicas para combater infecções bacterianas.
+
+2. Metabólitos sobrerrepresentados nos saudáveis
+
+    - Putrescina
+        - Putrescina é uma poliamina também encontrada no sêmen. A expressão transgênica da **antizima** ornitina descarboxilase sugeriu que esta proteína única pode atuar como um supressor geral de tumor (https://hmdb.ca/metabolites/HMDB0001414).
+        - Nos mamíferos, a putrescina é sintetizada no citoplasma como consequência da descarboxilação da ornitina, um aminoácido que não é encontrado nas proteínas e que é produzido como parte do ciclo da ureia que envolve enzimas citosólicas e mitocondriais. A putrescina é o precursor usado na biossíntese da espermidina e da espermina (Gerner et al., 2004).
+        - Na próstata, o metabolismo da poliamina é importante, pois sintetiza e acumula os mais elevados níveis de poliaminas, principalmente espermina. A alta atividade secretora das células epiteliais luminais que circundam os ductos glandulares mantém um nível relativamente alto de espermina no fluido secretor de uma próstata saudável.
+
+    - D-galactose e D-mannose
+        - A D-Galactose é um nutriente fornecedor de energia e também um substrato básico necessário para a biossíntese de muitas macromoléculas no corpo. As vias metabólicas da D-galactose são importantes não apenas para o fornecimento destas vias, mas também para a prevenção da acumulação do metabólito da D-galactose. (https://hmdb.ca/metabolites/HMDB0000143)
+        - D-Manose (também chamada de Manose ou D-manopiranose) é uma hexose ou um açúcar de seis carbonos. Também é classificada como uma aldohexose. É um monossacarídeo fermentável e um isômero da glicose. A manose comumente existe como dois anéis de tamanhos diferentes, a forma piranose (seis membros) e a forma furanose (cinco membros). (https://hmdb.ca/metabolites/HMDB0000169)
+        - Para indivíduos saudáveis, tanto a D-galactose quanto a D-manose podem desempenhar papéis benéficos no metabolismo energético, na síntese de biomoléculas e na prevenção de infecções do trato urinário.
+
+3. Metabólitos sub-representados no câncer 
+
+    - *n-acetyl-l-glutamate 5-semialdehyde*
+        - Intermediário no metabolismo da prolina e da arginina, aminoácidos que desempenham papéis importantes no crescimento e na sobrevivência celular. Alterações no metabolismo desses aminoácidos podem ser indicativas de mudanças metabólicas que sustentam o crescimento e a proliferação das células cancerígenas.
+        - Esse metabolismo alterado inclui a reprogramação das vias de síntese e degradação de aminoácidos.
+        - O glutamato é um aminoácido não essencial que pode ser sintetizado no corpo através de vias metabólicas distintas. O glutamato é sintetizado a partir de glutamina. Além de seu papel na síntese de metabólitos, o glutamato também serve como precursor para a biossíntese de aminoácidos como L-prolina e L-arginina (Yelamanchi et al., 2015).
+
+4. Metabólitos sobrerrepresentados no câncer
+
+    - 4-acetamidobutanoato
+        - Reportado como um candidato a biomarcador validado, num análise conjunta de dados genômicos e metabolômicos e topologia de via usando passeio aleatório direcionado em um gráfico global de via gene-metabólito. o 4-acetamidobutanoato (um derivado do ácido gama-aminobutírico) foram metabolitos frequentemente seleccionados para discriminar o CaP (Câncer de próstata ) localizado do metastático (Kdadra et al.,2019).
+        - Interessantemente este metabólito também foi reportado como associado a um alto risco de CO (Câncer de ovario): 4-acetamidobutanoato (OR = 1,78, IC 95%: 1,07-2,95, P = 0,026)(Liu et al., 2024).
+
+    - Gama-glutamilcisteína
+        - O sulforafano induz a expressão da subunidade leve da gama-glutamilcisteína sintetase, e esta indução está associada a aumentos moderados nos níveis de glutationa intracelular. Sulforafano induz expressão e atividade enzimática de fase 2 significativamente em células prostáticas humanas.
+        - Reportada como intermediária na síntese do glutationa, é um importante antioxidante celular que protege as células contra o estresse oxidativo e danos causados por radicais livres.
+        - O aumento dos níveis de gama-glutamilcisteína pode refletir a maior atividade na via de síntese do glutationa, sugerindo que as células cancerígenas estão tentando se proteger contra danos oxidativos. Esse fenômeno pode estar relacionado à resistência ao tratamento e à progressão da doença (Mulcahy et al., 1994)
+
+    - Ácido piroglutâmico
+        - Conhecido como 5-oxoprolina, também é um intermediário do metabolismo da glutationa. Como parte da via de síntese e degradação da glutationa, pode ter seus níveis aumentados em resposta à maior demanda por antioxidantes. Num estudo executaram dois modelos de diagnósticos onde distinguiram paciente  com  CaP ( Câncer de próstata) e dois metabólitos foram significantes o ácido fenilacético e ácido piroglutâmico  ( He et al., 2023)
+
+    - Citrulina
+        - Os resultados estratificados por tempo até o diagnóstico sugeriram que concentrações mais baixas de citrulina podem ser um marcador de câncer de próstata subclínico, já que a associação foi observada para doenças diagnosticadas nos primeiros anos após a coleta de sangue ( Schmidt et al.,2017)
 
 ## Evolução do Projeto
 
@@ -472,6 +552,33 @@ Os metabólitos diferenciais, identificados através da análise estatística no
 > Há indicações de direções para estudo?
 > São necessários trabalhos mais profundos?
 
+A arginina é um aminoácido semi-essencial envolvido em diversas funções biológicas vitais, incluindo a síntese de proteínas, a produção de óxido nítrico (NO), e o ciclo da ureia. Recentemente, a arginina tem sido estudada como um biomarcador potencial para várias doenças, incluindo o câncer, devido às suas múltiplas funções no metabolismo celular e seu papel nas vias bioquímicas alteradas em estados patológicos.
+
+## Uso da Arginina como Biomarcador no Câncer
+
+### Técnicas Metabolômicas
+A metabolômica é o estudo sistemático dos perfis de metabólitos em células, tecidos ou organismos. Utilizando técnicas avançadas como a espectrometria de massa (MS) e a ressonância magnética nuclear (NMR), é possível identificar e quantificar pequenos metabólitos presentes em amostras biológicas. No contexto do câncer, as células tumorais apresentam metabolismos alterados para suportar o rápido crescimento e a proliferação celular, e a arginina desempenha um papel crucial nesses processos.
+
+### Alterações Metabólicas no Câncer
+Células cancerígenas frequentemente exibem alterações no metabolismo da arginina. Essas células podem aumentar a captação e a utilização da arginina para:
+- Produção de Proteínas: O aumento da síntese proteica é necessário para suportar a proliferação celular.
+- Produção de Óxido Nítrico (NO): O NO é um mediador importante em diversos processos, incluindo a vasodilatação e a sinalização celular. Em células cancerígenas, níveis alterados de NO podem influenciar a angiogênese (formação de novos vasos sanguíneos) e a progressão tumoral.
+- Ciclo da Ureia: A arginina é um intermediário no ciclo da ureia, que remove amônia tóxica do corpo. Alterações nesse ciclo podem indicar disfunção metabólica associada ao câncer.
+
+## Arginina como Biomarcador no Câncer de Próstata
+
+### Metabolismo da Arginina no Câncer de Próstata
+No câncer de próstata, o metabolismo da arginina é frequentemente alterado. A próstata tem uma atividade elevada da enzima arginase, que converte a arginina em ornitina e ureia. Estudos mostraram que níveis elevados de arginase e a depleção de arginina estão associados ao crescimento tumoral e à progressão do câncer de próstata. Além disso, a produção de poliaminas, que são derivadas da ornitina, também está aumentada. As poliaminas são críticas para a síntese de DNA e a proliferação celular, processos que estão desregulados em células cancerígenas.
+
+
+### Vias Metabólicas Relevantes
+- Ciclo da Ureia: Na próstata, a arginina é convertida em ornitina e ureia pela arginase. Ornitina é então utilizada na produção de poliaminas (putrescina, espermidina e espermina), que são essenciais para o crescimento celular e a estabilização do DNA.
+- Síntese de Óxido Nítrico: A arginina é substrato para a síntese de NO pela enzima óxido nítrico sintase (NOS). O NO pode atuar tanto na promoção da angiogênese quanto na modulação do sistema imune, influenciando a microambiente tumoral.
+- Produção de Poliaminas: Ornitina, derivada da arginina, é um precursor para poliaminas, moléculas importantes para a proliferação e diferenciação celular. A regulação da síntese de poliaminas é frequentemente alterada no câncer de próstata.
+
+## Justificativa da Arginina como Biomarcador
+A concentração de arginina e seus metabólitos no sangue, urina ou tecidos pode refletir o estado metabólico das células prostáticas. Técnicas metabolômicas permitem a análise detalhada desses metabólitos, fornecendo informações valiosas sobre o estado do câncer. Especificamente no câncer de próstata, a depleção de arginina e o aumento dos níveis de ornitina e poliaminas podem ser indicativos da atividade tumoral e da agressividade da doença.
+
 # Conclusão
 
 > Destacar as principais conclusões obtidas no desenvolvimento do projeto.
@@ -480,10 +587,24 @@ Os metabólitos diferenciais, identificados através da análise estatística no
 >
 > Principais lições aprendidas.
 
+A arginina é um potencial biomarcador do câncer devido ao seu papel central em diversas vias metabólicas que são frequentemente alteradas em estados cancerígenos. No câncer de próstata, as mudanças no metabolismo da arginina podem fornecer insights sobre a progressão do tumor e a eficácia do tratamento. As técnicas metabolômicas, ao oferecer uma visão detalhada dos perfis metabólicos, são ferramentas poderosas para a identificação de biomarcadores como a arginina, auxiliando no diagnóstico, prognóstico e monitoramento terapêutico do câncer de próstata.
+
+Além da arginina, durante a análise das vias com a ferramenta KEGG, observou-se que na via da biossíntese de pantotenato e coenzima A, as vias do metabolismo de arginina e prolina também estão envolvidas. Um dos produtos intermediários dessas vias, a espermidina, faz parte do metabolismo que gera acetil-CoA. Outra via importante identificada foi o metabolismo de aminoácidos D, que inclui componentes como o metabolismo de fenilalanina, arginina e prolina, além do metabolismo de glicina, serina e treonina.
+
+Na análise realizada, há evidência de metabólitos previamente descritos, os quais foram identificados através das medidas de centralidade. Isso demonstra a importância dessas métricas na identificação de metabólitos potenciais para biomarcadores no câncer de próstata. Recomenda-se estudos funcionais em nível clínico para validar essas informações.
+
+Como desafios enfrentados durante o projeto, dois se destacam: (1) obtenção de dados e (2) o uso de ferramentas da metabolômica. Poucos estudos com fins similares foram encontrados, e muitos não disponibilizaram os dados. Embora a base utilizada neste estudo tenha um número limitado de participantes, é a única encontrada que satisfez os requisitos para avanço do projeto. Finalmente, ferramentas que trabalham com e integram dados de metabolômica foram encontradas com dificuldade. Além disso, há pouca documentação sobre como utilizá-las.
+
 # Trabalhos Futuros
 
 > O que poderia ser melhorado se houvesse mais tempo?
 > Quais possíveis desdobramentos este projeto pode ter?
+
+Como trabalhos futuros, duas possibilidades são apresentasdas: (1) aprofundamento das análises e (2) integração com outras ômicas. 
+
+> Aprofundamento das análises de relação entre metabólitos, vias metabólicas e o câncer de próstata para melhor entender os mecanismos de desenvolvimento da doença. Integração com dados de proteínas e/ou genes associados ao câncer de próstata.
+
+
 
 # Referências Bibliográficas
 
@@ -520,4 +641,45 @@ SHAO Y, Ye G, Ren S, et al. Metabolomics and transcriptomics profiles reveal the
 REN, Shancheng et al. Integration of metabolomics and transcriptomics reveals major metabolic pathways and potential biomarker involved in prostate cancer. Molecular&amp; Cellular Proteomics, v. 15, n. 1, p. 154-163, 2016.
 
 LIMA, Ana Rita et al. NMR-based metabolomics studies of human prostate câncer tissue. Metabolomics, v. 14, n. 7, p. 1-11, 2018.
+
+Akbari Z, Dijojin RT, Zamani Z, Hosseini RH, Arjmand M. Aromatic amino acids play a harmonizing role in prostate cancer: A metabolomics-based cross-sectional study. Int J Reprod Biomed. 2021 Sep 9;19(8):741-750. doi: 10.18502/ijrm.v19i8.9622. PMID: 34568735; PMCID: PMC8458921.
+
+Bastings JJAJ, van Eijk HM, Olde Damink SW, Rensen SS. d-amino Acids in Health and Disease: A Focus on Cancer. Nutrients. 2019 Sep 12;11(9):2205. doi: 10.3390/nu11092205. PMID: 31547425; PMCID: PMC6770864.
+
+Chen, J., Liu, X., Shen, L., Lin, Y., & Shen, B. (2021). CMBD: a manually curated cancer metabolic biomarker knowledge database. Database : the journal of biological databases and curation, 2021, baaa094. https://doi.org/10.1093/database/baaa094
+
+Gerner, E., Meyskens, F. Polyamines and cancer: old molecules, new understanding. Nat Rev Cancer 4, 781–792 (2004). https://doi.org/10.1038/nrc1454
+
+He J, Han Z, Luo W, Shen J, Xie F, Liao L, Zou G, Luo X, Guo Z, Li Y, Li J, Chen H. Serum organic acid metabolites can be used as potential biomarkers to identify prostatitis, benign prostatic hyperplasia, and prostate cancer. Front Immunol. 2023 Jan 4;13:998447. doi: 10.3389/fimmu.2022.998447. PMID: 36685547; PMCID: PMC9846500.
+
+Hong, X., Mao, L., Xu, L., Hu, Q., & Jia, R. (2022). Prostate-specific membrane antigen modulates the progression of prostate cancer by regulating the synthesis of arginine and proline and the expression of androgen receptors and Fos proto-oncogenes. Bioengineered, 13(1), 995–1012. https://doi.org/10.1080/21655979.2021.2016086
+
+Kdadra M, Höckner S, Leung H, Kremer W, Schiffer E. Metabolomics Biomarkers of Prostate Cancer: A Systematic Review. Diagnostics (Basel). 2019 Feb 19;9(1):21. doi: 10.3390/diagnostics9010021. PMID: 30791464; PMCID: PMC6468767.
+
+Liu, S., Ding, D., Liu, F. et al. Exploring the causal role of multiple metabolites on ovarian cancer: a two sample Mendelian randomization study. J Ovarian Res 17, 22 (2024). https://doi.org/10.1186/s13048-023-01340-w
+Mulcahy, R. T., Untawale, S., & Gipp, J. J. (1994). Transcriptional up-regulation of gamma-glutamylcysteine synthetase gene expression in melphalan-resistant human prostate carcinoma cells. Molecular pharmacology, 46(5), 909–914.
+
+Lieu EL, Nguyen T, Rhyne S, Kim J. Amino acids in cancer. Exp Mol Med. 2020 Jan;52(1):15-30. doi: 10.1038/s12276-020-0375-3. Epub 2020 Jan 24. PMID: 31980738; PMCID: PMC7000687.
+
+Leonardi R, Jackowski S. Biosynthesis of Pantothenic Acid and Coenzyme A. EcoSal Plus. 2007 Apr;2(2):10.1128/ecosalplus.3.6.3.4. doi: 10.1128/ecosalplus.3.6.3.4. PMID: 26443589; PMCID: PMC4950986
+
+ Nicholette D Palmer, Hayrettin Okut, Fang-Chi Hsu, Maggie C Y Ng, Yii-Der Ida Chen, Mark O Goodarzi, Kent D Taylor, Jill M Norris, Carlos Lorenzo, Jerome I Rotter, Richard N Bergman, Carl D Langefeld, Lynne E Wagenknecht, Donald W Bowden, Metabolomics Identifies Distinctive Metabolite Signatures for Measures of Glucose Homeostasis: The Insulin Resistance Atherosclerosis Family Study (IRAS-FS), The Journal of Clinical Endocrinology & Metabolism, Volume 103, Issue 5, May 2018, Pages 1877–1888, https://doi.org/10.1210/jc.2017-02203
+
+Pedley AM, Benkovic SJ. A New View into the Regulation of Purine Metabolism: The Purinosome. Trends Biochem Sci. 2017 Feb;42(2):141-154. doi: 10.1016/j.tibs.2016.09.009. Epub 2016 Oct 28. PMID: 28029518; PMCID: PMC5272809.
+
+Tan, Z., Li, H., Huang, Y., Fu, S., Wang, H., & Wang, J. (2024). Multi-omics landscape analysis reveals the pan-cancer association of arginine biosynthesis genes with tumor immune evasion and therapy resistance. Heliyon, 10(5), e26804. https://doi.org/10.1016/j.heliyon.2024.e26804
+
+
+Sajjaboontawee, N., Supasitthumrong, T., Tunvirachaisakul, C., Nantachai, K., Snabboon, T., Reiche, E. M. V., … Maes, M. (2020). Lower thiol, glutathione, and glutathione peroxidase levels in prostate cancer: a meta-analysis study. The Aging Male, 23(5), 1533–1544. https://doi.org/10.1080/13685538.2020.1858048
+
+
+Scibior D, Czeczot H. Arginina--metabolizm i funkcje w organizmie człowieka [Arginine--metabolism and functions in the human organism]. Postepy Hig Med Dosw (Online). 2004;58:321-32. Polish. PMID: 15459550.
+
+Schmidt, J. A., Fensom, G. K., Rinaldi, S., Scalbert, A., Appleby, P. N., Achaintre, D., Gicquiau, A., Gunter, M. J., Ferrari, P., Kaaks, R., Kühn, T., Floegel, A., Boeing, H., Trichopoulou, A., Lagiou, P., Anifantis, E., Agnoli, C., Palli, D., Trevisan, M., Tumino, R., … Travis, R. C. (2017). Pre-diagnostic metabolite concentrations and prostate cancer risk in 1077 cases and 1077 matched controls in the European Prospective Investigation into Cancer and Nutrition. BMC medicine, 15(1), 122. https://doi.org/10.1186/s12916-017-0885-6
+
+Shamsuddin AM, Beasley WM. Expression of the tumor marker D-galactose-beta-[1-->3]-N-acetyl-D-galactosamine by premalignant and malignant prostate. Arch Pathol Lab Med. 1994 Jan;118(1):48-51. PMID: 7506904.
+Starikova EA, Rubinstein AA, Mammedova JT, Isakov DV, Kudryavtsev IV. Regulated Arginine Metabolism in Immunopathogenesis of a Wide Range of Diseases: Is There a Way to Pass between Scylla and Charybdis? Curr Issues Mol Biol. 2023 Apr 18;45(4):3525-3551. doi: 10.3390/cimb45040231. PMID: 37185755; PMCID: PMC10137093.
+
+Yelamanchi SD, Jayaram S, Thomas JK, Gundimeda S, Khan AA, Singhal A, Keshava Prasad TS, Pandey A, Somani BL, Gowda H. A pathway map of glutamate metabolism. J Cell Commun Signal. 2016 Mar;10(1):69-75. doi: 10.1007/s12079-015-0315-5. Epub 2015 Dec 3. PMID: 26635200; PMCID: PMC4850134.
+
 
