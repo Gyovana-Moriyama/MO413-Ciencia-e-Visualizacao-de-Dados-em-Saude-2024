@@ -13,6 +13,8 @@
 > Relevância
 >
 
+**Deixar mais claro como técnicas de rede vão contribuir**
+
 ### Câncer de Próstata 
 
 Câncer é um termo que abrange mais de 200 diferentes doenças malignas, trazendo como característica geral o crescimento desordenado das células. O câncer apresenta uma origem multifatorial, através de mutações genéticas espontâneas ou induzidas (Neppel, 2017). A proliferação celular pode ser de forma controlada, originando as hiperplasias, metaplasias e displasias e caso esse crescimento ocorra de forma basicamente autônoma, ou seja, não controlada, temos as neoplasias, que são os cânceres *in situ* e os cânceres invasivos (INCA, 2020).
@@ -47,13 +49,15 @@ Os metabólitos exercem funções em todo o nicho "ômico", seja como mecanismo 
 
 > Fundamentação teórica do problema em saúde/biologia. Cite artigos tomados como base e em que problema.
 
-A proposta desse projeto é utilizar a teoria dos grafos e algoritmos de análise de rede para construir redes metabólicas e identificar os principais metabólitos e vias metabólicas associadas à progressão do câncer de próstata. Essa proposta tem como base o TCC do integrante Francisco Augusto Gomes Santos: Câncer de Próstata e Diagnóstico.
+A proposta desse projeto é utilizar a teoria dos grafos e algoritmos de análise de redes para construir redes metabólicas e identificar os principais metabólitos e vias metabólicas associadas ao desenvolvimento do câncer de próstata. Essa proposta tem como base o TCC do integrante Francisco Augusto Gomes Santos: Câncer de Próstata e Diagnóstico.
 
-A metodologia aplicada foi baseada na seguinte publicação: Metabolomics and correlation network analyses of core biomarkers in type 2 diabetes (https://pubmed.ncbi.nlm.nih.gov/32930872/), a qual faz a análise de metabólitos relacionados à diabetes tipo 2.
+A metodologia aplicada foi baseada na seguinte publicação: *Metabolomics and correlation network analyses of core biomarkers in type 2 diabetes* (https://pubmed.ncbi.nlm.nih.gov/32930872/), que fez a análise diferencial de redes de metabólitos relacionados à diabetes tipo 2.
 
 # Perguntas de Pesquisa
 > Perguntas de pesquisa (revisadas e atualizadas) que o projeto responde ou hipóteses que foram avaliadas, enunciadas de maneira objetiva e verificável.
 > Apresente aqui como o projeto ajudou a responder as perguntas de pesquisa.
+
+**Escolher como alvo coisas mais específicas relacionadas ao método**
 
  Objetivo: 
 
@@ -61,21 +65,28 @@ A metodologia aplicada foi baseada na seguinte publicação: Metabolomics and co
 
 Perguntas:
 
-- Quais são os metabólitos candidatos a biomarcadores do câncer de próstata?
+- Com base na análise topológica diferencial de redes de metabólitos na condição saudável e câncer de próstata, quais são os metabólitos candidatos a biomarcadores da doença?
 - Quais as funções desses metabólitos, e como estão relacionados com o desenvolvimento do câncer de próstata?
 
 # Metodologia
 > Proposta de metodologia incluindo especificação de quais as técnicas/métricas de Ciência de Redes que estão sendo usadas no projeto,
 > tais como: detecção de comunidades, análise de centralidade, predição de links, ou a combinação de uma ou mais técnicas. Descreva o que perguntas pretende endereçar com a técnica escolhida.
 
-1.  Obtenção de dados experimentais controle vs. câncer
-2.  Análise estatística dos metabólitos: utilização de volcano plot para separar os metabólitos sobre e sub representados
-3.  Enriquecimento das vias metabólicas: análise de sobrerrepresentação em cada um dos subgrupos de metabólitos
-4.  Construção de redes de correlação entre metabólitos
-5.  Análise comparativa da topologia das redes: utilização de métodos como medidas de centralidade (betweenness, degree, eigenvector, closeness), clusterização utilizando o algoritmo GLay
-6.  Construção de redes de interação entre metabólitos e as vias enriquecidas
-7.  Análise comparativa da topologia das redes: utilização de medida de centraliodade (betweenness) e clusterização utilizando o algoritmo GLay
-   
+A metodologia adotada neste projeto foi inspirada no estudo realizado por XYZ, em que potenciais biomarcadores de diabetes tipo 2 foram identificados utilizando redes construídas a partir correlação entre metabólitos associados às vias enriquecidas e significativamente alteradas na doença. Para tanto, os seguintes passos foram considerados: 
+
+1.  Obtenção de dados experimentais.
+2.  Análise estatística dos metabólitos para identificação de diferenças entre o grupo saudável e o com câncer:
+    - Utilização de *volcano plot* para separar os metabólitos com alterações significativas e expressivas em dois subgrupos:  sobre e sub-representados em indivíduos com câncer em relação aos saudáveis.
+3.  Enriquecimento das vias metabólicas usando a Análise de Sobrerrepresentação em cada um dos subgrupos de metabólitos.
+4.  Construção de quatro redes de correlação entre metabólitos associados às vias mais significativas:
+    - Uma rede para cada condição (saudável ou câncer) em cada subgrupo de metabólitos (sobre ou sub-representado).
+5.  Construção de duas redes de interação entre metabólitos e as vias metabólicas enriquecidas associadas a eles.
+6.  Análise comparativa da topologia das redes:
+    - Determinação dos principais metabólitos em cada rede com a análise de centralidade dos nós (*betweenness*, *degree*, *eigenvector*, *closeness*).
+    - Detecção de comunidades de metabólitos, possivelmente pertencentes a uma mesma via metabólica ou com papel chave em mais de uma via, utilizando o algoritmo GLay.
+
+Ao final do processo, os resultados das análises de cada rede foram interpretados do ponto de vista da biologia e dos mecanismos associados ao desenvolvimento do câncer de próstata.
+
 ## Bases de Dados e Evolução
 
 > Para cada base, coloque uma entrada na tabela no modelo a seguir e depois detalhamento sobre como ela foi analisada/usada, conforme exemplo a seguir.
@@ -91,19 +102,31 @@ KEGG PATHWAY Database | [http://base2.org/](https://www.kegg.jp/kegg/pathway.htm
 
 Os dados utilizados no projeto foram obtidos do estudo *MTBLS6039: Serum organic acid metabolites can be used as potential biomarkers to identify prostatitis, benign prostatic hyperplasia, and prostate cancer (Untargeted assay)*, o qual apresenta dados de 80 participantes no total: 20 homens saudáveis e 60 pacientes com prostatite, HBP ou CaP. Para o projeto foram utilizados os dados dos participantes saudáveis e dos diagnosticados com o câncer de próstata. Esses dados foram obtidos através da técnica da cromatografia líquida acoplada à espectrometria de massas, e a partir do espectro de massas resultante do método, 411 metabólitos diferentes foram identificados.
 
-Os dados foram filtrados e normalizados dentro da própria ferramenta MetaboAnalyst. Aplicou-se um filtro para remoção de dados (nesse caso, metabólitos) cuja variância nas amostras mostrou-se inferior a 10% do intervalo interquartil. Em sequência, as intensidades desses picos foram normalizadas: os dados foram centralizados na mediana, e a amplitude foi redimensionada para o intervalo [0, 1] usando-se os valores máximo e mínimo.
+Os dados foram filtrados e normalizados dentro da própria ferramenta *MetaboAnalyst*. Aplicou-se um filtro para remoção de dados (nesse caso, metabólitos) cuja variância nas amostras mostrou-se inferior a 10% do intervalo interquartil. Em sequência, as intensidades desses picos foram normalizadas: os dados foram centralizados na mediana, e a amplitude foi redimensionada para o intervalo [0, 1] usando-se os valores máximo e mínimo.
 
-Para a seleção de metabólitos presentes somente nas vias metabólicas significativamente alteradas, utilizou-se o banco de dados do KEGG. Os constituintes de cada uma dessas vias foram usado para filtragem dos metabólitos diferenciais encontrados na análise estatística dos dados.
+Para a seleção de metabólitos presentes somente nas vias metabólicas significativamente alteradas, utilizou-se o banco de dados do KEGG. Os constituintes de cada uma dessas vias foram usados para filtragem dos metabólitos diferenciais encontrados na análise estatística dos dados.
 
 ## Modelo Lógico
 
-Modelo lógico das redes de correlação:
+### Modelo lógico das redes de correlação:
 
-![Modelo Lógico de Grafos](assets/images/modelo-logico-grafos.png)
+<center>
 
-Modelo lógico das redes de interação entre metabólitos e as vias enriquecidas:
+| ![Modelo Lógico de Grafos](assets/images/modelo-logico-grafos.png) |
+| :--: |
+| Figura 1. Modelo lógico para a rede homogênea formada por metabólitos. As arestas indicam o valor da correlação entre os metabólitos. |
 
-![Modelo Lógico de Grafos Rede com Vias](assets/images/new/model_pathway_net.png)
+</center>
+
+### Modelo lógico das redes de interação entre metabólitos e as vias enriquecidas:
+
+<center>
+
+| ![Modelo Lógico de Grafos Rede com Vias](assets/images/new/model_pathway_net.png) |
+| :--: |
+| Figura 2. Modelo lógico para a rede heterogênea formada por vias metabólicas ligadas aos metabólitos pertences a elas. |
+
+</center>
 
 ## Análises Realizadas e Resultados
 
@@ -125,216 +148,310 @@ sns.distplot(df.Hemoglobin);
 plt.show();
 ~~~
 
-### 1.  Obtenção de dados experimentais controle vs. câncer
+### 1. Obtenção de dados experimentais controle vs. câncer
 
-Os dados utilizados no projeto foram obtidos do estudo *MTBLS6039: Serum organic acid metabolites can be used as potential biomarkers to identify prostatitis, benign prostatic hyperplasia, and prostate cancer (Untargeted assay)*. A base de dados apresenta dados de 80 participantes, porém utilizamos dados de apenas 40 participantes, 20 do grupo controle (saudável) e 20 diagnosticados com câncer de próstata. Esses dados foram obtidos através da técnica da cromatografia líquida acoplada à espectrometria de massas, e a partir do espectro de massas resultante do método, 411 metabólitos diferentes foram identificados. Esses dados representam as intensidades dos picos correspondentes a cada um dos metabólitos identificados.
+Os dados utilizados no projeto foram obtidos do estudo *MTBLS6039: Serum organic acid metabolites can be used as potential biomarkers to identify prostatitis, benign prostatic hyperplasia, and prostate cancer (Untargeted assay)*. A base de dados apresenta dados de 80 participantes, porém foram utlizados os dados de apenas 40 participantes, 20 do grupo controle (saudável) e 20 diagnosticados com câncer de próstata. Esses dados foram coletados no soro sanguíneo dos participantes e processados através da técnica da cromatografia líquida acoplada à espectrometria de massas, e a partir do espectro de massas resultante do método, 411 metabólitos diferentes foram identificados. Esses dados representam as intensidades dos picos correspondentes a cada um dos metabólitos identificados.
 
-### 2.  Análise estatística dos metabólitos
+### 2. Análise estatística dos metabólitos
 
-Foi realizada uma análise estatística univariada dos dados, utilizando a ferramenta MetaboAnalyst, onde foi feito filtragem e normalização dos dados dentro da própria ferramenta. O filtro utilizado foi o de remoção dos dados cuja variância foi inferior a 10% do intervalo interquartil e a normalização utilizada foi a de centralização dos dados na mediana.
+Com a ferramenta *MetaboAnalyst*, realizou-se a análise estatística univariada dos dados, que foram inicialmente filtrados e normalizados. Foram removidos os metabólitos cuja variância foi inferior a 10% do intervalo interquartil e a normalização utilizada foi a de centralização dos dados na mediana.
 
-Após a filtragem e normalização dos dados, foi feito um *volcano plot* para determinar os metabólitos que tiveram alterações significativas e expressivas entre os indivíduos de diferentes condições. Para a construção desse gráfico, foi utilizado log(FC) > 2.0 e p-value < 0.05.
+Após a filtragem e normalização desses dados, o *volcano plot* (Fig. 3) foi construído para determinação dos metabólitos que tiveram alterações significativas e expressivas entre os indivíduos de diferentes condições. Os metabólitos cujo valor do *log2(FC)* foi superior a 2 ou inferior a -2 e que tiveram p-valor inferior a 0.05 foram classificados como diferenciais.
 
-![Volcano plot](assets/images/volcano_0_dpi72.png)
+<center>
 
-A partir do *volcano plot* uma lista de metabólitos diferenciais é extraída, resultante da análise. Assim, é feita a separação desses metabólitos em dois subgrupos considerando o sinal do valor do log(FC): sobre, e sub-representados no grupo câncer em relação ao saudável. Com isso, temos 133 metabólitos diferenciais, sendo desses, 56 sub-representados e 77 sobrerrepresentados.
+| ![Volcano plot](assets/images/volcano_1_dpi72.png) |
+| :--: |
+| Figura 3. *Volcano plot* dos metabólitos entre as condições saudável e câncer de próstata. Para determinação daqueles mais significativos, foram adotados os critérios *log2(FC)* > 2 ou *log2(FC)* < 2 e p-valor < 0.05. |
 
-### 3.  Enriquecimento das vias metabólicas
+</center>
 
-A partir dos dois subgrupos de metabólitos diferenciais, foi realizado o enriquecimento de vias com a análise de sobrerrepresentação de metabólitos utilizando a ferramenta MetaboAnalyst. Assim, metabólitos diferenciais de cada subgrupo foram fornecidos a ferramenta para identificação das vias metabólicas associadas a eles.
+Em sequência, os metabólitos foram divididos em dois subgrupos considerando o sinal do valor do *log2(FC)*: sobre, e sub-representados no grupo câncer em relação ao saudável, para valores positivos e negativos de *fold change*, respectivamente. Com isso, totalizam-se 133 metabólitos diferenciais, onde 56 estão sub-representados e 77, sobrerrepresentados.
 
-Cada subgrupo resultou em uma lista de vias, o subgrupo dos metabólitos sobrerrepresentados resultou nas vias que são mais ativas em indivídous com câncer do que em pessoas saudáveis, e o outro subgrupo resultou no contrário, vias que apresentam menor atividade em indivíduos com câncer.
+### 3. Enriquecimento das vias metabólicas
+
+As vias metabólicas associadas a partir dos dois subgrupos de metabólitos diferenciais foram determinadas com a Análise de Sobrerrepresentação de metabólitos, também na ferramenta *MetaboAnalyst*.
+
+Cada subgrupo resultou em uma lista de vias enriquecidas: para os metabólitos sobrerrepresentados, as vias são mais ativas em indivídous com câncer do que em pessoas saudáveis, e para os sub-representados, vias que apresentam menor atividade em indivíduos com câncer. As Figuras 4 e 5 indicam os resultados do enriquecimento das vias para os metabólitos sub e sobrerrepresentados, respectivamente.
+
+<center>
+
+| ![Vias sub-representadas](assets/images/ora_0_dpi72_down.png) |
+| :--: |
+| Figura 4. Vias metabólicas sub-representadas no câncer de próstata. |
+
+| ![Vias sobrerrepresentadas](assets/images/ora_0_dpi72_up.png)|
+| :--: |
+| Figura 5. Vias metabólicas sobrerrepresentadas no câncer de próstata. |
+
+</center>
+
+As vias com maior significância, considerando p-valores inferiores a 0.05, foram selecionadas para análise em cada um dos subgrupos, sendo elas:
 
 Vias metabólicas sub-representadas:
 
-![Vias sub-representadas](assets/images/ora_0_dpi72_down.png)
+1. *Arginine biosynthesis*
+2. *Pantothenate and CoA biosynthesis*
+3. *Purine metabolism*
+4. *Valine, leucine and isoleucine biosynthesis*
+5. *Glycine, serine and threonine metabolism*
+6. *D-Amino acid metabolism*
 
 Vias metabólicas sobrerrepresentadas:
 
-![Vias sobrerrepresentadas](assets/images/ora_0_dpi72_up.png)
+1. *Arginine biosynthesis*
+2. *Phenylalanine metabolism*
+3. *Glutathione metabolism*
+4. *Phenylalanine, tyrosine and tryptophan biosynthesis*
+5. *Arginine and proline metabolism*
+6. *Galactose metabolism*
 
-As vias com maior significância (p-value < 0.05) no conjunto de metabólitos de entrada foram selecionadas para análise em cada um dos subgrupos, sendo elas:
+### 4. Redes de correlação entre metabólitos
 
-Vias metabólicas sub-representadas:
+As interações entre os metabólitos presentes em vias sub e sobrerrepresentadas no câncer de próstata foram avaliadas através de correlações entre eles, buscando identificar padrões que diferenciem os mecanismos subjacentes ao desenvolvimento da doença. Isso pode ocorrer tanto pela menor atividade (nas vias sub-representadas) quanto pela maior atividade (nas vias sobrerrepresentadas). Para determinar os metabólitos mais cruciais na integração e regulação das vias metabólicas associadas ao câncer, utilizou-se uma medida de centralidade composta, que inclui *betweenness*, *closeness* e *eigenvector*.
 
-- Arginine biosynthesis
-- Pantothenate and CoA biosynthesis
-- Purine metabolism
-- Valine, leucine and isoleucine biosynthesis
-- Glycine, serine and threonine metabolism
-- D-Amino acid metabolism
+#### 4.1. Construção das redes
 
-Vias metabólicas sobrerrepresentadas:
+Como 6 vias metabólicas sobre, e 6 sub-representadas, foram selecionadas para análise, somente os metabólitos diferenciais associados a elas foram considerados nas redes de correlação. Para isso, o identificador *Compound ID*, presente tanto no KEGG, quanto no resultado do enriquecimento de vias, foi utilizado para filtragem dos dados. A base de dados final, que indica metabólitos significativamente alterados relacionados às vias enriquecidas, conta com 25 metabólitos associados às vias sub-representadas e 23 às vias sobrerrepresentadas.
 
-- Arginine biosynthesis
-- Phenylalanine metabolism
-- Glutathione metabolism
-- Phenylalanine, tyrosine and tryptophan biosynthesis
-- Arginine and proline metabolism
-- Galactose metabolism
+Após essa filtragem, foi determinada a correlação de Pearson entre os metabólitos nos seguintes grupos:
 
-### 4.  Construção de redes de correlação entre metabólitos
+- Presentes nas vias sub-representadas:
+    - Em indivíduos saudáveis
+    - Em indivíduos diagnosticados com câncer de próstata
 
-Para a construção de redes de correlação entre os metabólitos, primeiro foi feita a filtragem de metabólitos diferenciais associados às vias metabólicas de maior significância. Para isso, foi utilizada a lista de metabólitos associados às vias que é fornecido pelo MetaboAnalyst no Enriquecimento de Vias. Esses metabólitos associados às vias, possuem um identificador único chamado *Compound ID*, que também está presente na página da via no KEGG. Com isso, as informações de *Compound ID* desses dois bancos são cruzadas, o que resulta em uma lista de metabólitos significativamente alterados relacionados às vias enriquecidas. Com essa filtragem, foram obtidos 25 metabólitos associados às vias sub-representadas e 23 associados às vias sobrerrepresentadas.
+- Presentes nas vias sobrerrepresentadas:
+    - Em indivíduos saudáveis
+    - Em indivíduos diagnosticados com câncer de próstata
 
-Após essa filtragem, foi determinada a correlação entre os metabólitos nos seguintes grupos:
+As Figuras 6 e 7 representam, de forma visual, essas correlações:
 
-Presentes nas vias sub-representadas:
-- Em indivíduos saudáveis
-- Em indivíduos diagnosticados com câncer de próstata
+<center>
 
-Presentes nas vias sobrerrepresentadas:
-- Em indivíduos saudáveis
-- Em indivíduos diagnosticados com câncer de próstata
+| ![Correlacao Vias sub-representadas](assets/images/corr_heatmap_down.png) |
+| :--: |
+| Figura 6. Correlação de Pearson entre os metabólitos das vias sub-representadas. |
 
-Correlação entre os metabólitos das vias sub-representadas:
+| ![Correlacao Vias sobrerrepresentadas](assets/images/corr_heatmap_up.png) |
+| :--: |
+| Figura 7. Correlação de Pearson entre os metabólitos das vias sobrerrepresentadas. |
 
-![Correlacao Vias sub-representadas](assets/images/corr_heatmap_down.png)
+</center>
 
-Correlação entre os metabólitos das vias sobrerrepresentadas:
+Com isso, quatro redes de correlação entre metabólitos são construídas, nas quais os metabólitos são os nós, e a correlação entre eles, a aresta que os ligam, seguindo o modelo lógico indicado na Fig. 1. Para essa construção, cada uma das quatro matrizes de correlação tornou-se uma rede, e foram consideradas somente as arestas cujo valor de correlação foi superior a 0.6 ou inferior a -0.6. Este mesmo valor foi utilizado no artigo de referência. Outros valores foram testados, mas a densidade da rede resultante tornou inviável análises posteriores.
 
-![Correlacao Vias sobrerrepresentadas](assets/images/corr_heatmap_up.png)
+#### 4.2. Redes de correlação entre metabólitos em duas condições, para metabólitos sub e sobrerrepresentados.
+
+As Figuras 8 e 9 ilustram as redes resultantes. Para cada par, os mesmos metabólitos estão presentes para facilitar a comparação visual das redes. As arestas em vermelho indicam correlações positivas e, as azuis, negativas. Nós em cinza indicam metabólitos que não fazem parte da rede, mas que foram incluídos para uma rápida diferenciação das duas condições. A escala de cores dos nós indica a centralidade de *betweenness* daquele metabólito.
+
+<center>
+
+| ![Rede sub-representado cancer](assets/images/new/down_cancer.png) | ![Rede sub-representado saudavel](assets/images/new/down_healthy.png) |
+| :--: | :--: |
+| (a) Câncer de próstata | (b) Saudável |
+
+Figura 8. Redes formadas por metabólitos sub-representados no câncer de próstata nas condições (a) câncer e (b) saudável. A escala de cores indica o valor da centralidade de *betweenness* do nó. Nós em cinza não fazem parte da rede, mas estão representados na figura para melhor comparação entre as duas condições.
+
+| ![Rede sobrerrepresentado cancer](assets/images/new/up_cancer.png) | ![Rede sobrerrepresentado saudavel](assets/images/new/up_healthy.png) |
+| :--: | :--: |
+| (a) Câncer de próstata | (b) Saudável |
+
+Figura 9. Redes formadas por metabólitos sobrerrepresentados no câncer de próstata nas condições (a) câncer e (b) saudável.
+
+</center>
+
+### 5. Redes de interação entre metabólitos e as vias enriquecidas
+
+Para entender como diferentes vias metabólicas se relacionam no câncer e como um metabólito pode afetar mais de uma via, duas redes em que vias metabólicas são associadas a seus metabólitos foram construídas, a primeira para as vias sub-representadas e a segunda, para as sobrerrepresentadas.
+
+#### 5.1. Construção das redes
+
+Os metabólitos pertencentes a cada uma das vias foram obtidos do KEGG, da mesma maneira como descrito na seção [4.1](#41-construção-das-redes).
+
+Para a construção da rede, as seguintes bibliotecas de Python foram utilizadas:
+- *gseapy*: foi utilizada para construção das relações entre vias e metabólitos de cada rede.
+- *networkx*: utilizada para salvar cada rede como um arquivo gml.
+
+#### 5.2. Redes de interação entre metabólitos e vias enriquecidas nos subgrupos sub e sobrerrepresentados.
+
+As redes resultantes estão ilustradas nas Figuras 10 e 11. Nas figuras, as vias metabólicas são os nós maiores em cinza. A escala de cores dos metabólitos indica a centralidade de *betweenness*.
+
+<center>
+
+| ![Rede com vias sub-representadas](assets/images/pathway_metabolites_down.png) |
+| :--: |
+| Figura 10. Rede de interação entre os metabólitos das vias sub-representadas. |
+
+| ![Rede com vias sobrerrepresentadas](assets/images/pathway_metabolites_up.png) |
+| :--: |
+| Figura 11. Rede de interação entre os metabólitos das vias sobrerrepresentadas. |
+
+</center>
+
+### 6. Análise comparativa da topologia das redes
+
+#### 6.1. Análise topológica das redes de correlação
+
+Para a análise diferencial das redes de correlação, inicialmente foram calculadas as seguintes medidas de centralidade para cada nó: *betweenness*, *closeness* e *eigenvector*. Os resultados foram condensados em um gráfico em que cada eixo indica uma das medidas, de modo que os metabólitos mais distantes da origem, de modo geral, são aqueles com as maiores medidas. As Figuras 12 e 13 apresentam esses resultados.
+
+<center>
+
+| ![Gráfico sub-representado cancer](assets/images/3d_scatter_cancer_down.png) | ![Gráfico sub-representado saudavel](assets/images/3d_scatter_healthy_down.png) |
+| :--: | :--: |
+| (a) Câncer de próstata | (b) Saudável |
+
+Figura 12. Centralidades de *betweenness*, *closeness* e *eigenvector* para os metabólitos sub-representados nas condições (a) câncer de próstata e (b) saudável. Observam-se como principais metabólitos *l-arginine* e *n-acetyl-l-glutamate 5-semialdehyde* no câncer, e *l-arginine*, *2-oxoarginine* e *diaminopimelic acid* nos indivíduos saudáveis.
 
 
-Com isso, quatro redes de correlação entre metabólitos são construídas, nas quais, os metabólitos são os nós, e a correlação entre eles, a aresta que os ligam. Para essa construção, cada uma das quatro matrizes de correlação tornou-se uma rede, e foram consideradas somente as arestas cujo valor de correlação foi superior a 0.6 ou inferior a -0.6.
+| ![Gráfico sobrerrepresentado cancer](assets/images/3d_scatter_cancer_up.png) | ![Gráfico sobrerrepresentado saudavel](assets/images/3d_scatter_healthy_up.png) |
+| :--: | :--: |
+| (a) Câncer de próstata | (b) Saudável |
 
-**Redes das vias sub-representadas:**
+Figura 13. Centralidades de *betweenness*, *closeness* e *eigenvector* para os metabólitos sobrerrepresentados nas condições (a) câncer de próstata e (b) saudável. Observam-se como principais metabólitos *4-acetamidobutanoate*, *pyroglutamic acid*, *quinate*, *gamma-glutamylcysteine* e *citrulline* no câncer, e *putrescine*, *d-galactose* e *d-mannose* nos indivíduos saudáveis.
 
-Câncer            |  Saudável
-:-------------------------:|:-------------------------:
-![Rede sub-representado cancer](assets/images/new/down_cancer.png)  |  ![Rede sub-representado saudavel](assets/images/new/down_healthy.png)
+</center>
 
-**Redes das vias sobrerrepresentadas:**
+Com base nesses resultados, os principais metabólitos em cada condição e em cada subgrupo são:
 
-Câncer            |  Saudável
-:-------------------------:|:-------------------------:
-![Rede sobrerrepresentado cancer](assets/images/new/up_cancer.png)  |  ![Rede sobrerrepresentado saudavel](assets/images/new/up_healthy.png)
+1. *l-arginine* e *n-acetyl-l-glutamate 5-semialdehyde*, sub-representados no câncer;
+2. *l-arginine*, *2-oxoarginine* e *diaminopimelic acid*, sub-representados nos indivíduos saudáveis;
+3. *4-acetamidobutanoate*, *pyroglutamic acid*, *quinate*, *gamma-glutamylcysteine* e *citrulline*, sobrerrepresentados no câncer;
+4. *putrescine*, *d-galactose* e *d-mannose*, sobrerrepresentados nos indivíduos saudáveis.
 
-### 5.  Análise comparativa das redes de correlação
+As relações entre os nós são ilustradas em detalhes nas Figuras 14 e 15. Os nós em vermelho são aqueles significativos na rede e, consequentemente, os candidatos a biomarcadores do câncer de próstata.
 
-Para a análise comparativa das redes de correlação, primeiro foi feita uma comparação utilizando as seguintes medidas de centralidade: Betweenness, Closeness, Eigenvector. Com isso, os resultados de cada medição foram ilustrados em um gráfico em que cada eixo indica uma das medidas, desse modo, os metabólitos mais distantes da origem são aquele com as maiores medidas.
+<center>
 
-**Gráficos das medidas de centralidades das redes das vias sub-representadas:**
-Câncer            |  Saudável
-:-------------------------:|:-------------------------:
-![Gráfico sub-representado cancer](assets/images/3d_scatter_cancer_down.png)  |  ![Gráfico sub-representado saudavel](assets/images/3d_scatter_healthy_down.png)
+| ![Rede sub-representado cancer](assets/images/new/signif_cancer_down.png) | ![Rede sub-representado saudavel](assets/images/new/signif_healthy_down.png) |
+| :--: | :--: |
+| (a) Câncer de próstata | (b) Saudável |
 
-**Gráficos das medidas de centralidades das redes das vias sobrerrepresentadas:**
+Figura 14. Metabólitos de vias sub-representadas no câncer de próstata, significativamente mais correlacionados no grupo (a) câncer e (b) controle.
 
-Câncer            |  Saudável
-:-------------------------:|:-------------------------:
-![Gráfico sobrerrepresentado cancer](assets/images/3d_scatter_cancer_up.png)  |  ![Gráfico sobrerrepresentado saudavel](assets/images/3d_scatter_healthy_up.png)
+| ![Rede sobrerrepresentado cancer](assets/images/new/signif_cancer_up.png) | ![Rede sobrerrepresentado saudavel](assets/images/new/signif_healthy_up.png) |
+| :--: | :--: |
+| (a) Câncer de próstata | (b) Saudável |
 
-Levando em conta esses gráficos, conseguimos selecionar metabólitos mais importantes para cada rede:
+Figura 15. Metabólitos de vias sobrerrepresentadas no câncer de próstata, significativamente mais correlacionados no grupo (a) câncer e (b) controle.
 
-**Redes que destacam os principais metabólitos das vias sub-representadas:**
+</center>
 
-Câncer            |  Saudável
-:-------------------------:|:-------------------------:
-![Rede sub-representado cancer](assets/images/new/signif_cancer_down.png)  |  ![Rede sub-representado saudavel](assets/images/new/signif_healthy_down.png)
+#### 6.2. Análise diferencial das redes de correlação
 
-**Redes que destacam os principais metabólitos das vias sobrerrepresentadas:**
+Em sequência, realizou-se uma análise diferencial das redes, considerando cada um dos metabólitos significativos tanto na rede de indivíduos com câncer quanto na de indivíduos saudáveis. Essa análise avaliou as discrepâncias encontradas para cada metabólito entre as duas redes, incluindo diferenças nas conexões observadas entre os grupos com câncer e os saudáveis. As Figuras 16-20 apresentam essas diferenças em detalhes. Uma interpretação biológica dessas diferenças será apresentada na seção seguinte.
 
-Câncer            |  Saudável
-:-------------------------:|:-------------------------:
-![Rede sobrerrepresentado cancer](assets/images/new/signif_cancer_up.png)  |  ![Rede sobrerrepresentado saudavel](assets/images/new/signif_healthy_up.png)
+<center>
 
-Nessas redes, os metabólitos representados com a cor vermelha, indicam os metabólitos significativos de cada rede.
+| ![Rede sub-representado cancer](assets/images/new/view1_cancer_down.png) | ![Rede sub-representado saudavel](assets/images/new/view1_healthy_down.png) |
+| :--: | :--: |
+| (a) Câncer de próstata | (b) Saudável |
 
-Além disso, foi feita uma análise diferencial das redes, levando em conta cada um dos metabólitos significativos, tanto na rede de indivíduos com câncer quanto na de pessoas saudáveis. Essa análise levou em conta as diferenças que cada metabólito apresenta em cada rede, como por exemplo, a diferença nas ligações quando comparado câncer com saudável.
+Figura 16. Diferença na conectividade de *n-acetyl-l-glutamate 5-semialdehyde* entre as condições (a) câncer e (b) saudável no subgrupo de metabólitos sub-representados. O metabólito encontra-se correlacionado a outros três no câncer, mas não apresenta relações significativas em indivíduos saudáveis.
 
-**Metabólitos sub-representados:**
+| ![Rede sub-representado cancer](assets/images/new/view2_cancer_down.png) | ![Rede sub-representado saudavel](assets/images/new/view2_healthy_down.png) |
+| :--: | :--: |
+| (a) Câncer de próstata | (b) Saudável |
 
-**n-acetyl-l-glutamate 5 semialdehyde**
+Figura 17. Diferença na conectividade de *diaminopimelic acid* entre as condições (a) câncer e (b) saudável no subgrupo de metabólitos sub-representados. O *diaminopimelic acid* encontra-se em quantidades inferiores na doença e não apresenta relações significativas com outros metabólitos nessa condição, sugerindo que sua redução ou ausência pode estar relacionada com o câncer.
 
-Câncer            |  Saudável
-:-------------------------:|:-------------------------:
-![Rede sub-representado cancer](assets/images/new/view1_cancer_down.png)  |  ![Rede sub-representado saudavel](assets/images/new/view1_healthy_down.png)
+| ![Rede sub-representado cancer](assets/images/new/view3_cancer_up.png) | ![Rede sub-representado saudavel](assets/images/new/view3_healthy_up.png) |
+| :--: | :--: |
+| (a) Câncer de próstata | (b) Saudável |
 
-*diaminopimelic acid**
+Figura 18. Diferença na conectividade de *pyroglutamic acid* entre as condições (a) câncer e (b) saudável no subgrupo de metabólitos sobrerrepresentados. O metabólito não apresenta relações significativas com outros metabólitos em indivíduos saudáveis, mas em pacientes diagnosticados com câncer, ele está ligado a outros oito compostos.
 
-Câncer            |  Saudável
-:-------------------------:|:-------------------------:
-![Rede sub-representado cancer](assets/images/new/view2_cancer_down.png)  |  ![Rede sub-representado saudavel](assets/images/new/view2_healthy_down.png)
+| ![Rede sub-representado cancer](assets/images/new/view4_cancer_up.png) | ![Rede sub-representado saudavel](assets/images/new/view4_healthy_up.png) |
+| :--: | :--: |
+| (a) Câncer de próstata | (b) Saudável |
 
-**Metabólitos sobrerrepresentados:**
+Figura 19. Diferença na conectividade de *4-acetamidobutanoate* entre as condições (a) câncer e (b) saudável no subgrupo de metabólitos sobrerrepresentados. O metabólito apresenta poucas relações significativas com outros metabólitos em indivíduos saudáveis, mas em pacientes diagnosticados com câncer, ele está ligado a outros oito metabólitos.
 
-**pyroglutamic acid**
+| ![Rede sub-representado cancer](assets/images/new/view5_cancer_up.png) | ![Rede sub-representado saudavel](assets/images/new/view5_healthy_up.png) |
+| :--: | :--: |
+| (a) Câncer de próstata | (b) Saudável |
 
-Câncer            |  Saudável
-:-------------------------:|:-------------------------:
-![Rede sub-representado cancer](assets/images/new/view3_cancer_up.png)  |  ![Rede sub-representado saudavel](assets/images/new/view3_healthy_up.png)
+Figura 20. Diferença na conectividade de *gamma-glutamylcysteine* entre as condições (a) câncer e (b) saudável no subgrupo de metabólitos sobrerrepresentados. O metabólito interage de forma significativa somente em indivíduos com a doença.
 
-**4-acetamidobutanoate**
+</center>
 
-Câncer            |  Saudável
-:-------------------------:|:-------------------------:
-![Rede sub-representado cancer](assets/images/new/view4_cancer_up.png)  |  ![Rede sub-representado saudavel](assets/images/new/view4_healthy_up.png)
+#### 6.3. Clusterização das redes de correlação
 
-**gamma-glutamylcysteine**
+O algoritmo GLay do Cytoscape foi utilizado para detecção de comunidades de metabólitos correlacionados. Os resultados dessa análise são apresentados nas Figuras 21 e 22. Dada a baixa densidade de conexões nas redes de correlação, somente em uma rede foi observada a formação de comunidades de metabólitos (Fig. 22a).
 
-Câncer            |  Saudável
-:-------------------------:|:-------------------------:
-![Rede sub-representado cancer](assets/images/new/view5_cancer_up.png)  |  ![Rede sub-representado saudavel](assets/images/new/view5_healthy_up.png)
+<center>
 
-Por fim, foi feita a clusterização de cada rede utilizando o algoritmo GLay do Cytoscape:
+| ![Rede sub-representado cancer](assets/images/new/cluster_cancer_down.png) | ![Rede sub-representado saudavel](assets/images/new/cluster_healthy_down.png) |
+| :--: | :--: |
+| (a) Câncer de próstata | (b) Saudável |
 
-**Clusterização das redes das vias sub-representadas:**
-
-Câncer            |  Saudável
-:-------------------------:|:-------------------------:
-![Rede sub-representado cancer](assets/images/new/cluster_cancer_down.png)  |  ![Rede sub-representado saudavel](assets/images/new/cluster_healthy_down.png)
+Figura 21. Não há formação de comunidades entre os metabólitos sub-representados no câncer de próstata. Cada módulo já estava presente na rede original em ambos os casos.
 
 **Clusterização das redes das vias  sobrerrepresentadas:**
 
-Câncer            |  Saudável
-:-------------------------:|:-------------------------:
-![Rede sobrerrepresentado cancer](assets/images/new/cluster_cancer_up.png)  |  ![Rede sobrerrepresentado saudavel](assets/images/new/cluster_healthy_up.png)
+| ![Rede sobrerrepresentado cancer](assets/images/new/cluster_cancer_up.png) | ![Rede sobrerrepresentado saudavel](assets/images/new/cluster_healthy_up.png) |
+| :--: | :--: |
+| (a) Câncer de próstata | (b) Saudável |
 
-### 6.  Construção de redes de interação entre metabólitos e as vias enriquecidas
+Figura 22. Três comunidades são formadas nos metabólitos sobrerrepresentados no câncer de próstata entre os indivíduos da condição (a) câncer.
 
-Para entender como diferentes vias metabólicas se relacionam no câncer e como um metabólito pode afetar mais de uma via, duas redes em que vias metabólicas são associadas a seus metabólitos foram construídas, a primeira para as vias sub-representadas e a segunda para as vias sobrerrepresentadas.
+</center>
 
-![Rede com vias sub-representadas](assets/images/pathway_metabolites_down.png)
+#### 6.4. Análise topológica das redes de interação entre metabólitos e as vias enriquecidas
 
-![Rede com vias sobrerrepresentadas](assets/images/pathway_metabolites_up.png)
+Com base na centralidade de *betweenness*, e pressupondo que nós com essa métrica elevada são aqueles que integram e regulam diferentes vias, por estarem no menor caminho entre elas, os seguintes metabólitos foram considerados mais significativos em cada rede:
 
-Os metabólitos pertencentes a cada uma das vias foram obtidos do KEGG, da mesma maneira como foi citada no item 4.
+1. Vias metabólicas sub-representadas:
+    - *ornithine*
+    - *putrescine*
+    - *l-tyrosine*
+    - *l-phenylalanine*
 
-Para a construção da rede, as seguintes bibliotecas de Python foram utilizadas:
-- gseapy: foi utilizada para construção das relações entre vias e metabólitos de cada rede.
-- networkx: utilizada para salvar cada rede como um arquivo gml
+2. Vias metabólicas sobrerrepresentadas:
+    - *l-arginine*
+    - *2-oxoarginine*
+    - *diaminopimelic acid*
 
-### 7.  Análise comparativa da topologia das redes de interação entre metabólitos e as vias enriquecidas
+A clusterização de cada rede utilizando o algoritmo GLay produziu as comunidades apresentadas nas Figuras 23 e 24.
 
-Nessas redes, a cor dos metabólitos representa a medida de centralidade betweenness, portanto quanto mais amarelo, menor betweenness e quanto mais roxo, maior betweenness. Assim, foram separados os seguintes metabólitos como mais significativos para cada rede:
+<center>
 
-Vias metabólicas sub-representadas:
-- ornithine
-- putrescine
-- l-tyrosine
-- l-phenylalanine
+| ![Vias cluster sub-representadas](assets/images/pathway_metabolites_down_clustered.png) |
+| :--: |
+| Figura 23. Comunidades detectadas nas vias metabólicas sub-representadas. Cada via se agrupou com seus próprios metabólitos, com exceção das vias de *Glycine, serine and threonine metabolism* e *Pantothenate and CoA biosynthesis*, que formaram um cluster único por compartilharem os metabólitos *l-cysteine* e *l-aspartic acid*. |
 
-Vias metabólicas sobrerrepresentadas:
-- l-arginine
-- 2-oxoarginine
-- diaminopimelic acid
 
-Por fim, foi feita a clusterização de cada rede utilizando o algoritmo GLay do Cytoscape. Assim, obtivemos os seguintes clusters para cada rede:
+| ![Vias cluster sobrerrepresentadas](assets/images/pathway_metabolites_up_clustered.png) |
+| :--: |
+| Figura 24. Comunidades detectadas nas vias metabólicas sobrerrepresentadas. Novamente, cada via formou seu próprio cluster, com exceção de *Phenylalanine metabolism* e *Phenylalanine, tyrosine and tryptophan biosynthesis*, que foram agrupadas no mesmo cluster por compartilharem os metabólitos *l-phenylalanine* e *l-tyrosine*. |
 
-Vias metabólicas sub-representadas:
+</center>
 
-![Vias cluster sub-representadas](assets/images/pathway_metabolites_down_clustered.png)
+### 7. Interpretação biológica
 
-Vias metabólicas sobrerrepresentadas:
-
-![Vias cluster sobrerrepresentadas](assets/images/pathway_metabolites_up_clustered.png)
 
 ## Evolução do Projeto
 
 > Relatório de evolução, descrevendo as evoluções na modelagem do projeto, dificuldades enfrentadas, mudanças de rumo, melhorias e lições aprendidas. Referências aos diagramas, modelos e recortes de mudanças são bem-vindos.
 > Podem ser apresentados destaques na evolução do modelo lógico. O modelo inicial e intermediários (quando relevantes) e explicação de refinamentos, mudanças ou evolução do projeto que fundamentaram as decisões.
 > Relatar o processo para se alcançar os resultados é tão importante quanto os resultados.
+
+### 1. Base de dados
+
+Duas outras bases de dados foram utilizadas antes da definição do estudo utilizado neste projeto, ambas provenientes do repositório do *Metabolomics Workbench*:
+
+1. Estudo **ST001042**: *Non-targeted serum metabolomic profiling of prostate cancer patients (FI-TWIM-MS PCa)*
+    - O estudo apresentou dados de pacientes diagnosticados com câncer de próstata e indivíduos saudáveis, 103 participantes ao todo, mas os metabólitos não foram identificados, somente o espectro de massas com a relação massa/carga e a intensidade normalizada do pico foi disponibilizado.
+
+2. Estudo **ST002498**:	*Plasma Metabolomics Profiling of 580 Patients from the Weill Cornell Medicine Early Detection Research Network Prostate Cancer Cohort*
+    - O estudo contou com um número elevado de participantes em cada grupo e apresentou, além das concentrações dos metabólitos identificados, metadados relacionados à severidade da doença. No entanto, as análises estatísticas não revelaram diferenças interessantes entre os grupos. Os metabólitos que se apresentaram como diferenciais foram medicamentos utilizados pelos pacientes diagnosticados com a doença.
+
+### 2. Modelo lógico
+
+Um segundo modelo lógico foi acrescentado para análise das interações entre os metabólitos de diferentes vias metabólicas associadas ao câncer de próstata. 
+
+### 3. Modelagem do problema
+
+Os metabólitos diferenciais, identificados através da análise estatística no *MetaboAnalyst*, foram divididos em dois grupos: aqueles sub-representados e sobrerrepresentados no câncer de próstata em comparação aos indivíduos saudáveis. Isso permitiria uma análise mais detalhada quanto a direção das alterações metabólicas, tornando possível relacionar a doença a um aumento ou uma diminuição significativa desses metabólitos.
 
 # Ferramentas
 
