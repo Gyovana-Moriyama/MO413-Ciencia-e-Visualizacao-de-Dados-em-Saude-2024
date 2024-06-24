@@ -42,11 +42,13 @@ Os metabólitos exercem funções em todo o nicho "ômico", seja como mecanismo 
 
 ### Análise proposta
 
-A proposta desse projeto é utilizar a teoria dos grafos e algoritmos de análise de redes para construir redes metabólicas e identificar os principais metabólitos e vias metabólicas associadas ao desenvolvimento do câncer de próstata. Para isso, foram realizadas análises estatísticas de metabólitos para a identificação de diferenças entre o grupo saudável e o com câncer, enriquecimento de vias metabólicas usando a análise de sobrerrepresentação nos grupos sobre e sub-representados de metabólitos e por fim foi calculado a correlação dos metabólitos mais significativos considerando as vias encontradas. Com isso, foram construídas 4 redes de metabólitos, considerando a correlação entre esses metabólitos, e 2 redes de interação entre metabólitos e as vias metabólicas enriquecidas associadas a eles. Por fim, foi realizada uma análise comparativa da topologia das redes para cada conjunto de redes.
+A proposta desse projeto é utilizar a teoria dos grafos e algoritmos de análise de redes para construir redes metabólicas e identificar os principais metabólitos e vias metabólicas associadas ao desenvolvimento do câncer de próstata.
+
+Para isso, foram realizadas análises estatísticas para a identificação de diferenças entre o grupo saudável e o com câncer e a determinação de metabólitos sub e sobrerrepresentados na doença. A partir deles, a análise de sobrerrepresentação foi utilizada para enriquecimento de vias metabólicas sub e sobrerrepresentadas. Por fim, foi calculada a correlação entre os metabólitos mais significativos associados a essas vias. Desta forma, foram construídas quatro redes de correlação entre metabólitos e duas redes de interação entre metabólitos e as vias metabólicas enriquecidas associadas a eles. Finalmente, metabólitos significativos para o  desenvolvimento da doença e vias metabólicas alteradas nessa condição foram identificados através da análise comparativa da topologia dessas redes. Metabólitos com medidas de centralidade extremas em uma condição, mas não em outra, indicativos de mecanismos alterados associados a uma das condições, foram apontados como candidatos a biomarcadores do câncer de próstata.
 
 ### Resultados alcançados
 
-Com base nas análises realizadas, e pesquisas na literatura, pode-se indicar a Arginina como biomarcador do câncer de próstata e as vias metabólicas do ciclo da ureia, síntese de óxido nítrico e produção de poliaminas como relevantes para o entendimento da doença.
+Com base nas análises realizadas e estudos reportados na literatura, pode-se indicar a Arginina como biomarcador do câncer de próstata e as vias metabólicas do ciclo da ureia, síntese de óxido nítrico e produção de poliaminas como relevantes para o entendimento da doença.
 
 # Slides
 
