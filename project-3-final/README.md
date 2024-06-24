@@ -50,7 +50,7 @@ Com base nas análises realizadas, e pesquisas na literatura, pode-se indicar a 
 
 # Slides
 
-> Coloque aqui o link para o PDF da apresentação da parte 3.
+[link to slides](assets/METABOLOMICA_NO_CANCER_DE_PROSTATA_V3.pdf)
 
 # Fundamentação Teórica
 
