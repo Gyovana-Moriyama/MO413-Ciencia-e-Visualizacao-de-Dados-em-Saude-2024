@@ -2,24 +2,6 @@
 
 # Descrição Resumida do Projeto
 
-> Descrição resumida do tema do projeto. Sugestão de roteiro (cada item tipicamente tratado em uma ou poucas frases):
->
-> Contextualização do projeto
->
-> Caracterização do problema
->
-> Motivação
->
-> Relevância
->
-> Trabalhos relacionados
-> 
-> Indicação (bastante resumida) da análise proposta
->
-> Indicação (bastante resumida) dos resultados alcançados
->
-> **Deixar mais claro como técnicas de rede vão contribuir**
-
 ### Câncer de Próstata 
 
 Câncer é um termo que abrange mais de 200 diferentes doenças malignas, trazendo como característica geral o crescimento desordenado das células. O câncer apresenta uma origem multifatorial, através de mutações genéticas espontâneas ou induzidas (Neppel, 2017). A proliferação celular pode ser de forma controlada, originando as hiperplasias, metaplasias e displasias e caso esse crescimento ocorra de forma basicamente autônoma, ou seja, não controlada, temos as neoplasias, que são os cânceres *in situ* e os cânceres invasivos (INCA, 2020).
@@ -56,31 +38,22 @@ Com base nas análises realizadas e estudos reportados na literatura, pode-se in
 
 # Fundamentação Teórica
 
-> Fundamentação teórica do problema em saúde/biologia. Cite artigos tomados como base e em que problema.
-
 A proposta desse projeto é utilizar a teoria dos grafos e algoritmos de análise de redes para construir redes metabólicas e identificar os principais metabólitos e vias metabólicas associadas ao desenvolvimento do câncer de próstata. Essa proposta tem como base o TCC do integrante Francisco Augusto Gomes Santos: Câncer de Próstata e Diagnóstico.
 
 A metodologia aplicada foi baseada na seguinte publicação: *Metabolomics and correlation network analyses of core biomarkers in type 2 diabetes* (https://pubmed.ncbi.nlm.nih.gov/32930872/), que fez a análise diferencial de redes de metabólitos relacionados à diabetes tipo 2.
 
 # Perguntas de Pesquisa
-> Perguntas de pesquisa (revisadas e atualizadas) que o projeto responde ou hipóteses que foram avaliadas, enunciadas de maneira objetiva e verificável.
->
->  **Apresente aqui como o projeto ajudou a responder as perguntas de pesquisa.**
 
-**Escolher como alvo coisas mais específicas relacionadas ao método**
-
- Objetivo: 
+## Objetivo
 
 - Identificar os principais metabólitos e vias metabólicas associadas ao câncer de próstata.
 
-Perguntas:
+## Perguntas
 
 - Com base na análise topológica diferencial de redes de metabólitos na condição saudável e câncer de próstata, quais são os metabólitos candidatos a biomarcadores da doença?
 - Quais as funções desses metabólitos, e como estão relacionados com o desenvolvimento do câncer de próstata?
 
 # Metodologia
-> Proposta de metodologia incluindo especificação de quais as técnicas/métricas de Ciência de Redes que estão sendo usadas no projeto,
-> tais como: detecção de comunidades, análise de centralidade, predição de links, ou a combinação de uma ou mais técnicas. Descreva o que perguntas pretende endereçar com a técnica escolhida.
 
 A metodologia adotada neste projeto foi inspirada no estudo realizado por Lin W, et al., em que potenciais biomarcadores de diabetes tipo 2 foram identificados utilizando redes construídas a partir correlação entre metabólitos associados às vias enriquecidas e significativamente alteradas na doença. Para tanto, os seguintes passos foram considerados: 
 
@@ -99,16 +72,10 @@ Ao final do processo, os resultados das análises de cada rede foram interpretad
 
 ## Bases de Dados e Evolução
 
-> Para cada base, coloque uma entrada na tabela no modelo a seguir e depois detalhamento sobre como ela foi analisada/usada, conforme exemplo a seguir.
-
 Base de Dados | Endereço na Web | Resumo descritivo
  ----- | ----- | -----
 Metabolights MTBLS6039 | https://www.ebi.ac.uk/metabolights/editor/MTBLS6039/files | Base de dados de um estudo contendo dados de 20 homens saudáveis e 60 pacientes com prostatite, HBP ou CaP que foram identificados usando cromatografia líquida não direcionada-espectrometria de massa (LC-MS). 
 KEGG PATHWAY Database | [http://base2.org/](https://www.kegg.jp/kegg/pathway.html) | KEGG é uma coleção de bancos de dados que tratam de genomas, vias biológicas, doenças, medicamentos e substâncias químicas.
-
-> Faça uma descrição sobre o que concluiu sobre esta base. Sugere-se que respondam perguntas ou forneçam informações indicadas a seguir:
-> * O que descobriu sobre essa base?
-> * Quais as transformações e tratamentos (e.g., dados faltantes e limpeza) feitos?
 
 Os dados utilizados no projeto foram obtidos do estudo *MTBLS6039: Serum organic acid metabolites can be used as potential biomarkers to identify prostatitis, benign prostatic hyperplasia, and prostate cancer (Untargeted assay)*, o qual apresenta dados de 80 participantes no total: 20 homens saudáveis e 60 pacientes com prostatite, HBP ou CaP. Para o projeto foram utilizados os dados dos participantes saudáveis e dos diagnosticados com o câncer de próstata. Esses dados foram obtidos através da técnica da cromatografia líquida acoplada à espectrometria de massas, e a partir do espectro de massas resultante do método, 411 metabólitos diferentes foram identificados.
 
@@ -139,24 +106,6 @@ Para a seleção de metabólitos presentes somente nas vias metabólicas signifi
 </center>
 
 ## Análises Realizadas e Resultados
-
-> Descrição dos resultados mais importantes obtidos.
->
-> Apresente os resultados da forma mais rica possível, com gráficos e tabelas. Mesmo que o seu código rode online em um notebook, copie para esta parte a figura estática. A referência a código e links para execução online pode ser feita aqui ou na seção de Análises Realizadas (o que for mais pertinente).
-> Apresente aqui uma análise dos dados.
-> 
-> Utilize gráficos que descrevam os aspectos principais da base que são relevantes para as perguntas de pesquisa consideradas.
->
-> Nesta seção podem aparecer destaques de código como indicado a seguir. Note que foi usada uma técnica de highlight de código, que envolve colocar o nome da linguagem na abertura de um trecho com `~~~`, tal como `~~~python`.
->
-> Os destaques de código devem ser trechos pequenos de poucas linhas, que estejam diretamente ligados a alguma explicação. Não utilize trechos extensos de código. Se algum código funcionar online (tal como um Jupyter Notebook), aqui pode haver links. No caso do Jupyter, preferencialmente para o Binder abrindo diretamente o notebook em questão.
-
-~~~python
-df = pd.read_excel("/content/drive/My Drive/Colab Notebooks/dataset.xlsx");
-sns.set(color_codes=True);
-sns.distplot(df.Hemoglobin);
-plt.show();
-~~~
 
 ### 1. Obtenção de dados experimentais controle vs. câncer
 
@@ -439,10 +388,6 @@ A clusterização de cada rede utilizando o algoritmo GLay produziu as comunidad
 
 ## Evolução do Projeto
 
-> Relatório de evolução, descrevendo as evoluções na modelagem do projeto, dificuldades enfrentadas, mudanças de rumo, melhorias e lições aprendidas. Referências aos diagramas, modelos e recortes de mudanças são bem-vindos.
-> Podem ser apresentados destaques na evolução do modelo lógico. O modelo inicial e intermediários (quando relevantes) e explicação de refinamentos, mudanças ou evolução do projeto que fundamentaram as decisões.
-> Relatar o processo para se alcançar os resultados é tão importante quanto os resultados.
-
 ### 1. Base de dados
 
 Duas outras bases de dados foram utilizadas antes da definição do estudo utilizado neste projeto, ambas provenientes do repositório do *Metabolomics Workbench*:
@@ -463,24 +408,15 @@ Os metabólitos diferenciais, identificados através da análise estatística no
 
 # Ferramentas
 
-> Panorama das ferramentas utilizadas incluindo discussão sobre o uso das mesmas.
-
-- Python: Processamento dos dados, cálculo e exploração das correlações de Pearson e construção das redes de interação entre os metabólitos e as vias metabólicas
-- MetaboAnalyst (https://www.metaboanalyst.ca/): Análises estatísticas do dados, volcano plot, enriquecimento de vias
-- Cytoscape: Análises das medidas de centralidade e visualização das redes construídas
+| Ferramenta | Uso |
+| :-- | :-- |
+| Python | Processamento dos dados, cálculo e exploração das correlações de Pearson e construção das redes de interação entre os metabólitos e as vias metabólicas|
+| [*MetaboAnalyst*](https://www.metaboanalyst.ca/) | Análises estatísticas do dados, volcano plot, enriquecimento de vias |
+| Cytoscape | Análises das medidas de centralidade e visualização das redes construídas |
 
 # Discussão
 
-> Discussão dos resultados. Relacionar os resultados com as perguntas de pesquisa ou hipóteses avaliadas.
->
-> A discussão dos resultados também pode ser feita opcionalmente na seção de Resultados, na medida em que os resultados são apresentados. Aspectos importantes a serem discutidos:
-> Por que seu modelo alcançou (ou não) um bom resultado?
-> É possível tirar conclusões dos resultados? Quais?
-> Há indicações de direções para estudo?
-> São necessários trabalhos mais profundos?
-
-
-## Análise das vias enriquecidas
+## Análise das [vias enriquecidas](#3-enriquecimento-das-vias-metabólicas)
 
 1. Biossíntese de arginina
     - O metabolismo da arginina, um aminoácido condicionalmente essencial, desempenha um papel crucial na progressão e no prognóstico do câncer. Um estudo recente enfatizou que os genes de biossíntese de arginina estão associados à evasão imunológica em vários tipos de câncer (Tan et al., 2024). Num estudo de câncer de prostata, o *knockdown* do *prostate-specific membrane antigen* (PSMA) pode inibir a proliferação e a metástase de células de CaP (câncer de próstata), bem como diminuir a expressão de receptor de andrógeno (AR) e promover a expressão de c-Fos e FosB por meio do aumento da biossíntese de arginina (Hong et al., 2022).
@@ -509,8 +445,7 @@ Os metabólitos diferenciais, identificados através da análise estatística no
 8) Metabolismo de D-aminoácidos
     - Os d-aminoácidos, os homólogos enantioméricos dos l-aminoácidos, foram durante muito tempo considerados não funcionais ou nem sequer presentes nos organismos vivos. Atualmente, reconhece-se que os d-aminoácidos desempenham papéis importantes em numerosos processos fisiológicos do corpo humano. A relação mais frequentemente estudada entre os d-aminoácidos e a fisiologia humana diz respeito à contribuição da d-serina e do d-aspartato para a neurotransmissão. Estes d-aminoácidos e vários outros foram também implicados na regulação da imunidade inata e na função de barreira intestinal. É importante notar que a presença de certos d-aminoácidos no corpo humano tem sido associada a várias doenças, incluindo a esquizofrenia, a esclerose lateral amiotrófica e doenças relacionadas com a idade, como a catarata e a aterosclerose. Além disso, há cada vez mais provas que sustentam um papel dos d-aminoácidos no desenvolvimento, na fisiopatologia e no tratamento de câncer (Bastings et al., 2019).
 
-
-## Análise de metabólitos diferenciais
+## Análise de [metabólitos diferenciais](#62-análise-diferencial-das-redes-de-correlação)
 
 1. Metabólitos sub-representados no câncer 
 
@@ -567,9 +502,11 @@ Os metabólitos diferenciais, identificados através da análise estatística no
 A arginina é um aminoácido semi-essencial envolvido em diversas funções biológicas vitais, incluindo a síntese de proteínas, a produção de óxido nítrico (NO), e o ciclo da ureia. Recentemente, a arginina tem sido estudada como um biomarcador potencial para várias doenças, incluindo o câncer, devido às suas múltiplas funções no metabolismo celular e seu papel nas vias bioquímicas alteradas em estados patológicos.
 
 ### Técnicas Metabolômicas
+
 A metabolômica é o estudo sistemático dos perfis de metabólitos em células, tecidos ou organismos. Utilizando técnicas avançadas como a espectrometria de massa (MS) e a ressonância magnética nuclear (NMR), é possível identificar e quantificar pequenos metabólitos presentes em amostras biológicas. No contexto do câncer, as células tumorais apresentam metabolismos alterados para suportar o rápido crescimento e a proliferação celular, e a arginina desempenha um papel crucial nesses processos.
 
 ### Alterações Metabólicas no Câncer
+
 Células cancerígenas frequentemente exibem alterações no metabolismo da arginina. Essas células podem aumentar a captação e a utilização da arginina para:
 - Produção de Proteínas: O aumento da síntese proteica é necessário para suportar a proliferação celular.
 - Produção de Óxido Nítrico (NO): O NO é um mediador importante em diversos processos, incluindo a vasodilatação e a sinalização celular. Em células cancerígenas, níveis alterados de NO podem influenciar a angiogênese (formação de novos vasos sanguíneos) e a progressão tumoral.
@@ -578,52 +515,36 @@ Células cancerígenas frequentemente exibem alterações no metabolismo da argi
 ## Arginina como Biomarcador no Câncer de Próstata
 
 ### Metabolismo da Arginina no Câncer de Próstata
+
 No câncer de próstata, o metabolismo da arginina é frequentemente alterado. A próstata tem uma atividade elevada da enzima arginase, que converte a arginina em ornitina e ureia. Estudos mostraram que níveis elevados de arginase e a depleção de arginina estão associados ao crescimento tumoral e à progressão do câncer de próstata. Além disso, a produção de poliaminas, que são derivadas da ornitina, também está aumentada. As poliaminas são críticas para a síntese de DNA e a proliferação celular, processos que estão desregulados em células cancerígenas.
 
-
 ### Vias Metabólicas Relevantes
+
 - Ciclo da Ureia: Na próstata, a arginina é convertida em ornitina e ureia pela arginase. Ornitina é então utilizada na produção de poliaminas (putrescina, espermidina e espermina), que são essenciais para o crescimento celular e a estabilização do DNA.
 - Síntese de Óxido Nítrico: A arginina é substrato para a síntese de NO pela enzima óxido nítrico sintase (NOS). O NO pode atuar tanto na promoção da angiogênese quanto na modulação do sistema imune, influenciando a microambiente tumoral.
 - Produção de Poliaminas: Ornitina, derivada da arginina, é um precursor para poliaminas, moléculas importantes para a proliferação e diferenciação celular. A regulação da síntese de poliaminas é frequentemente alterada no câncer de próstata.
 
 ## Justificativa da Arginina como Biomarcador
+
 A concentração de arginina e seus metabólitos no sangue, urina ou tecidos pode refletir o estado metabólico das células prostáticas. Técnicas metabolômicas permitem a análise detalhada desses metabólitos, fornecendo informações valiosas sobre o estado do câncer. Especificamente no câncer de próstata, a depleção de arginina e o aumento dos níveis de ornitina e poliaminas podem ser indicativos da atividade tumoral e da agressividade da doença.
 
 # Conclusão
 
-> Destacar as principais conclusões obtidas no desenvolvimento do projeto.
->
-> Destacar os principais desafios enfrentados.
->
-> Principais lições aprendidas.
-
 A arginina é um potencial biomarcador do câncer devido ao seu papel central em diversas vias metabólicas que são frequentemente alteradas em estados cancerígenos. No câncer de próstata, as mudanças no metabolismo da arginina podem fornecer insights sobre a progressão do tumor e a eficácia do tratamento. As técnicas metabolômicas, ao oferecer uma visão detalhada dos perfis metabólicos, são ferramentas poderosas para a identificação de biomarcadores como a arginina, auxiliando no diagnóstico, prognóstico e monitoramento terapêutico do câncer de próstata.
 
-Além da arginina, durante a análise das vias com a ferramenta KEGG, observou-se que na via da biossíntese de pantotenato e coenzima A, as vias do metabolismo de arginina e prolina também estão envolvidas. Um dos produtos intermediários dessas vias, a espermidina, faz parte do metabolismo que gera acetil-CoA. Outra via importante identificada foi o metabolismo de aminoácidos D, que inclui componentes como o metabolismo de fenilalanina, arginina e prolina, além do metabolismo de glicina, serina e treonina.
-
-Na análise realizada, há evidência de metabólitos previamente descritos, os quais foram identificados através das medidas de centralidade. Isso demonstra a importância dessas métricas na identificação de metabólitos potenciais para biomarcadores no câncer de próstata. Recomenda-se estudos funcionais em nível clínico para validar essas informações.
+Foram encontradas evidências, em estudos reportados na literatura, das relações entre os metabólitos previamente descritos e mecanismos associados ao desenvolvimento do câncer de próstata, que, neste projeto, foram identificados através da análise de centralidade. Isso demonstra a importância dessas métricas na identificação de metabólitos potenciais para biomarcadores no câncer de próstata. Recomendam-se estudos funcionais em nível clínico para validar essas informações.
 
 Como desafios enfrentados durante o projeto, dois se destacam: (1) obtenção de dados e (2) o uso de ferramentas da metabolômica. Poucos estudos com fins similares foram encontrados, e muitos não disponibilizaram os dados. Embora a base utilizada neste estudo tenha um número limitado de participantes, é a única encontrada que satisfez os requisitos para avanço do projeto. Finalmente, ferramentas que trabalham com e integram dados de metabolômica foram encontradas com dificuldade. Além disso, há pouca documentação sobre como utilizá-las.
 
 # Trabalhos Futuros
 
-> O que poderia ser melhorado se houvesse mais tempo?
-> Quais possíveis desdobramentos este projeto pode ter?
+Como trabalhos futuros, duas possibilidades são apresentadas: (1) aprofundamento das análises e (2) integração com outras "ômicas":
 
-Como trabalhos futuros, duas possibilidades são apresentadas: (1) aprofundamento das análises e (2) integração com outras ômicas. 
+1. O aprofundamento das análises biológicas, possivelmente utilizando todas as análises de redes feitas nesse projeto e a integração dessas informações no contexto do desenvolvimento do câncer de próstata, poderia trazer mais respostas e indicadores para as nossas perguntas de pesquisa, auxiliando assim o entendimento da relação dos metabólitos com a doença.
 
-> Aprofundamento das análises de relação entre metabólitos, vias metabólicas e o câncer de próstata para melhor entender os mecanismos de desenvolvimento da doença. Integração com dados de proteínas e/ou genes associados ao câncer de próstata.
-
-(1) Aprofundamento das análises de relação entre metabólitos, vias metabólicas e o câncer de próstata para melhor entender os mecanismos de desenvolvimento da doença. O aprofundamento das análises biológicas, possivelmente utilizando todas as análises de redes feitas nesse projeto e a integração dessas informações, poderia trazer mais respostas e indicadores para as nossas perguntas de pesquisa, auxiliando assim o entendimento da relação dos metabólitos com a doença.
-
-(2) Integração com dados de proteínas e/ou genes associados ao câncer de próstata. Outro fator que possivelmente ajudaria a melhorar o entendimento da doença seria a possível integração com outras "ômicas", como por exemplo, proteômica ou genômica.
-
+2. Outro fator que possivelmente ajudaria a melhorar o entendimento da doença seria a possível integração com outras "ômicas", como por exemplo, proteômica ou genômica. A metabolômica identifica potenciais biomarcadores metabólicos para o câncer de próstata, mas a integração com a genômica permitiria correlacionar essas alterações metabólicas com perfis genéticos específicos, revelando como mutações genéticas podem influenciar o metabolismo celular e contribuir para o câncer. Além disso, a integração com a proteômica possibilitaria entender como as alterações na expressão e atividade proteica estão relacionadas às mudanças metabólicas identificadas, proporcionando insights sobre as vias metabólicas disfuncionais na doença. Essa abordagem integrativa não apenas facilitaria a descoberta de biomarcadores mais robustos para diagnóstico e prognóstico, mas também abriria caminho para o desenvolvimento de estratégias terapêuticas personalizadas, considerando as complexas interações moleculares envolvidas no câncer de próstata.
 
 # Referências Bibliográficas
-
-> Lista de artigos, links e referências bibliográficas.
->
-> Fiquem à vontade para escolher o padrão de referenciamento preferido pelo grupo.
 
 NEPPEL, Tayonara Georgiane et al. CÂNCER: UMA DOENÇA MULTIFATORIAL1. PROPOSTAS DIDÁTICAS NA ABORDAGEM CIÊNCIA-TECNOLOGIA-SOCIEDADE: UMA PRODUÇÃO DO, p. 161.
 
