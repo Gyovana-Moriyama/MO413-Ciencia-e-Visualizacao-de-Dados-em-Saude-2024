@@ -12,6 +12,12 @@
 >
 > Relevância
 >
+> Trabalhos relacionados
+> 
+> Indicação (bastante resumida) da análise proposta
+>
+> Indicação (bastante resumida) dos resultados alcançados
+
 
 **Deixar mais claro como técnicas de rede vão contribuir**
 
@@ -35,11 +41,13 @@ O desequilíbrio do metabolismo está direto e fortemente relacionado com o dese
 
 Os metabólitos exercem funções em todo o nicho "ômico", seja como mecanismo de modificação química metabólica das macromoléculas ou como mecanismo de interação entre o próprio metabólito e uma macromolécula determinada. Na atividade biológica dos metabólitos, há descobertas de que seu acúmulo module células cancerígenas através da interação existente entre proteína e proteína. Além de serem usados como marcadores tumorais, inibidores enzimáticos e modificadores de DNA, podem agir na proliferação de células cancerígenas por meio de alterações na atividade enzimática e na pós-tradução proteica.
 
-> Trabalhos relacionados
-> 
-> Indicação (bastante resumida) da análise proposta
->
-> Indicação (bastante resumida) dos resultados alcançados
+### Análise proposta
+
+A proposta desse projeto é utilizar a teoria dos grafos e algoritmos de análise de redes para construir redes metabólicas e identificar os principais metabólitos e vias metabólicas associadas ao desenvolvimento do câncer de próstata. Para isso, foram realizadas análises estatísticas de metabólitos para a identificação de diferenças entre o grupo saudável e o com câncer, enriquecimento de vias metabólicas usando a análise de sobrerrepresentação nos grupos sobre e sub-representados de metabólitos e por fim foi calculado a correlação dos metabólitos mais significativos considerando as vias encontradas. Com isso, foram construídas 4 redes de metabólitos, considerando a correlação entre esses metabólitos, e 2 redes de interação entre metabólitos e as vias metabólicas enriquecidas associadas a eles. Por fim, foi realizada uma análise comparativa da topologia das redes para cada conjunto de redes.
+
+### Resultados alcançados
+
+
 
 # Slides
 
@@ -55,7 +63,8 @@ A metodologia aplicada foi baseada na seguinte publicação: *Metabolomics and c
 
 # Perguntas de Pesquisa
 > Perguntas de pesquisa (revisadas e atualizadas) que o projeto responde ou hipóteses que foram avaliadas, enunciadas de maneira objetiva e verificável.
-> Apresente aqui como o projeto ajudou a responder as perguntas de pesquisa.
+>
+>  Apresente aqui como o projeto ajudou a responder as perguntas de pesquisa.
 
 **Escolher como alvo coisas mais específicas relacionadas ao método**
 
@@ -72,7 +81,7 @@ Perguntas:
 > Proposta de metodologia incluindo especificação de quais as técnicas/métricas de Ciência de Redes que estão sendo usadas no projeto,
 > tais como: detecção de comunidades, análise de centralidade, predição de links, ou a combinação de uma ou mais técnicas. Descreva o que perguntas pretende endereçar com a técnica escolhida.
 
-A metodologia adotada neste projeto foi inspirada no estudo realizado por XYZ, em que potenciais biomarcadores de diabetes tipo 2 foram identificados utilizando redes construídas a partir correlação entre metabólitos associados às vias enriquecidas e significativamente alteradas na doença. Para tanto, os seguintes passos foram considerados: 
+A metodologia adotada neste projeto foi inspirada no estudo realizado por Lin W, et al., em que potenciais biomarcadores de diabetes tipo 2 foram identificados utilizando redes construídas a partir correlação entre metabólitos associados às vias enriquecidas e significativamente alteradas na doença. Para tanto, os seguintes passos foram considerados: 
 
 1.  Obtenção de dados experimentais.
 2.  Análise estatística dos metabólitos para identificação de diferenças entre o grupo saudável e o com câncer:
