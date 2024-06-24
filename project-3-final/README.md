@@ -16,7 +16,7 @@
 > 
 > Indicação (bastante resumida) da análise proposta
 >
-> **Indicação (bastante resumida) dos resultados alcançados**
+> Indicação (bastante resumida) dos resultados alcançados
 >
 > **Deixar mais claro como técnicas de rede vão contribuir**
 
@@ -46,7 +46,7 @@ A proposta desse projeto é utilizar a teoria dos grafos e algoritmos de anális
 
 ### Resultados alcançados
 
-> **Falta esse**
+Com base nas análises realizadas, e pesquisas na literatura, pode-se indicar a Arginina como biomarcador do câncer de próstata e as vias metabólicas do ciclo da ureia, síntese de óxido nítrico e produção de poliaminas como relevantes para o entendimento da doença.
 
 # Slides
 
