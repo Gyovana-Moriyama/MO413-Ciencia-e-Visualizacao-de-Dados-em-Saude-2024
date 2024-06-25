@@ -580,6 +580,12 @@ No câncer de próstata, o metabolismo da arginina é frequentemente alterado. A
 A concentração de arginina e seus metabólitos no sangue, urina ou tecidos pode refletir o estado metabólico das células prostáticas. Técnicas metabolômicas permitem a análise detalhada desses metabólitos, fornecendo informações valiosas sobre o estado do câncer. Especificamente no câncer de próstata, a depleção de arginina e o aumento dos níveis de ornitina e poliaminas podem ser indicativos da atividade tumoral e da agressividade da doença.
 
 # Conclusão
+> Destacar as principais conclusões obtidas no desenvolvimento do projeto.
+>
+> Destacar os principais desafios enfrentados.
+>
+> Principais lições aprendidas.
+
 No desenvolvimento do nosso projeto, partimos de um estudo inicial que identificou possíveis marcadores para o câncer de próstata, com destaque para a colina. Este primeiro trabalho foi fundamental para estabelecermos uma base sólida e direcionarmos nossa pesquisa para a detecção de biomarcadores eficazes e específicos na identificação precoce e no monitoramento do câncer de próstata.
 
 A colina, inicialmente identificada como um marcador potencial, desempenha um papel crucial no metabolismo celular, especialmente na síntese de fosfolipídios que compõem as membranas celulares. Estudos anteriores demonstraram que níveis elevados de colina estão associados ao crescimento celular descontrolado, característica comum em células cancerígenas. Assim, a identificação da colina serviu como um ponto de partida relevante para nossa investigação.
@@ -591,13 +597,6 @@ A relação entre a colina e a arginina reside na sua conexão com o metabolismo
 A transição da ideia inicial retirada de um TCC para o desenvolvimento final do nosso projeto, tendo a arginina como principal marcador final demonstra a evolução da pesquisa e a ampliação do nosso entendimento sobre os biomarcadores do câncer de próstata. Embora a primeira ideia tenha fornecido uma base inicial valiosa, a identificação da arginina, através das técnicas aprendidas no decorrer da disciplina, como marcador principal no trabalho final representa um avanço significativo, possivelmente oferecendo maior especificidade e sensibilidade para a detecção do câncer de próstata.
 
 Essa mudança não apenas reflete uma progressão natural da pesquisa científica, mas também sublinha a importância de uma abordagem abrangente na busca por marcadores biológicos confiáveis. A integração de diferentes biomarcadores, como a colina e a arginina, pode oferecer uma visão mais completa e precisa do estado patológico, contribuindo para diagnósticos mais eficazes e tratamentos personalizados no combate ao câncer de próstata.
-
-
-> Destacar as principais conclusões obtidas no desenvolvimento do projeto.
->
-> Destacar os principais desafios enfrentados.
->
-> Principais lições aprendidas.
 
 A arginina é um potencial biomarcador do câncer devido ao seu papel central em diversas vias metabólicas que são frequentemente alteradas em estados cancerígenos. No câncer de próstata, as mudanças no metabolismo da arginina podem fornecer insights sobre a progressão do tumor e a eficácia do tratamento. As técnicas metabolômicas, ao oferecer uma visão detalhada dos perfis metabólicos, são ferramentas poderosas para a identificação de biomarcadores como a arginina, auxiliando no diagnóstico, prognóstico e monitoramento terapêutico do câncer de próstata.
 
