@@ -580,6 +580,18 @@ No câncer de próstata, o metabolismo da arginina é frequentemente alterado. A
 A concentração de arginina e seus metabólitos no sangue, urina ou tecidos pode refletir o estado metabólico das células prostáticas. Técnicas metabolômicas permitem a análise detalhada desses metabólitos, fornecendo informações valiosas sobre o estado do câncer. Especificamente no câncer de próstata, a depleção de arginina e o aumento dos níveis de ornitina e poliaminas podem ser indicativos da atividade tumoral e da agressividade da doença.
 
 # Conclusão
+No desenvolvimento do nosso projeto, partimos de um estudo inicial que identificou possíveis marcadores para o câncer de próstata, com destaque para a colina. Este primeiro trabalho foi fundamental para estabelecermos uma base sólida e direcionarmos nossa pesquisa para a detecção de biomarcadores eficazes e específicos na identificação precoce e no monitoramento do câncer de próstata.
+
+A colina, inicialmente identificada como um marcador potencial, desempenha um papel crucial no metabolismo celular, especialmente na síntese de fosfolipídios que compõem as membranas celulares. Estudos anteriores demonstraram que níveis elevados de colina estão associados ao crescimento celular descontrolado, característica comum em células cancerígenas. Assim, a identificação da colina serviu como um ponto de partida relevante para nossa investigação.
+
+No decorrer do projeto, ampliamos a pesquisa para explorar outros possíveis biomarcadores e técnicas analíticas. Esse aprofundamento levou à identificação da arginina como um marcador promissor para o câncer de próstata. A arginina é um aminoácido essencial envolvido em diversos processos metabólicos, incluindo a síntese de proteínas e a produção de óxido nítrico. Alterações nos níveis de arginina podem indicar desregulações metabólicas frequentemente observadas em condições patológicas, como o câncer.
+
+A relação entre a colina e a arginina reside na sua conexão com o metabolismo celular e a proliferação das células cancerígenas. Enquanto a colina está mais diretamente associada à síntese de fosfolipídios e ao crescimento celular, a arginina participa de vias metabólicas que influenciam a síntese proteica e a sinalização celular. Ambas as moléculas, portanto, refletem alterações metabólicas significativas que ocorrem em células malignas.
+
+A transição da ideia inicial retirada de um TCC para o desenvolvimento final do nosso projeto, tendo a arginina como principal marcador final demonstra a evolução da pesquisa e a ampliação do nosso entendimento sobre os biomarcadores do câncer de próstata. Embora a primeira ideia tenha fornecido uma base inicial valiosa, a identificação da arginina, através das técnicas aprendidas no decorrer da disciplina, como marcador principal no trabalho final representa um avanço significativo, possivelmente oferecendo maior especificidade e sensibilidade para a detecção do câncer de próstata.
+
+Essa mudança não apenas reflete uma progressão natural da pesquisa científica, mas também sublinha a importância de uma abordagem abrangente na busca por marcadores biológicos confiáveis. A integração de diferentes biomarcadores, como a colina e a arginina, pode oferecer uma visão mais completa e precisa do estado patológico, contribuindo para diagnósticos mais eficazes e tratamentos personalizados no combate ao câncer de próstata.
+
 
 > Destacar as principais conclusões obtidas no desenvolvimento do projeto.
 >
