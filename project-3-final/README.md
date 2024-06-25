@@ -235,15 +235,30 @@ Para a construção da rede, as seguintes bibliotecas de Python foram utilizadas
 
 As redes resultantes estão ilustradas nas Figuras 10 e 11. Nas figuras, as vias metabólicas são os nós maiores em cinza. A escala de cores dos metabólitos indica a centralidade de *betweenness*.
 
+Através do plugin CytoNCA, para o Cytoscape, foi feita a análise da rede, levando os indicadores de centralidade em consideração, estes foram: Degree, Eigenvector, Betwenness e Closeness. Elencando as maiores para as menores, é possível ver que o Eigenvector e Closeness são parecidos, seguem a mesma tendencia. O valor de Betwenness aponta os vetores mais significativos para a rede. 
+
+A análise de centralidade da rede sub-representada mostra um maior nível de ligação entre os metabólitos, tanto pelo Degree quanto pelo Betweenness. Podendo indicar que esses metabólitos possuem importância na integração dessas vias metabólicas além de participarem de mais de um processo, mais de uma via, metabólico. 
+Analisando a rede sobrerregulada, há menor ligação para entre os metabólitos da rede, dado o menor valor de Betweenness e Degree dos nós.
+
+Os metabólitos e vias com maior valor de Betweenness estão elencados na Figura 10-1 e Figura 11-1.
+
 <center>
 
 | ![Rede com vias sub-representadas](assets/images/pathway_metabolites_down.png) |
 | :--: |
 | Figura 10. Rede de interação entre os metabólitos das vias sub-representadas. |
+| :--: |
+| ![Tabela com resultados CytoNCA das vias sub-representadas](assets/images/Node_Table_pathway_metabolites_network_down.PNG) |
+| :--: |
+| Figura 10-1. Tabela da análise de centralidade entre metabólitos das vias sub-representadas. |
 
 | ![Rede com vias sobrerrepresentadas](assets/images/pathway_metabolites_up.png) |
 | :--: |
 | Figura 11. Rede de interação entre os metabólitos das vias sobrerrepresentadas. |
+| :--: |
+| ![Tabela com resultados CytoNCA das vias sobrerrepresentadas](assets/images/Node_Table_pathway_metabolites_network_up.PNG) |
+| :--: |
+| Figura 11-1. Tabela da análise de centralidade entre metabólitos das vias sobrerrepresentadas. |
 
 </center>
 
